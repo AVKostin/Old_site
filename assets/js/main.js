@@ -16,7 +16,7 @@ $(document).ready(function(){
             slidesToShow: 1
           }
         },
-        
+
         {
           breakpoint: 769,
           settings: {
@@ -34,7 +34,7 @@ $(document).ready(function(){
             centerPadding: '10px',
             slidesToShow: 1
           }
-          
+
         },
         {
           breakpoint: 450,
@@ -44,9 +44,9 @@ $(document).ready(function(){
             centerPadding: '0',
             slidesToShow: 1
           }
-          
+
         }
-        
+
       ]
     });
 });
@@ -70,7 +70,7 @@ $(document).ready(function(){
           slidesToShow: 2
         }
       },
-      
+
       {
         breakpoint: 769,
         settings: {
@@ -88,7 +88,7 @@ $(document).ready(function(){
           centerPadding: '20px',
           slidesToShow: 1
         }
-        
+
       },
       {
         breakpoint: 450,
@@ -98,9 +98,9 @@ $(document).ready(function(){
           centerPadding: '5px',
           slidesToShow: 1
         }
-        
+
       }
-      
+
     ]
   });
 });
@@ -123,7 +123,7 @@ $(document).ready(function(){
           slidesToShow: 2
         }
       },
-      
+
       {
         breakpoint: 769,
         settings: {
@@ -141,7 +141,7 @@ $(document).ready(function(){
           centerPadding: '30px',
           slidesToShow: 1
         }
-        
+
       },
       {
         breakpoint: 450,
@@ -151,7 +151,7 @@ $(document).ready(function(){
           centerPadding: '30px',
           slidesToShow: 1
         }
-        
+
       },
       {
       breakpoint: 380,
@@ -161,9 +161,9 @@ $(document).ready(function(){
         centerPadding: '0',
         slidesToShow: 1
       }
-      
+
     }
-      
+
     ]
   });
 });
@@ -177,22 +177,22 @@ $(document).ready(function(){
       header.scrollIntoView({ behavior: 'smooth' });
   });
 }); */
-document.addEventListener('DOMContentLoaded', function() {
-  const btn = document.querySelector('.footer__circle');
+// document.addEventListener('DOMContentLoaded', function() {
+//   const btn = document.querySelector('.footer__circle');
 
-  btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      const firstSection = document.querySelector('section'); // Выбираем первый элемент <section>
-      firstSection.scrollIntoView({ behavior: 'smooth' });
-  });
-});
+//   btn.addEventListener('click', function(e) {
+//       e.preventDefault();
+//       const firstSection = document.querySelector('section'); // Выбираем первый элемент <section>
+//       firstSection.scrollIntoView({ behavior: 'smooth' });
+//   });
+// });
 
 //burger
 
 $(document).ready(function(){
   $('.header-menu').click(function(event){
     $('.menu').toggleClass('active-menu');
-   
+
   });
   var headerMenu = $('.header-menu');
   var menuImage = headerMenu.find('.menu-black');
@@ -205,7 +205,7 @@ $(document).ready(function(){
           menuImage.attr('src', menuImageSrc);
       }
   });
-});  
+});
 
 
 
@@ -218,7 +218,7 @@ $(document).ready(function(){
 $(function() {
   let header = $('.header');
   let headerHeight = header.outerHeight(); // Use outerHeight() to include padding, border, and margin
-  
+
   $(window).scroll(function() {
     if($(this).scrollTop() > 1) {
      header.addClass('scrolled');
