@@ -16,19 +16,20 @@ body{
     box-sizing: border-box;
     text-decoration: none;
 }
-h1,h2,h3,h4,h5,h6{
+/* h1,h2,h3,h4,h5,h6{
     font-family: 'Muller Next Trial';
     font-weight: 900;
     font-size: 45px;
     line-height: 1.2em;
     color: #0B151E;
-}
+} */
 
 
 body {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Georgia', sans-serif;
     letter-spacing: 0.03em;
   }
+
 
   .link {
     text-decoration: none;
@@ -54,11 +55,56 @@ ul,li{
     padding: 0;
     margin: 0;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto ;
-
+.container {
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+ @media screen and (min-width: 480px) {
+      .container {width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
 }
+ @media screen and (min-width: 768px) {
+      .container {width: 768px;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+}
+  @media screen and (min-width: 1280px) {
+      .container {width: 1280px;
+    }
+}
+
+
+.arrow_top {
+    width:80px;
+    height:80px;
+  }
+
+  #toTop.show {
+    opacity: 1;
+    visibility: visible;
+    right: calc(8%);
+    bottom: calc(11%);
+    animation: pulse 1s ease-in-out infinite
+  }
+
+  #toTop {
+      position: fixed;
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      z-index: 1;
+      cursor: pointer;
+      text-align: center;
+      color: rgb(255, 0, 0);
+      opacity: 0;
+      visibility: hidden;
+  }
+
+
 .header{
     padding: 11px 0 ;
     border-bottom: 2px solid #D3DDE6;
@@ -184,12 +230,22 @@ line-height: 55px;
     padding-top: 100px ;
 }
 
+.importend__title{
+    font-style: normal;
+    font-weight: 750;
+    font-size: 50px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: #0B151E;
+    margin-bottom: 65px;
+}
+
 .importend__set{
     display: flex;
     justify-content: space-between;
 }
 .importend__left{
-    width: 600px;
+    width: 675px;
 }
 .importend__text{
     display: flex;
@@ -198,6 +254,7 @@ line-height: 55px;
     font-size: 25px;
     color: #98C5EB;
     gap: 11px;
+    margin-bottom: 35px;
 }
 .importend__text::before{
     content: '';
@@ -207,19 +264,15 @@ line-height: 55px;
     border-radius: 20px;
     background: #98C5EB;
 }
-.importend__title{
-    font-family: 'Muller Next Trial';
-    font-weight: 900;
-    font-size: 45px;
-    text-transform: uppercase;
-    margin: 20px 0 30px;
 
-}
 .importend__text_mod{
-    line-height: 24px;
-    font-size: 18px;
-    margin-bottom: 30px;
+font-weight: 400;
+font-size: 20px;
+line-height: calc(24 / 20) ;
+color: #536779;
+margin-bottom: 30px;
 }
+
 .importend__span{
     font-family: 'Georgia';
     font-style: italic;
@@ -233,22 +286,36 @@ line-height: 55px;
     gap: 15px;
     margin-top: 15px;
 }
+
+.importend__arrow_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    color: #2F3F4A;
+}
+
 .importend__arrow_wrapp{
     display: flex;
     align-items: end;
     gap: 15px;
-    margin: 20px 0;
+    margin: 35px 0;
 }
+
 .importend__btn{
     display: flex;
     background: #F79781;
     border-radius: 5px;
-    padding: 26px 30px;
+    padding: 25px 31px;
     color: #fff;
-    gap: 7px;
+    gap: 5px;
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
+    height: 73px;
+    width: 269px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .importend__btn:hover{
     background: #f88065;
@@ -261,6 +328,11 @@ line-height: 55px;
   width: 65px;
   height: 40px;
 }
+
+.importend__arrow_span {
+    font-weight: 700;
+}
+
 .importend__wrapp{
     display: flex;
     align-items: center;
@@ -269,19 +341,22 @@ line-height: 55px;
 .importend__text_black{
     width: 150px;
     font-size: 20px;
+    font-weight: 400;
+    color: #536779;
+    line-height: calc(24 / 20);
 }
 .importend__text_span{
     font-weight: 700;
-    color: #536779;
 }
+
 .importend__text_orange{
-    font-family: 'Muller Next Trial';
-    font-style: normal;
-    font-weight: 900;
+    font-weight: 750;
     font-size: 30px;
     text-transform: uppercase;
-
     color: #F79781;
+    margin-left: 14px;
+    line-height: calc(37 / 30);
+
 }
 .importend__right{
     width: 582px;
@@ -292,9 +367,18 @@ line-height: 55px;
 .team{
     padding: 150px 0;
 }
+.team__title{
+    font-weight: 750;
+    font-size: 55px;
+    line-height: calc(69 / 55);
+    text-transform: uppercase;
+    color: #0B151E;
+    /* margin-bottom: 35px; */
+}
+
 .team__set{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
 }
 .center{
@@ -314,7 +398,7 @@ line-height: 55px;
     background: url(../img/Arrow-right-slider.png) no-repeat center !important;
     width: 45px;
     height: 46px;
-    right: -50px;
+    /* right: -50px; */
 
 }
 .slick-prev{
@@ -322,17 +406,20 @@ line-height: 55px;
     background: url(../img/Arrow-right-slider.png) no-repeat center !important;
     width: 45px;
     height: 46px;
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateY(50%);
     left: -50px;
 }
 .team__right{
-    width: 600px;
+    width: 689px;
 }
 .num__set{
     display: flex;
+    width: 689px;
+    /* margin: 68px; */
+    padding: 34px 40px;
+    flex-direction: row;
     justify-content: space-between;
-    width: 600px;
-    margin: 50px auto 0;
+    margin-top: 68px;
 }
 .num__text{
     display: flex;
@@ -342,23 +429,21 @@ line-height: 55px;
     width: 145px;
     font-weight: 700;
     font-size: 22px;
+    width: 158px;
+    color: #536779;
 }
 .num__span{
     font-size: 55px;
     color: #98C5EB;
+    margin-bottom: 20px;
+
 }
 .num__line{
     width: 2px;
     height: 140px;
     background:  #D3DDE6;
 }
-.team__title{
-    font-family: 'Muller Next Trial';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 45px;
-    text-transform: uppercase;
-}
+
 .team__span{
     font-family: 'Georgia';
     font-style: italic;
@@ -367,8 +452,10 @@ line-height: 55px;
     text-decoration-line: underline;
 }
 .team__text{
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 24px;
+    color: #536779;
     margin-top: 35px;
 }
 
@@ -589,7 +676,7 @@ input::placeholder{
 .price__set{
     display: flex;
     padding: 80px 0 20px;
-    gap: 33px;
+    gap: 15px;
 }
 
 
@@ -597,17 +684,19 @@ input::placeholder{
     width: 425px;
     display: flex;
     flex-direction: column;
-    padding: 16px 30px 30px;
+    justify-content: space-between;
+    padding: 16px 30px 44px 37px;
     background: rgba(211, 221, 230, 0.4);
     border-radius: 15px;
-    gap: 25px;
+    /* gap: 25px; */
     margin: 0 auto;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
 
 }
 .price__wrapp:hover {
-    transform: scale(1.1);
+    transform: scaleY(1.1);
+    background: rgba(249, 250, 251, 1);
   }
 .price__text{
     font-weight: 700;
@@ -623,40 +712,60 @@ input::placeholder{
     font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 .done__set{
     display: flex;
-    gap: 10px;
-    align-items: center;
-
+    gap: 25px;
+    flex-direction: column;
 }
+
+.done__text {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .done__img{
     width: 34px;
     height: 35px;
+    margin-right: 10px;
 }
 
 .money__set{
     display: flex;
     justify-content: space-between;
+    margin-top: 29px;
+    margin-bottom: 44px;
 
 }
 .money__left{
     text-align: center;
     flex-direction: column;
-
-    font-weight: 900;
+    font-weight: 700;
     font-size: 60px;
+    line-height: calc( 73 / 60);
+    margin-right: 52px;
+
 }
 .money__right{
     text-align: center;
     flex-direction: column;
     color: #F79781;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 60px;
+    line-height: calc( 73 / 60);
+
 }
 .money__span{
     font-size: 20px;
+    margin-top: 10px;
 }
+.money__span-right{
+    color: #536779;
+}
+
 .price__btn{
     width: 259px;
     background: #F79781;
@@ -666,17 +775,31 @@ input::placeholder{
     text-align: center;
     padding: 20px 40px;
     margin: 0 auto;
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    /* line-height: calc( 55 / 20); */
 }
+
 .price__btn:hover{
     background: #f88065;
 }
+
 
 .services__set{
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
 }
+
+.services__title, .price__title, .specialists__title, .apply__title, .contacts__title_mod{
+    font-weight: 750;
+    font-size: 43px;
+    line-height: calc( 69 / 43);
+    text-transform: uppercase;
+    color: #0B151E;
+}
+
 .services__wrapp{
     display: flex;
     flex-direction: column;
@@ -1231,10 +1354,10 @@ footer{
 
 
 /*992-1250*/
-@media screen and (max-width:1250px) {
-	.container{
+@media screen and (max-width:1200px) {
+	/* .container{
 		max-width: 960px;
-	}
+	} */
     .header__btn{
         display: none;
     }
@@ -1450,11 +1573,11 @@ footer{
 }
 
 /*768-991*/
-@media screen and (max-width:991px){
-	.container{
+@media screen and (max-width:1200px){
+	/* .container{
 		max-width: 720px;
 
-	}
+	} */
     .center{
         width: 700px;
     }
@@ -1503,11 +1626,11 @@ footer{
 }
 
 /*576-767*/
-@media screen and (max-width:767px){
-	.container{
+@media screen and (max-width:768px){
+	/* .container{
 		width: 540px;
 
-	}
+	} */
     .info__set{
         display: none;
     }
@@ -1603,12 +1726,12 @@ footer{
 }
 
 /*460-576*/
-@media screen and (max-width:575px){
-	.container{
+@media screen and (max-width:480px){
+	/* .container{
 		width: 100%;
 		padding: 0 15px;
         	max-width: 100%;
-	}
+	} */
     .importend__title{
         font-size: 30px;
         margin: 20px 0;
@@ -1634,22 +1757,11 @@ footer{
     .details__video{
         width: 400px;
     }
-    .importend__title{
-        font-size: 25px;
-    }
+
     .importend__btn{
         align-items: center;
     }
-    .team__title{
-        font-family: 'Georgia';
-font-style: normal;
-font-weight: 750;
-font-size: 55px;
-line-height: 69px;
-text-transform: uppercase;
 
-color: #0B151E;
-    }
     .form__img_down{
         display: none;
     }
@@ -1687,10 +1799,7 @@ color: #0B151E;
     .importend__text{
         font-size: 20px;
     }
-    .importend__title{
-        font-size: 25px;
 
-    }
     .team__title{
         font-size: 40px;
     }
@@ -1820,12 +1929,12 @@ color: #0B151E;
 }
 
 /*320-457*/
-@media screen and (max-width:457px){
-	.container{
+@media screen and (max-width:480px){
+	/* .container{
 		width: 100%;
 		padding: 0 15px;
         	max-width: 100%;
-	}
+	} */
     .importend__title{
         font-size: 25px;
     }
@@ -1994,36 +2103,6 @@ color: #0B151E;
     .purse__column{
         padding: 30px;
     }
-
-
-  .arrow_top {
-    width:80px;
-    height:80px;
-  }
-
-  #toTop.show {
-    opacity: 1;
-    visibility: visible;
-    right: calc(8%);
-    bottom: calc(11%);
-    animation: pulse 1s ease-in-out infinite
-  }
-
-  #toTop {
-      position: fixed;
-      display: inline-block;
-      width: 80px;
-      height: 80px;
-      z-index: 1;
-      cursor: pointer;
-      text-align: center;
-      color: rgb(255, 0, 0);
-      opacity: 0;
-      visibility: hidden;
-  }
-
-
-
 
     .importend__text_mod{
         font-size: 13px;
