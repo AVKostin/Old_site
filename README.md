@@ -1,2 +1,2 @@
 # Goroshenko
-Соединил git с cpanel
+Соединил git с cpanel и перезалил
