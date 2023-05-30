@@ -90,9 +90,11 @@ $(function () {
             if (scrollDock + 80 >= 400) {
                 $('.up').fadeIn();
                 $('.EWBookingWidgetTrigger').css('opacity','1');
+                $('.EWBookingWidgetTrigger').css('pointer-events','all');
             } else {
                 $('.up').fadeOut();
                 $('.EWBookingWidgetTrigger').css('opacity','0');
+                $('.EWBookingWidgetTrigger').css('pointer-events','none');
             }
         });
     }
@@ -100,7 +102,7 @@ $(function () {
 });
 
 $(document).ready(function () {
-    $("form").not('.feedback-form').submit(function () {
+    $("form").not('.feedback-form').not('#quiz-form').submit(function () {
         $.ajax({
             type: "POST",
             url: "teleg.php",
@@ -112,7 +114,6 @@ $(document).ready(function () {
             window.location.href = 'https://goroshenko.com.ua/thanks';
         });
         return false;
-        
     });
     $(".feedback-form").submit(function () {
       
@@ -128,13 +129,19 @@ $(document).ready(function () {
         });
         return false;
     });
+
+
+    
 });
 
 //misc welosiped calls
 $('.button--primary, .sec-price__item').not('.pay-btn, .form-btn, ._ptev_none').on('click', function(e) {
     e.preventDefault();
     $('a.EWBookingWidgetTrigger')[0].click();
-  });
+    //$('.popup-form').addClass('active');
+    //$('body').css('overflow', 'hidden');
+    //$('form.popup-form__form input[name="fname"]').val('Форма з поп-папу по кнопці '+$(this).html());
+  });  
 $('.nav__list-item-link').on('click', function(e) {   
     setTimeout(function() { 
         $('.header__burger').click();
@@ -163,3 +170,24 @@ $(window).resize(() => {
     $('.header__mob-bottom').css('min-height', `${window.innerHeight}px`);
 });
 
+
+function next_q(cur_el,next_el,percent) {      
+    var next_q = $('.quiz__item[data-quiz="' + next_el + '"]');
+    var cur_q = $('.quiz__item[data-quiz="' + cur_el + '"]');    
+    cur_q.addClass('d-none');
+    next_q.removeClass('d-none');
+    $('#q-progress').css('opacity','1');
+    $('.indicator').css('width',percent + '%').html(percent + '%');
+    if (parseInt(cur_el) < parseInt(next_el)) {
+        $('.q-next').css('opacity','0');
+        $('.q-next').css('pointer-events','none');
+    }else {
+        $('.q-next').css('opacity','1');
+        $('.q-next').css('pointer-events','all');
+
+    }
+
+  }    
+$('#quiz-form').submit(function(e){
+    e.preventDefault();
+  });

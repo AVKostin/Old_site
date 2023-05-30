@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /_php/*
+Disallow: /_new/*
+Disallow: /_old/*

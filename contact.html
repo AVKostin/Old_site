@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Головна - Goroshenko</title>
+  <title>Контакти - Goroshenko</title>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fff">
@@ -13,14 +13,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Arsenal:wght@700&family=Cormorant:ital,wght@0,700;1,700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet" media="print" onload="this.media='all'">
+    rel="stylesheet">
   <!-- Fonts End -->
   <link type="Image/x-icon" href="assets/img/favicon.ico" rel="icon">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" media="print" onload="this.media='all'"/>
   <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"/>
-  <link rel="stylesheet" media="all" href="assets/css/style.css?rand=4734637" media="print" onload="this.media='all'">
-<!-- EasyWeek Appointment Widget: https://easyweek.com.ua/ -->
+  <link rel="stylesheet" media="all" href="assets/css/style.css">
+  <!-- EasyWeek Appointment Widget: https://easyweek.com.ua/ -->
 <script src="https://widget.easyweek.io/widget.js"></script>
 <script>var ewWidget = new EasyWeekWidget({url: 'https://widget.easyweek.io/goroshenko', button: { text: 'Онлайн-запис', showText: true, color: '#ffffff', background: '#f79781', textColor: '#383868', textBackground: '#ffffff' }})</script>
 
@@ -44,7 +42,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 </head>
 
-<body id="home" class="home-page">
+<body class="home-page">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2X7PSR"
@@ -52,10 +50,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
   <div class="wrapp">
-    <div class="popup-rev">
-      <img src="" alt="">
-    </div>
-
     <div class="popup-form">
       <div class="popup-form__wrapp">
         <span class="close">
@@ -71,12 +65,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="popup-form__img"></div>
 
           <form class="popup-form__form">
-            <input type="hidden" name="fname" name="fname" value="Форма з поп-апу по кнопці перездвонити">
+            <input type="hidden" name="fname" value="Форма з поп-апу по кнопці перездвонити">
             <div class="popup-form__col">
               <input type="text" name="name" placeholder="Марія">
             </div>
             <div class="popup-form__col">
-              <input class="form-tel" name="tel" type="tel" placeholder="+ 38 (000) 000-00-00" required />
+              <input class="form-tel" type="tel" name="tel" placeholder="+ 38 (000) 000-00-00" required pattern="\+38\((\d{3})\)\d{3}-\d{2}-\d{2}">
             </div>
             <div class="popup-form__col">
               <input type="text" name="mess" placeholder="Коментар">
@@ -84,7 +78,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="popup-form__col">
               <button type="submit" class="button button--secondary">зателефонуйте мені</button>
             </div>
+
           </form>
+
         </div>
 
       </div>
@@ -95,7 +91,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <img src="assets/img/scroll-top.svg" alt="arrow top">
       </div>
     </button>
-    <header class="header sec-adapt__width" data-aos="fade-right">
+    <header class="header sec-adapt__width" data-aos="fade-left">
       <div class="container">
         <div class="header__main">
           <div class="header__top">
@@ -172,7 +168,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__list-item">
-                <a href="/" class="nav__list-item-link is-active">
+                <a href="/" class="nav__list-item-link">
                   <span class="nav__list-item-link-text">Головна</span>
                 </a>
               </li>
@@ -187,18 +183,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </a>
               </li>
               <li class="nav__list-item">
-                <a href="#price" class="nav__list-item-link">
+                <a href="/#price" class="nav__list-item-link">
                   <span class="nav__list-item-link-text">Ціни</span>
                 </a>
               </li>
 
               <li class="nav__list-item">
-                <a href="#reviev" class="nav__list-item-link">
+                <a href="/#reviev" class="nav__list-item-link">
                   <span class="nav__list-item-link-text">Відгуки</span>
                 </a>
               </li>
               <li class="nav__list-item">
-                <a href="contact.html" class="nav__list-item-link">
+                <a href="contact.html" class="nav__list-item-link is-active">
                   <span class="nav__list-item-link-text">Контакти</span>
                 </a>
               </li>
@@ -282,7 +278,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <nav class="nav">
               <ul class="nav__list">
                 <li class="nav__list-item">
-                  <a href="/" class="nav__list-item-link is-active">
+                  <a href="/" class="nav__list-item-link">
                     <span class="nav__list-item-link-text">Головна</span>
                   </a>
                 </li>
@@ -297,7 +293,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </a>
                 </li>
                 <li class="nav__list-item">
-                  <a href="#price" class="nav__list-item-link">
+                  <a href="/#price" class="nav__list-item-link">
                     <span class="nav__list-item-link-text">Ціни</span>
                   </a>
                 </li>
@@ -308,12 +304,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </a>
                 </li>
                 <li class="nav__list-item">
-                  <a href="#reviev" class="nav__list-item-link">
+                  <a href="/#reviev" class="nav__list-item-link">
                     <span class="nav__list-item-link-text">Відгуки</span>
                   </a>
                 </li>
                 <li class="nav__list-item">
-                  <a href="contact.html" class="nav__list-item-link">
+                  <a href="contact.html" class="nav__list-item-link is-active">
                     <span class="nav__list-item-link-text">Контакти</span>
                   </a>
                 </li>
@@ -383,7 +379,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </a>
               </li>
             </ul>
-
             </nav>
             <div class="header__actions">
               <div class="header__actions-item">
@@ -400,7 +395,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </a>
               </div>
               <div class="header__actions-item">
-                <a href="mailto:hello@goroshenko.com.ua" class="social-link gtm_contact">
+                <a href="mailto:hello@goroshenko.com.ua" class="social-link">
                   <span class="social-link__icon">
                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <rect width="23" height="23" rx="5" fill="#D3DDE6" />
@@ -436,1060 +431,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </header>
     <main class="content">
-      <section class="section mb150 hb">
-        <div class="container">
-          <div class="banner__container home__banner">
-            <div class="section__left" data-aos="fade-right">
-              <img class="banner-img" src="assets/img/banner_img.jpg" alt="banner-image">
-            </div>
-            <div class="section__right">
-              <span class="top__text">центр</span>
-              <h2 class="banner-title">
-                <span class="no_color__title">практичної психології</span>
-                <span class="color__title">Меланії Горошенко</span>
-              </h2>
-              <p class="banner-quote">
-                Бути щасливим – це значить пiзнати, <br>
-                знайти самого себе.
-              </p>
-              <button class="button button--primary w-button w-button">Записатися</button>
-              <div class="banner__price right">
-                <p class="banner-price__text"><b>Знижено ціну</b><br>на перше заняття: </p>
-                <div class="price_discount">
-                  <span class="new__price">400₴</span>
-                  <span class="old__price">600₴</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section sec-adapt__width mb150 home-question">
+      <section class="section sec-adapt__width mb150 mt150">
         <div class="container">
           <div class="section__top">
-            <h2 class="main-title main-title--upper">коли До нас звертаються?</h2>
-          </div>
-          <div class="section__content">
-            <div class="question question--left-top-radius" data-aos="fade-up">
-              <div class="question__img" style="background-image: url('assets/img/need_img1.jpg')"></div>
-              <div class="question__content">
-                <div class="question__wrap-title">
-                  <h3 class="secondary-title secondary-title--upper">Відчуваєш тривогу в режимі нонстоп?</h3>
-                </div>
-                <div class="question__wrap-text">
-                  <p class="decoration-text decoration-text--big">Кожен з нас відчуває тривогу, бо в нашому житті багато
-                    стресових факторів. У нормі цей стан триває недовго - від декількох хвилин до декількох днів. Якщо
-                    тривога стає твоїм постійним супутником, це може свідчити про тривожний розлад.</p>
-                </div>
-              </div>
-            </div>
-            <div class="question question--right-top-radius question--bg-grey" data-aos="fade-up">
-              <div class="question__content">
-                <div class="question__wrap-title">
-                  <h3 class="secondary-title secondary-title--upper">чому хтось цінніший за тебе?</h3>
-                </div>
-                <div class="question__wrap-text">
-                  <p class="decoration-text decoration-text--big">Вічно з’являються думки, що ти “недостатньо” хороша/ий
-                    у
-                    чомусь? Чи ти постійно намагаєшся виправдати чиїсь очікування (або свої)? Обережно! Ти ризикуєш
-                    застрягти у вирі самознищення та низької самооцінки.</p>
-                </div>
-              </div>
-              <div class="question__img" style="background-image: url('assets/img/need_img2.jpg')"></div>
-            </div>
-            <div class="question question--left-top-radius" data-aos="fade-up">
-              <div class="question__img" style="background-image: url('assets/img/need_img3.jpg')"></div>
-              <div class="question__content">
-                <div class="question__wrap-title">
-                  <h3 class="secondary-title secondary-title--upper">контролюєш себе?</h3>
-                </div>
-                <div class="question__wrap-text">
-                  <p class="decoration-text decoration-text--big">Відповідальність - якість, яку прищеплюють з
-                    дитинства.
-                    Але разом із дорослішанням вона переростає в одержимість. Вдихни, видихни, розслабся… Знову
-                    відчуваєш,
-                    наче не хватає повітря? Ми точно знаємо як допомогти тобі, просто зроби крок нам на зустріч.</p>
-                </div>
-              </div>
-            </div>
-            <div class="question question--right-top-radius question--bg-grey" data-aos="fade-up">
-              <div class="question__content">
-                <div class="question__wrap-title">
-                  <h3 class="secondary-title secondary-title--upper">Боїшся за своє майбутнє?</h3>
-                </div>
-                <div class="question__wrap-text">
-                  <p class="decoration-text decoration-text--big">Майбутнє може бути дуже непередбачуваним, а спланувати
-                    життя наперед дуже складно. Ніякі події не зможуть вибити тебе з колії, якщо ти зможеш побороти
-                    страх
-                    перед невідомістю та впевнено станеш за штурвал свого життя.</p>
-                </div>
-              </div>
-              <div class="question__img" style="background-image: url('assets/img/need_img4.jpg')"></div>
-            </div>
-            <div class="question question--left-top-radius mt150" data-aos="fade-up">
-              <div class="question__img" style="background-image: url('assets/img/need_img5.jpg')"></div>
-              <div class="question__content">
-                <div class="question__wrap-title">
-                  <h3 class="secondary-title secondary-title--upper">Тебе не розуміють?</h3>
-                </div>
-                <div class="question__wrap-text">
-                  <p class="decoration-text decoration-text--big">Потрібна підтримка, а тебе ніхто не розуміє?
-                    Розмовляєш
-                    з близькими ніби на різних мовах? З’являються думки, що з тобою «щось не те»? Це явні признаки
-                    кризи,
-                    яку ми з тобою разом подолаємо.</p>
-                </div>
-              </div>
-            </div>
-            <div class="need-help" data-aos="fade-up">
-              <img class="need-help__img" src="assets/img/need_arrow.svg" alt="Decoration arrow">
-              <p class="need-help__desc">Запишись на консультацію та отримай відповідь на питання, яке тебе турбує.
-                Давай
-                розпочнемо жити вільно.</p>
-              <button class="button button--primary w-button">Записатися</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section sec-adapt__width why-we__home mb175">
-        <div class="container">
-          <div class="section__top" data-aos="fade-left">
-            <h2 class="main-title main-title--upper">Чому саме ми? </h2>
-          </div>
-          <div class="section__content" data-aos="fade-down">
-            <div class="why-we">
-              <div class="why-we__content">
-                <ul class="why-we__list">
-                  <li class="why-we__list-item">
-                    <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M13.237 35.5C12.149 35.5 11.12 34.991 10.4585 34.118L1.5245 22.3195C0.362501 20.785 0.665001 18.6 2.1995 17.4375C3.7365 16.2745 5.92 16.579 7.0825 18.1125L12.9585 25.8715L27.737 2.1425C28.7545 0.51 30.903 0.0104997 32.539 1.0265C34.173 2.0435 34.672 4.1935 33.654 5.8275L16.196 33.8575C15.5895 34.832 14.5425 35.445 13.396 35.497C13.3425 35.499 13.29 35.5 13.237 35.5Z"
-                        fill="#F79781" />
-                    </svg><span>
-                      <strong>75%</strong>&nbsp;людей залишаються з нами й надалі</span>
-                  </li>
-                  <li class="why-we__list-item">
-                    <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M13.237 35.5C12.149 35.5 11.12 34.991 10.4585 34.118L1.5245 22.3195C0.362501 20.785 0.665001 18.6 2.1995 17.4375C3.7365 16.2745 5.92 16.579 7.0825 18.1125L12.9585 25.8715L27.737 2.1425C28.7545 0.51 30.903 0.0104997 32.539 1.0265C34.173 2.0435 34.672 4.1935 33.654 5.8275L16.196 33.8575C15.5895 34.832 14.5425 35.445 13.396 35.497C13.3425 35.499 13.29 35.5 13.237 35.5Z"
-                        fill="#F79781" />
-                    </svg><span>
-                      <strong>24/7</strong>&nbsp;- час, який можемо тобі присвятити</span>
-                  </li>
-                  <li class="why-we__list-item">
-                    <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M13.237 35.5C12.149 35.5 11.12 34.991 10.4585 34.118L1.5245 22.3195C0.362501 20.785 0.665001 18.6 2.1995 17.4375C3.7365 16.2745 5.92 16.579 7.0825 18.1125L12.9585 25.8715L27.737 2.1425C28.7545 0.51 30.903 0.0104997 32.539 1.0265C34.173 2.0435 34.672 4.1935 33.654 5.8275L16.196 33.8575C15.5895 34.832 14.5425 35.445 13.396 35.497C13.3425 35.499 13.29 35.5 13.237 35.5Z"
-                        fill="#F79781" />
-                    </svg><span> Ми&nbsp;<strong>персонально під тебе</strong>&nbsp; складемо план нашої роботи</span>
-                  </li>
-                  <li class="why-we__list-item">
-                    <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M13.237 35.5C12.149 35.5 11.12 34.991 10.4585 34.118L1.5245 22.3195C0.362501 20.785 0.665001 18.6 2.1995 17.4375C3.7365 16.2745 5.92 16.579 7.0825 18.1125L12.9585 25.8715L27.737 2.1425C28.7545 0.51 30.903 0.0104997 32.539 1.0265C34.173 2.0435 34.672 4.1935 33.654 5.8275L16.196 33.8575C15.5895 34.832 14.5425 35.445 13.396 35.497C13.3425 35.499 13.29 35.5 13.237 35.5Z"
-                        fill="#F79781" />
-                    </svg><span> Наші фахівці &nbsp;<strong>завжди вивчають</strong>&nbsp; все нові та нові
-                      техніки</span>
-                  </li>
-                  <li class="why-we__list-item">
-                    <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M13.237 35.5C12.149 35.5 11.12 34.991 10.4585 34.118L1.5245 22.3195C0.362501 20.785 0.665001 18.6 2.1995 17.4375C3.7365 16.2745 5.92 16.579 7.0825 18.1125L12.9585 25.8715L27.737 2.1425C28.7545 0.51 30.903 0.0104997 32.539 1.0265C34.173 2.0435 34.672 4.1935 33.654 5.8275L16.196 33.8575C15.5895 34.832 14.5425 35.445 13.396 35.497C13.3425 35.499 13.29 35.5 13.237 35.5Z"
-                        fill="#F79781" />
-                    </svg>
-                    <span>
-                      <strong>Європейські методи</strong>&nbsp; та практика з фахівцями західних країн</span>
-                  </li>
-                  <li class="why-we__list-item">
-                    <svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M13.237 35.5C12.149 35.5 11.12 34.991 10.4585 34.118L1.5245 22.3195C0.362501 20.785 0.665001 18.6 2.1995 17.4375C3.7365 16.2745 5.92 16.579 7.0825 18.1125L12.9585 25.8715L27.737 2.1425C28.7545 0.51 30.903 0.0104997 32.539 1.0265C34.173 2.0435 34.672 4.1935 33.654 5.8275L16.196 33.8575C15.5895 34.832 14.5425 35.445 13.396 35.497C13.3425 35.499 13.29 35.5 13.237 35.5Z"
-                        fill="#F79781" />
-                    </svg>
-                    <span>
-                      Ми <strong>вже з перших консультацій</strong> знайдемо причини проблеми та складемо
-                      план для її
-                      вирішення</span>
-                  </li>
-                </ul>
-                <a class="why-we__link" href="about_us.html">
-                  <span class="why-we__link-text">Детальніше</span>
-                  <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M47.0607 13.0607C47.6464 12.4749 47.6464 11.5251 47.0607 10.9393L37.5147 1.3934C36.9289 0.807615 35.9792 0.807615 35.3934 1.3934C34.8076 1.97919 34.8076 2.92894 35.3934 3.51472L43.8787 12L35.3934 20.4853C34.8076 21.0711 34.8076 22.0208 35.3934 22.6066C35.9792 23.1924 36.9289 23.1924 37.5147 22.6066L47.0607 13.0607ZM-1.31134e-07 13.5L46 13.5L46 10.5L1.31134e-07 10.5L-1.31134e-07 13.5Z"
-                      fill="#F79781" />
-                  </svg>
-                </a>
-              </div>
-              <div class="why-we__img" style="background-image: url('assets/img/why-we.jpg')"></div>
-            </div>
-            <div class="banner home" data-aos="fade-up">
-              <div class="banner__img" style="background-image: url('assets/img/why-we2.jpg')"></div>
-              <div class="banner__content">
-                <p><strong>Зменшили вартість</strong> наших послуг на час військових дій. <strong>Все буде
-                    Україна!</strong></p>
-                <p>Нехай панічні атаки та тривожність йдуть слідом за орками!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section sec-adapt__width specialist mb150">
-        <div class="container">
-          <div class="section__top">
-            <h2 class="main-title main-title--upper" data-aos="fade-left">Наші фахівці</h2>
-          </div>
-
-          <div class="section__content sliderSpec" data-aos="fade-down">
-
-            <ul class="specialist__list swiper-wrapper">
-              <li class="specialist__item swiper-slide" id="goroshenko">
-
-                <div class="specialist__item-img">
-                  <img src="assets/img/expert1-1.jpg" alt="Меланія Горошенко" loading="lazy">
-                </div>
-
-                <div class="specialist__item-info">
-                  <div class="specialist__item-inner">
-                    <div class="grid-spec">
-                      <span class="specialist__item-spec">Психолог, засновниця центру</span>
-                      <h3 class="specialist__item-title">Меланія Горошенко</h3>
-                    </div>
-
-                    <ul class="specialist__item-list">
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img1.svg" alt="1">
-                        <span class="specialist__item-merit-txt">Диплом європейського зразка</span>
-                      </li>
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img2.svg" alt="2">
-                        <span class="specialist__item-merit-txt">Практика у провідних клініках України</span>
-                      </li>
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img3.svg" alt="3">
-                        <span class="specialist__item-merit-txt">Кваліфікований арт-терапевт</span>
-                      </li>
-                    </ul>
-                    <?/*
-                    <ul class="specialist__item-marks">
-                      <li class="specialist__item-marks-item">Провина</li>
-                      <li class="specialist__item-marks-item">Депресія</li>
-                      <li class="specialist__item-marks-item">Саморозвиток</li>
-                      <li class="specialist__item-marks-item">Панічні атаки</li>
-                      <li class="specialist__item-marks-item">Групові терапії</li>
-                    </ul>
-                    */?>
-                  </div>
-                  <button class="specialist__item-button">Записатися</button>
-                </div>
-
-              </li>
-              <li class="specialist__item swiper-slide" id="peters">
-                  <div class="specialist__item-img">
-                    <img src="assets/img/expert1-2.jpg" alt="Валерія Петерс" loading="lazy">
-                  </div>
-
-                  <div class="specialist__item-info">
-                    <div class="specialist__item-inner">
-                      <div class="grid-spec">
-                        <span class="specialist__item-spec">психолог</span>
-                        <h3 class="specialist__item-title">Валерія Петерс</h3>
-                      </div>
-
-
-                      <ul class="specialist__item-list">
-                        <li class="specialist__item-merit">
-                          <img src="assets/img/specialist__item-img1.svg" alt="1">
-                          <span class="specialist__item-merit-txt">Понад вісім років навчання</span>
-                        </li>
-                        <li class="specialist__item-merit">
-                          <img src="assets/img/specialist__item-img2.svg" alt="2">
-                          <span class="specialist__item-merit-txt">Курси спільно із фахівцями з ООН</span>
-                        </li>
-                        <li class="specialist__item-merit">
-                          <img src="assets/img/specialist__item-img3.svg" alt="3">
-                          <span class="specialist__item-merit-txt">Авторка психологічних медитацій</span>
-                        </li>
-                      </ul>
-
-
-                    </div>
-                    <button class="specialist__item-button">Записатися</button>
-                  </div>
-
-              </li>
-              <li class="specialist__item swiper-slide" id="moroz">
-
-                <div class="specialist__item-img">
-                  <img src="assets/img/expert1-3.jpg" alt="Софія Мороз" loading="lazy">
-                </div>
-
-                <div class="specialist__item-info">
-                  <div class="specialist__item-inner">
-                    <div class="grid-spec">
-                      <span class="specialist__item-spec">психолог</span>
-                      <h3 class="specialist__item-title">Ілона Жмурко</h3>
-                    </div>
-                    <ul class="specialist__item-list">
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img1.svg" alt="1">
-                        <span class="specialist__item-merit-txt">Ступінь магістра психології при МВС</span>
-                      </li>
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img2.svg" alt="2">
-                        <span class="specialist__item-merit-txt">Досвід роботи із кризовими випадками</span>
-                      </li>
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img3.svg" alt="3">
-                        <span class="specialist__item-merit-txt">Робота із сучасними техніками</span>
-                      </li>
-                    </ul>
-                    <?php /*
-                    <ul class="specialist__item-marks">
-                      <li class="specialist__item-marks-item">Тривожність</li>
-                      <li class="specialist__item-marks-item">Агресія</li>
-                      <li class="specialist__item-marks-item">Емоційне виснаження</li>
-                      <li class="specialist__item-marks-item">Нормалізація самооцінки</li>
-                    </ul>
-                    */?>
-                  </div>
-                  <button class="specialist__item-button">Записатися</button>
-                </div>
-
-
-              </li>
-              <li class="specialist__item swiper-slide" id="sherbiy">
-
-                <div class="specialist__item-img">
-                  <img src="assets/img/expert1-7.jpg" alt="Вікторія Щербій" loading="lazy">
-                </div>
-
-                <div class="specialist__item-info">
-                  <div class="specialist__item-inner">
-                    <div class="grid-spec">
-                      <span class="specialist__item-spec">психолог</span>
-                      <h3 class="specialist__item-title">Валерія Шайнікова</h3>
-                    </div>
-                    <ul class="specialist__item-list">
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img1.svg" alt="1">
-                        <span class="specialist__item-merit-txt">Здобуто дві вищі освіти</span>
-                      </li>
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img2.svg" alt="2">
-                        <span class="specialist__item-merit-txt">Робота у психоневрологічній клініці</span>
-                      </li>
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img3.svg" alt="3">
-                        <span class="specialist__item-merit-txt">Використовує методи символдрами</span>
-                      </li>
-                    </ul>
-                    <?php /*
-                    <ul class="specialist__item-marks">
-                      <li class="specialist__item-marks-item">Тривожність</li>
-                      <li class="specialist__item-marks-item">Агресія</li>
-                      <li class="specialist__item-marks-item">Емоційне виснаження</li>
-                      <li class="specialist__item-marks-item">Нормалізація самооцінки</li>
-                    </ul>
-                    */?>
-                  </div>
-                  <button class="specialist__item-button">Записатися</button>
-                </div>
-              </li>
-              <li class="specialist__item swiper-slide" id="sherbiy">
-
-
-
-                <div class="specialist__item-img">
-
-                  <img src="assets/img/expert1-8.jpg" alt="Вікторія Щербій" loading="lazy">
-
-                </div>
-
-
-
-                <div class="specialist__item-info">
-
-                  <div class="specialist__item-inner">
-
-                    <div class="grid-spec">
-
-                      <span class="specialist__item-spec">психолог</span>
-
-                      <h3 class="specialist__item-title">Уляна Давид</h3>
-
-                    </div>
-
-                    <ul class="specialist__item-list">
-
-                      <li class="specialist__item-merit">
-
-                        <img src="assets/img/specialist__item-img1.svg" alt="1">
-
-                        <span class="specialist__item-merit-txt">Практико-орієнтовне навчання у МВС</span>
-
-                      </li>
-
-                      <li class="specialist__item-merit">
-
-                        <img src="assets/img/specialist__item-img2.svg" alt="2">
-
-                        <span class="specialist__item-merit-txt">Активна практика з дітьми різного віку</span>
-
-                      </li>
-
-                      <li class="specialist__item-merit">
-
-                        <img src="assets/img/specialist__item-img3.svg" alt="3">
-
-                        <span class="specialist__item-merit-txt">Робота у напрямку КПТ</span>
-
-                      </li>
-
-                    </ul>
-
-                    <?php /*
-
-                    <ul class="specialist__item-marks">
-
-                      <li class="specialist__item-marks-item">Тривожність</li>
-
-                      <li class="specialist__item-marks-item">Агресія</li>
-
-                      <li class="specialist__item-marks-item">Емоційне виснаження</li>
-
-                      <li class="specialist__item-marks-item">Нормалізація самооцінки</li>
-
-                    </ul>
-
-                    */?>
-
-                  </div>
-
-                  <button class="specialist__item-button">Записатися</button>
-
-                </div>
-
-
-
-
-              <?php /*
-              <li class="specialist__item swiper-slide" id="shayahmetova">
-
-                <div class="specialist__item-img">
-                  <img src="assets/img/expert1-4.jpg" alt="Софія Мороз" loading="lazy">
-                </div>
-
-                <div class="specialist__item-info">
-                  <div class="specialist__item-inner">
-                    <div class="grid-spec">
-                      <span class="specialist__item-spec">психолог</span>
-                      <h3 class="specialist__item-title">Рузанна Шаяхметова</h3>
-                    </div>
-                    <ul class="specialist__item-list">
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img1.svg" alt="1">
-                        <span class="specialist__item-merit-txt">Навчання у Віденській школі психотерапії</span>
-                      </li>
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img2.svg" alt="2">
-                        <span class="specialist__item-merit-txt">Додаткова освіта GLE-International (Австрія)</span>
-                      </li>
-                      <li class="specialist__item-merit">
-                        <img src="assets/img/specialist__item-img3.svg" alt="3">
-                        <span class="specialist__item-merit-txt">Активна діяльність у провідних клініках</span>
-                      </li>
-
-                    </ul>
-
-                    <ul class="specialist__item-marks">
-                      <li class="specialist__item-marks-item">Тривожність</li>
-                      <li class="specialist__item-marks-item">Агресія</li>
-                      <li class="specialist__item-marks-item">Емоційне виснаження</li>
-                      <li class="specialist__item-marks-item">Нормалізація самооцінки</li>
-                    </ul>
-
-                  </div>
-                  <button class="specialist__item-button">Записатися</button>
-                </div>
-
-
-              </li>
-              */?>
-
-            </ul>
-            <div class="spec-pagination"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section sec-adapt__width we-serv mb150">
-
-        <div class="container">
-          <div class="section__top">
-            <h2 class="main-title main-title--upper" data-aos="fade-left">Наші Послуги</h2>
-          </div>
-
-          <div class="section__content" data-aos="fade-in">
-
-            <div class="we-serv__wrapp">
-
-              <div class="we-serv__accordion">
-                <div class="we-serv__item">
-                  <div class="we-serv__head active">
-                    <h3>Індивідуальні консультації</h3>
-                  </div>
-                  <div class="we-serv__descript">
-                    <p>Допоможемо налагодити відносини у сім’ї та розв’язати затяжні конфлікти. Зустрічі проводяться анонімно та виключно із фахівцем, що спеціалізується у вашому запиті.
-                    </p>
-                    <div class="we-serv__price">
-                      <span>Ціна:</span>
-                      <span>400 ₴</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="we-serv__item">
-                  <div class="we-serv__head">
-                    <h3>Дитячий психотерапевт</h3>
-                  </div>
-                  <div class="we-serv__descript">
-                    <p>Наші спеціалісти швидко знаходять спільну мову з дітьми та налагоджують довірчі відносини. Це
-                      допомагає швидше виявити основну проблему та розробити план її вирішення.</p>
-                    <div class="we-serv__price">
-                      <span>Ціна:</span>
-                      <span>400 ₴</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="we-serv__item">
-                  <div class="we-serv__head">
-                    <h3>Сімейний психотерапевт</h3>
-                  </div>
-                  <div class="we-serv__descript">
-                    <p>Ми гарантуємо тобі теплий прийом та чуттєву бесіду, після якої ти краще себе зрозумієш. Пропишемо
-                      терапію індивідуально під твій випадок і будемо впевнено крокувати до змін.</p>
-                    <div class="we-serv__price">
-                      <span>Ціна:</span>
-                      <span>800 ₴</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="we-serv__img">
-                <img src="assets/img/we-serv__img.jpg" alt="we-serv__img" loading="lazy">
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-
-      <section class="section sec-adapt__width mb150">
-        <div class="container">
-          <div class="section__top">
-            <h2 class="main-title main-title--upper" data-aos="fade-down">Як ми працюємо?</h2>
+            <h2 class="main-title main-title--upper" data-aos="fade-down">Контакти</h2>
           </div>
           <div class="section__content" data-aos="fade-up">
-            <div class="how-we-work">
-              <div class="how-we-work__col">
-                <h3 class="how-we-work__title how-we-work__title--light how-we-work__title--left">Онлайн</h3>
-                <ul class="how-we-work__list">
-                  <li class="how-we-work__list-item">
-                    <p class="decoration-text">Будемо з тобою на зв’язку, де б ти не знаходився</p>
-                  </li>
-                  <li class="how-we-work__list-item">
-                    <p class="decoration-text">Економить час, який ти міг би витратити для саморозвитку</p>
-                  </li>
-                  <li class="how-we-work__list-item">
-                    <p class="decoration-text">Особистий комфорт - це вкрай важливо</p>
-                  </li>
-                  <li class="how-we-work__list-item">
-                    <p class="decoration-text">Можливість запису зустрічі</p>
-                  </li>
-                  <li class="how-we-work__list-item">
-                    <p class="decoration-text">Цілковита анонімність</p>
-                  </li>
-                </ul>
-              </div>
-              <div class="how-we-work__col">
-                <h3 class="how-we-work__title how-we-work__title--dark how-we-work__title--right">У кабінеті</h3>
-                <ul class="how-we-work__list">
-                  <li class="how-we-work__list-item">
-                    <p class="decoration-text">Не всі техніки та методики можуть виконуватися в режимі онлайн</p>
-                  </li>
-                  <li class="how-we-work__list-item">
-                    <p class="decoration-text">Тісний емоційний контакт між клієнтом та спеціалістом</p>
-                  </li>
-                  <li class="how-we-work__list-item">
-                    <p class="decoration-text">Затишний кабінет, приємна атмосфера та теплий чай</p>
-                  </li>
-                  <li class="how-we-work__list-item">
-                    <p class="decoration-text">Вас ніхто не відволікатиме</p>
-                  </li>
-                  <li class="how-we-work__list-item">
-                    <p class="decoration-text">При зустрічі тет-а-тет легше розповідати про наболіле</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="price" class="section sec-adapt__width sec-price mb150">
-
-        <div class="container">
-
-          <div class="section__top">
-            <h2 class="main-title main-title--upper" data-aos="fade-left">Ціни</h2>
-          </div>
-
-          <div class="section__content sliderPrice" data-aos="fade-down">
-
-            <ul class="sec-price__list swiper-wrapper">
-
-              <!-- <li class="sec-price__item swiper-slide">
-                <div class="sec-price__time">
-                  <span>60</span><span>хвилин</span>
-                </div>
-                <div class="sec-price__item-inner">
-                  <h3 class="sec-price__title">Консультація у власниці центру</h3>
-
-                  <ul class="sec-price__ul">
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Психологічна діагностика</li>
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Консультація у досвідченого фахівця</li>
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Вирішення вашого запиту</li>
-                  </ul>
-
-                  <div class="sec-price__price">
-                    <div class="sec-price__offline">
-                      <span>600₴</span>
-                      <span>Онлайн</span>
-                    </div>
-                    <div class="sec-price__online">
-                      <span>600₴</span>
-                      <span>У кабінеті</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="sec-price__bl">
-                  <div class="button button--primary w-button">Записатися</div>
-                </div>
-              </li> -->
-
-              <li class="sec-price__item swiper-slide">
-                <div class="sec-price__time">
-                  <span>50</span><span>хвилин</span>
-                </div>
-                <div class="sec-price__item-inner">
-                  <h3 class="sec-price__title">Перша консультація</h3>
-
-                  <ul class="sec-price__ul">
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Знайомство із методами</li>
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Складання портрету особистості</li>
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>План задля вирішення запиту</li>
-                  </ul>
-                </div>
-                <div class="sec-price__price">
-                  <div class="sec-price__offline">
-                    <span>400₴</span>
-                    <span>Онлайн</span>
-                  </div>
-                  <div class="sec-price__online">
-                    <span>400₴</span>
-                    <span>У кабінеті</span>
-                  </div>
-                </div>
-                <div class="sec-price__bl">
-                  <div class="button button--primary w-button">Записатися</div>
-                </div>
-              </li>
-
-              <li class="sec-price__item swiper-slide">
-                <div class="sec-price__time">
-                  <span>60</span><span>хвилин</span>
-                </div>
-                <div class="sec-price__item-inner">
-                  <h3 class="sec-price__title">Наступна консультація</h3>
-
-                  <ul class="sec-price__ul">
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Використання новітніх технік</li>
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Підбір методик під ваш запит</li>
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Кризова підтримка 24/7</li>
-                  </ul>
-                </div>
-                <div class="sec-price__price">
-                  <div class="sec-price__offline">
-                    <span>500₴</span>
-                    <span>Онлайн</span>
-                  </div>
-                  <div class="sec-price__online">
-                    <span>600₴</span>
-                    <span>У кабінеті</span>
-                  </div>
-                </div>
-                <div class="sec-price__bl">
-                  <div class="button button--primary w-button">Записатися</div>
-                </div>
-              </li>
-
-              <li class="sec-price__item swiper-slide">
-                <div class="sec-price__time">
-                  <span>300</span><span>хвилин</span>
-                </div>
-                <div class="sec-price__item-inner">
-                  <h3 class="sec-price__title">Курс “5 занять”</h3>
-
-                  <ul class="sec-price__ul">
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Складання плану курсу та портрету особистості</li>
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Адаптивний графік записів</li>
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Пропрацювання запиту протягом курсу</li>
-                  </ul>
-                </div>
-                <div class="sec-price__price">
-                  <div class="sec-price__offline">
-                    <span>2250₴</span>
-                    <span>Онлайн</span>
-                  </div>
-                  <div class="sec-price__online">
-                    <span>2750₴</span>
-                    <span>У кабінеті</span>
-                  </div>
-                </div>
-                <div class="sec-price__bl">
-                  <div class="button button--primary w-button">Записатися</div>
-                </div>
-              </li>
-
-              <li class="sec-price__item swiper-slide">
-                <div class="sec-price__time">
-                  <span>600</span><span>хвилин</span>
-                </div>
-                <div class="sec-price__item-inner">
-                  <h3 class="sec-price__title">Курс “10 занять”</h3>
-
-                  <ul class="sec-price__ul">
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Двічі на тиждень</li>
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Повноцінне розуміння та вирішення проблеми</li>
-                    <li class="sec-price__li"><svg width="41" height="35" viewBox="0 0 41 35" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                          fill="#536779" />
-                      </svg>Онлайн-підтримка 24/7</li>
-                  </ul>
-                </div>
-                <div class="sec-price__price">
-                  <div class="sec-price__offline">
-                    <span>4000₴</span>
-                    <span>Онлайн</span>
-                  </div>
-                  <div class="sec-price__online">
-                    <span>5000₴</span>
-                    <span>У кабінеті</span>
-                  </div>
-                </div>
-                <div class="sec-price__bl">
-                  <div class="button button--primary w-button">Записатися</div>
-                </div>
-              </li>
-
-            </ul>
-            <div class="price-pagination"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section sec-adapt__width sec-offer mb150">
-        <div class="container">
-          <div class="section__top">
-            <h2 class="main-title main-title--upper" data-aos="fade-down">Пропонуємо вам</h2>
-          </div>
-          <div class="section__content" data-aos="fade-up">
-            <div class="offer__content-wrapper">
-              <div class="offer__content">
-                <p class="offer__content-title">За місяць до цілі</p>
-                <img class="offer__img mob" src="assets/img/offer__img.jpg" alt="offer-img" loading="lazy">
-                <p class="offer__content_text">Проблеми на роботі? У стосунках? В сім’ї? Всього місяць і твоє життя
-                  зміниться на 360 градусів! Ми в цьому впевнені, бо самі доведемо тебе до кінцевого результату. Але в
-                  нас
-                  є обов’язкова умова - твоє бажання змінюватись.</p>
-                <ul class="offer__content-list">
-                  <li class="offer__content-item">
-                    <svg width="41" height="35" viewBox="0 0 41 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                        fill="#536779" />
-                    </svg>
-                    <span>Постав собі ціль та <strong>дійдемо до неї разом</strong></span>
-                  </li>
-                  <li class="offer__content-item">
-                    <svg width="41" height="35" viewBox="0 0 41 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                        fill="#536779" />
-                    </svg>
-                    <span>Діагностика, план вирішення та подолання проблеми</span>
-                  </li>
-                  <li class="offer__content-item">
-                    <svg width="41" height="35" viewBox="0 0 41 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                        fill="#536779" />
-                    </svg>
-                    <span>Використовуватиме <strong>новітні європейські методи</strong></span>
-                  </li>
-                  <li class="offer__content-item">
-                    <svg width="41" height="35" viewBox="0 0 41 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M15.607 34.9998C14.3242 34.9998 13.111 34.4908 12.3311 33.6178L1.79745 21.8193C0.427395 20.2848 0.784057 18.0998 2.59331 16.9373C4.4055 15.7743 6.97995 16.0788 8.35059 17.6123L15.2787 25.3713L32.7032 1.64226C33.9029 0.00975561 36.4361 -0.489744 38.365 0.526256C40.2916 1.54326 40.8799 3.69326 39.6797 5.32726L19.0958 33.3573C18.3808 34.3318 17.1463 34.9448 15.7945 34.9968C15.7314 34.9988 15.6695 34.9998 15.607 34.9998Z"
-                        fill="#536779" />
-                    </svg>
-                    <span>Зустрічі <strong>двічі на тиждень</strong> та гнучка можливість запису</span>
-                  </li>
-                </ul>
-                <button class="button button--primary w-button form-btn btn_tel">Змінити життя</button>
-                <div class="offer__content-price">Ціна трансформації: <span class="price_arsenal">5 800₴</span></div>
-              </div>
-              <img class="offer__img" src="assets/img/offer__img.jpg" alt="offer-img" loading="lazy">
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section sec-adapt__width mb150">
-        <div class="container">
-          <div class="section__top">
-            <h2 class="main-title main-title--upper consultation-title" data-aos="fade-right">Як записатися?
-            </h2>
-          </div>
-          <div class="section__content">
-            <div class="consultation__wrapper" data-aos="fade-up">
-              <div class="consultation__row">
-                <div class="consultation__item first">
-                  <span class="consultation__num">01</span>
-                  <p class="consultation__title">Залишіть заявку</p>
-                  <p class="consultation__text">Наш координатор напише вам у вказаний месенджер, щоб підібрати психолога
-                    та формат роботи.</p>
-                  <button class="button button--primary w-button">Залишити заявку</button>
-                  <svg width="178" height="49" viewBox="0 0 178 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M176.214 47.3605C177.038 47.2754 177.637 46.5383 177.552 45.7143L176.164 32.2858C176.079 31.4617 175.342 30.8627 174.518 30.9479C173.694 31.033 173.095 31.77 173.18 32.5941L174.413 44.5305L162.477 45.7637C161.653 45.8489 161.054 46.5859 161.139 47.4099C161.224 48.234 161.961 48.833 162.785 48.7478L176.214 47.3605ZM1.32714 10.2013C51.4223 -1.00303 112.941 -3.49625 175.113 47.0325L177.006 44.7044C113.85 -6.62358 51.256 -4.03997 0.672336 7.27361L1.32714 10.2013Z"
-                      fill="#F79781" />
-                  </svg>
-                </div>
-                <div class="consultation__item second">
-                  <span class="consultation__num">02</span>
-                  <p class="consultation__title">Виберіть психолога</p>
-                  <p class="consultation__text">Координатор запропонує вам кілька психологів, чия спеціалізація та
-                    досвід
-                    роботи є найбільш ефективними для вирішення вашої проблеми.</p>
-                  <svg class="arrow_2_to_3" width="51" height="168" viewBox="0 0 51 168" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.113379 165.047C0.0769158 165.875 0.718283 166.576 1.54591 166.612L15.0328 167.206C15.8605 167.243 16.5609 166.601 16.5974 165.774C16.6339 164.946 15.9925 164.246 15.1649 164.209L3.17649 163.681L3.70463 151.693C3.74109 150.865 3.09973 150.164 2.2721 150.128C1.44448 150.092 0.744 150.733 0.707535 151.561L0.113379 165.047ZM33.1546 1.12515C42.8931 25.4094 49.9636 52.1809 47.0218 79.8219C44.0852 107.414 31.155 136.03 0.598972 164.007L2.62488 166.22C33.6666 137.798 46.9836 108.528 50.0049 80.1394C53.021 51.8005 45.7601 24.4984 35.9391 0.00852962L33.1546 1.12515Z"
-                      fill="#F79781" />
-                  </svg>
-                </div>
-              </div>
-              <div class="consultation__row">
-                <div class="consultation__item third">
-                  <span class="consultation__num">03</span>
-                  <p class="consultation__title">Почніть спілкування</p>
-                  <p class="consultation__text">Після оплати послуги психолог зв'яжеться з вами у вказаному месенджері
-                    цього ж дня. Ви домовитеся про дату та час, і почнете роботу.</p>
-                  <svg width="133" height="24" viewBox="0 0 133 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M1.55336 17.9207C0.770222 17.6505 0.354401 16.7966 0.624589 16.0135L5.02749 3.25164C5.29767 2.46851 6.15155 2.05268 6.93468 2.32287C7.7178 2.59305 8.13363 3.44693 7.86344 4.23006L3.94975 15.5739L15.2936 19.4876C16.0767 19.7578 16.4926 20.6117 16.2224 21.3948C15.9522 22.1779 15.0983 22.5938 14.3152 22.3236L1.55336 17.9207ZM130.754 23.9337C97.84 5.89082 55.4157 -7.82072 2.6993 17.8513L1.38583 15.1541C55.3145 -11.1082 98.8216 3.00773 132.196 21.303L130.754 23.9337Z"
-                      fill="#F79781" />
-                  </svg>
-                </div>
-                <div class="consultation__item fourth">
-                  <span class="consultation__num">04</span>
-                  <p class="consultation__title">Насолоджуйтеся <br> вільним життям</p>
-                  <p class="consultation__text">Відчуйте смак життя без тривоги, депресії та панічних атак. Разом
-                    дійдемо
-                    до потрібного результату!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section sec-adapt__width mb150">
-        <div class="container">
-          <div class="section__top">
-            <h2 class="main-title main-title--upper" data-aos="fade-right">Успіхи наших клієнтів</h2>
-          </div>
-          <div class="section__content" data-aos="fade-up">
-            <div class="successes question--left-top-radius question--bg-grey">
-              <div class="successes__img" style="background-image: url('assets/img/successes__img1.jpg')"></div>
-              <div class="successes__content">
-                <div class="successes__text">
-                  <p class="successes__name">Андрій</p>
-                  <p class="successes__point">Точка <span class="text__color">А</span></p>
-                  <p class="successes__content-text">Тривожний розлад. Виявилось, що Андрій дуже часто тримає емоції в
-                    собі. Його вже настільки достобісило хвилюватися за кожен свій крок, що він прийняв рішення
-                    змінювати
-                    своє життя.</p>
-                  <p class="successes__point">Точка <span class="text__color">Б</span></p>
-                  <p class="successes__content-text">За доволі короткий час хлопець вже був щасливий та не хвилювався за
-                    будь-які дрібниці. Будь, як Андрій, давай зробимо твоє життя менш тривожним</p>
-                </div>
-                <svg width="228" height="255" viewBox="0 0 228 255" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M42.3703 21.7185C42.3703 10.1701 33.0703 0.870117 21.5219 0.870117C9.97359 0.870117 0.673584 10.1701 0.673584 21.7185C0.673584 33.2668 21.5219 54.8306 21.5219 54.8306C21.5219 54.8306 42.3703 33.2668 42.3703 21.7185ZM11.8131 21.3097C11.8131 15.9954 16.2077 11.6009 21.5219 11.6009C26.8362 11.6009 31.2307 15.8932 31.2307 21.3097C31.2307 26.624 26.9384 31.0185 21.5219 31.0185C16.2077 31.0185 11.8131 26.624 11.8131 21.3097Z"
-                    fill="#F79781" />
-                  <path
-                    d="M42.3703 221.718C42.3703 210.17 33.0703 200.87 21.5219 200.87C9.97359 200.87 0.673584 210.17 0.673584 221.718C0.673584 233.267 21.5219 254.831 21.5219 254.831C21.5219 254.831 42.3703 233.267 42.3703 221.718ZM11.8131 221.31C11.8131 215.995 16.2077 211.601 21.5219 211.601C26.8362 211.601 31.2307 215.893 31.2307 221.31C31.2307 226.624 26.9384 231.018 21.5219 231.018C16.2077 231.018 11.8131 226.624 11.8131 221.31Z"
-                    fill="#F79781" />
-                  <path
-                    d="M63.6032 22.0834C63.6032 22.0834 114.255 -7.27326 139.966 8.8857C167.051 25.9081 141.649 81.1944 159.934 89.3403C159.934 89.3403 188.471 102.053 206.757 110.199C225.042 118.345 232.617 70.9373 218.283 53.888C207.239 40.7518 192.026 39.9776 175.689 44.793C141.959 54.7346 184.046 100.908 178.614 136.206C175.118 158.919 174.583 173.195 162.86 192.859C138.393 233.899 53.4022 244.802 53.4022 244.802"
-                    stroke="#F79781" stroke-width="3" stroke-dasharray="8 8" />
-                </svg>
-              </div>
-            </div>
-            <div class="successes question--right-top-radius question--bg-grey">
-              <div class="successes__content">
-                <div class="successes__text">
-                  <p class="successes__name">Олена</p>
-                  <p class="successes__point">Точка <span class="text__color">А</span></p>
-                  <p class="successes__content-text">Вперше Олена прийшла до нас дуже засмучена, не проявляла емоцій та
-                    хотіла зробити своє життя більш кольоровим.</p>
-                  <p class="successes__point">Точка <span class="text__color">Б</span></p>
-                  <p class="successes__content-text">Після нашої розмови, ми зрозуміли, що Олена дуже активна, усміхнена
-                    та натхненна дівчина, тому ми їй допомогли знайти свій унікальний ресурс. За кілька тижнів вона вже
-                    змінила своє життя на стільки, що вже й самі почали їй заздрити.</p>
-                </div>
-                <svg width="224" height="255" viewBox="0 0 224 255" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M42.3704 21.7185C42.3704 10.1701 33.0704 0.870117 21.522 0.870117C9.97365 0.870117 0.673645 10.1701 0.673645 21.7185C0.673645 33.2668 21.522 54.8306 21.522 54.8306C21.522 54.8306 42.3704 33.2668 42.3704 21.7185ZM11.8132 21.3097C11.8132 15.9954 16.2077 11.6009 21.522 11.6009C26.8363 11.6009 31.2308 15.8932 31.2308 21.3097C31.2308 26.624 26.9385 31.0185 21.522 31.0185C16.2077 31.0185 11.8132 26.624 11.8132 21.3097Z"
-                    fill="#F79781" />
-                  <path
-                    d="M42.3704 221.718C42.3704 210.17 33.0704 200.87 21.522 200.87C9.97365 200.87 0.673645 210.17 0.673645 221.718C0.673645 233.267 21.522 254.831 21.522 254.831C21.522 254.831 42.3704 233.267 42.3704 221.718ZM11.8132 221.31C11.8132 215.995 16.2077 211.601 21.522 211.601C26.8363 211.601 31.2308 215.893 31.2308 221.31C31.2308 226.624 26.9385 231.018 21.522 231.018C16.2077 231.018 11.8132 226.624 11.8132 221.31Z"
-                    fill="#F79781" />
-                  <path
-                    d="M48.0629 38.6031C48.0629 38.6031 75.6974 52.0679 108.179 52.0675C150 52.067 154.885 72.4553 172.363 84.9998C172.363 84.9998 163.382 138.118 180.86 150.663C198.338 163.207 230.836 133.601 219.5 112.999C210.766 97.1262 203.088 98.3448 187 106.5C152.756 123.858 143.56 127.641 130 162C121.275 184.108 132.952 206.672 116.227 223.758C81.3189 259.419 54.4296 241.32 54.4296 241.32"
-                    stroke="#F79781" stroke-width="3" stroke-dasharray="8 8" />
-                </svg>
-              </div>
-              <div class="successes__img" style="background-image: url('assets/img/successes__img2.jpg')"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="reviev" class="section sec-adapt__width mb150">
-        <div class="container">
-          <div class="section__top">
-            <h2 class="main-title main-title--upper" data-aos="fade-left">Відгуки</h2>
-          </div>
-          <div class="section__content sliderRev" data-aos="fade-down">
-
-            <ul class="sec-rev__list swiper-wrapper">
-              <li class="sec-rev__item swiper-slide" data-fancybox="gallery" data-src="assets/img/review1.jpg">
-                <img src="assets/img/review1.jpg" alt="#" loading="lazy">
-              </li>
-              <li class="sec-rev__item swiper-slide" data-fancybox="gallery" data-src="assets/img/review2.jpg">
-                <img src="assets/img/review2.jpg" alt="#" loading="lazy">
-              </li>
-              <li class="sec-rev__item swiper-slide" data-fancybox="gallery" data-src="assets/img/review3.jpg">
-                <img src="assets/img/review3.jpg" alt="#" loading="lazy">
-              </li>
-              <li class="sec-rev__item swiper-slide" data-fancybox="gallery" data-src="assets/img/review4.jpg">
-                <img src="assets/img/review4.jpg" alt="#" loading="lazy">
-              </li>
-              <li class="sec-rev__item swiper-slide" data-fancybox="gallery" data-src="assets/img/review5.jpg">
-                <img src="assets/img/review5.jpg" alt="#" loading="lazy">
-              </li>
-
-            </ul>
-            <div class="sec-rev-pagination"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section sec-adapt__width sec-form mb150">
-        <div class="container">
-          <div class="section__top">
-            <h2 class="main-title main-title--upper" data-aos="fade-up">Контакти</h2>
-          </div>
-          <div class="section__content" data-aos="fade-right">
             <div class="contacts">
               <div class="contacts__main">
                 <div class="contacts__links">
@@ -1525,7 +472,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </li>
                     <li class="contacts__links-list-item">
                       <h3 class="contacts__links-list-item-title">Email</h3>
-                      <a href="mailto:hello@goroshenko.com.ua" class="social-link gtm_contact">
+                      <a href="mailto:hello@goroshenko.com.ua" class="social-link">
                         <span class="social-link__icon">
                           <svg width="40" height="41" viewBox="0 0 40 41" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -1600,18 +547,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="contacts__map contacts__map--right-bottom-radius">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5147.184861496785!2d24.04244!3d49.831325!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38d73622cf0af96!2sPsykholohichnyy%20Kabinet%20Melaniyi%20Horoshenko!5e0!3m2!1sua!2sua!4v1651675098859!5m2!1sua!2sua"
-                    allowfullscreen=""></iframe>
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
               <p class="contacts__desc"> Залишились питання? Заповніть форму і ми <br />вам зателефонуємо через 5 хвилин
               </p>
-              <form class="contacts-form">
-                <input type="hidden" name="fname" name="fname" value="Форма 'Залишились питання?'">
+              <form action="" class="contacts-form">
+                <input type="hidden" name="fname" value="Форма 'Залищились питаня?' на сторінці Контакти">
                 <div class="contacts-form__col">
                   <input type="text" name="name" placeholder="Марія">
                 </div>
                 <div class="contacts-form__col">
-                  <input class="form-tel" type="tel" name="tel" placeholder="+ 38 (000) 000-00-00" required >
+                  <input class="form-tel" type="tel" name="tel" placeholder="+ 38 (000) 000-00-00" required pattern="\+38\((\d{3})\)\d{3}-\d{2}-\d{2}">
                 </div>
                 <div class="contacts-form__col">
                   <input type="text" name="mess" placeholder="Коментар">
@@ -1721,7 +668,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <a href="seminars.html" class="link">Семінари</a>
               </li>
               <li class="footer__nav-item">
-                <a href="#reviev" class="link">Відгуки</a>
+                <a href="/#reviev" class="link">Відгуки</a>
               </li>
               <li class="footer__nav-item">
                 <a href="contact.html" class="link">Контакти</a>
@@ -1738,7 +685,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <a href="services.html" class="link">Послуги</a>
               </li>
               <li class="footer__nav-item">
-                <a href="#price" class="link">Ціни</a>
+                <a href="/#price" class="link">Ціни</a>
               </li>
               <li class="footer__nav-item footer__nav-item--bold">
                 <a href="payment.html">
@@ -1817,160 +764,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </footer>
   </div>
   <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
   <script src="https://unpkg.com/imask"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
-  <script >
-
-    //update page
-    function updatePage() {
-
-      let curWidth = $(window).width();
-
-      $(window).resize(function () {
-        if ($(window).width() <= 991 && curWidth > 991) {
-          //reload
-          location.reload();
-        }
-        else if ($(window).width() > 991 && curWidth <= 991) {
-          //reload
-          location.reload();
-        }
-      });
-    }
-    if ($('#home').length === 1) {
-      updatePage();
-    }
-
-    function sliderSpec() {
-      var swiper1 = new Swiper(".sliderSpec", {
-        slidesPerView: "auto",
-        spaceBetween: 20,
-        preloadImages: false,
-      });
-    }
-    if ($('#home').length === 1) {
-      if ($(window).width() < 991) {
-        sliderSpec();
-      }
-    }
-    function sliderPrice() {
-      var swiper2 = new Swiper(".sliderPrice", {
-        slidesPerView: 3,
-        spaceBetween: 60,
-        pagination: {
-          el: '.price-pagination',
-          clickable: true,
-        },
-        breakpoints: {
-          // when window width is >= 320px
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 20
-          },
-          // when window width is >= 480px
-          700: {
-            slidesPerView: 2,
-            spaceBetween: 20
-          },
-          // when window width is >= 640px
-          1279: {
-            slidesPerView: 3,
-            spaceBetween: 20
-          }
-        }
-      });
-    }
-    function sliderSpec() {
-      var swiper2 = new Swiper(".sliderSpec", {
-        slidesPerView: 3,
-        spaceBetween: 60,
-        pagination: {
-          el: '.spec-pagination',
-          clickable: true,
-        },
-        breakpoints: {
-          // when window width is >= 320px
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 20
-          },
-          // when window width is >= 480px
-          700: {
-            slidesPerView: 2.5,
-            spaceBetween: 20
-          },
-          // when window width is >= 640px
-          1279: {
-            slidesPerView: 3.5,
-            spaceBetween: 20
-          }
-        }
-      });
-    }
-    if ($('#home').length === 1) {
-      sliderPrice();
-      sliderSpec();
-    }
-
-    function sliderRev() {
-      var swiper3 = new Swiper(".sliderRev", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        centeredSlides: true,
-        preloadImages: false,
-        pagination: {
-          el: '.sec-rev-pagination',
-          clickable: true,
-        },
-        breakpoints: {
-          // when window width is >= 320px
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 20
-          },
-          // when window width is >= 480px
-          700: {
-            slidesPerView: 2,
-            spaceBetween: 20
-          },
-          // when window width is >= 640px
-          1279: {
-            slidesPerView: 3,
-            spaceBetween: 100
-          }
-        }
-      });
-    }
-    if ($('#home').length === 1) {
-      sliderRev();
-    }
-
+  <script>
     let elements = document.getElementsByClassName('form-tel');
     for (let i = 0; i < elements.length; i++) {
       new IMask(elements[i], {
-        mask: '+{38}(000)000-00-00',
+        mask: '+{38}(000)000-00-00'
       });
     }
-
-    Fancybox.bind('[data-fancybox="gallery"]', {
-      Thumbs: {
-        autoStart: false,
-      },
-      Toolbar: {
-        display: [
-          "zoom",
-          "slideshow",
-          "fullscreen",
-          "close",
-        ],
-      },
-    });
   </script>
-
 </body>
 
 </html>

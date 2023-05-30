@@ -1,14 +1,15 @@
 $(function () {
 
     'use strict';
-    
+
+
     // AOS.init();
+
 
     // ---- settings popup form ---- //
     $('.btn_tel').click(function () {
         $('.popup-form').addClass('active');
         $('body').css('overflow', 'hidden');
-        $('form.popup-form__form input[name="fname"]').val('Форма з поп-папу по кнопці '+$(this).html());
     });
     $('.close').click(function () {
         $('.popup-form').removeClass('active');
@@ -89,10 +90,8 @@ $(function () {
             let scrollDock = $(document).scrollTop();
             if (scrollDock + 80 >= 400) {
                 $('.up').fadeIn();
-                $('.EWBookingWidgetTrigger').css('opacity','1');
             } else {
                 $('.up').fadeOut();
-                $('.EWBookingWidgetTrigger').css('opacity','0');
             }
         });
     }
@@ -100,7 +99,7 @@ $(function () {
 });
 
 $(document).ready(function () {
-    $("form").not('.feedback-form').submit(function () {
+    $("form").submit(function () {
         $.ajax({
             type: "POST",
             url: "teleg.php",
@@ -112,26 +111,11 @@ $(document).ready(function () {
             window.location.href = 'https://goroshenko.com.ua/thanks';
         });
         return false;
-        
-    });
-    $(".feedback-form").submit(function () {
-      
-        $.ajax({
-            type: "POST",
-            url: "teleg_2.php",
-            data: $(this).serialize()
-        }).done(function () {
-            
-            $('.feedback-form').find("input,textarea").val("");
-            $('.feedback-form').fadeOut('fast');
-            $('.form-success').fadeIn('fast');
-        });
-        return false;
     });
 });
 
 //misc welosiped calls
-$('.button--primary, .sec-price__item').not('.pay-btn, .form-btn, ._ptev_none').on('click', function(e) {
+$('.specialist__item-button, .button--primary, .sec-price__item, .specialist__item').not('.pay-btn, .form-btn, ._ptev_none').on('click', function(e) {
     e.preventDefault();
     $('a.EWBookingWidgetTrigger')[0].click();
   });
@@ -140,26 +124,3 @@ $('.nav__list-item-link').on('click', function(e) {
         $('.header__burger').click();
     }, 300);     
 });
-$('#goroshenko').on('click', function(e) { 
-    window.location.href = 'https://widget.easyweek.io/goroshenko/team/22373/19252';
-});
-$('#peters').on('click', function(e) { 
-    window.location.href = 'https://widget.easyweek.io/goroshenko/team/22373/23049';
-});
-$('#moroz').on('click', function(e) { 
-    window.location.href = 'https://widget.easyweek.io/goroshenko/team/22373/24641';
-});
-$('#shayahmetova').on('click', function(e) { 
-    window.location.href = 'https://widget.easyweek.io/goroshenko/team/22373/28116';
-});
-$('#sherbiy').on('click', function(e) { 
-    window.location.href = 'https://widget.easyweek.io/goroshenko/team/22373/30291';
-});
-// calculate min-height on init
-$('.header__mob-bottom').css('min-height', `${window.innerHeight}px`);
-
-// recalculate the min-height everytime the bar appears or disappears
-$(window).resize(() => {
-    $('.header__mob-bottom').css('min-height', `${window.innerHeight}px`);
-});
-
