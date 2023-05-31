@@ -226,7 +226,7 @@ line-height: 55px;
 .importend__title{
     font-style: normal;
     font-weight: 750;
-    font-size: 50px;
+    font-size: 37px;
     line-height: 1.1;
     text-transform: uppercase;
     color: #0B151E;
@@ -369,8 +369,8 @@ background: #3492f0;
 }
 .team__title{
     font-weight: 750;
-    font-size: 55px;
-    line-height: calc(69 / 55);
+    font-size: 37px;
+    line-height: 1.25;
     text-transform: uppercase;
     color: #0B151E;
     /* margin-bottom: 35px; */
@@ -605,11 +605,9 @@ background: #3492f0;
     width: 500px;
 }
 .record__title{
-    /* display: flex; */
     align-items: center;
-    font-size: 50px;
+    font-size: 37px;
     text-transform: uppercase;
-    /* letter-spacing: 2px; */
     font-style: normal;
     font-weight: 750;
     color: #0B151E;
@@ -619,7 +617,7 @@ background: #3492f0;
     font-family: 'Georgia';
     font-style: italic;
     font-weight: 400;
-    font-size: 53px;
+    /* font-size: 53px; */
     color: #98C5EB;
     text-decoration-line: underline;
 }
@@ -800,8 +798,8 @@ input::placeholder{
 
 .services__title, .price__title, .specialists__title, .apply__title, .contacts__title_mod{
     font-weight: 750;
-    font-size: 43px;
-    line-height: calc( 69 / 43);
+    font-size: 37px;
+    line-height: calc( 59 / 37);
     text-transform: uppercase;
     color: #0B151E;
 }
@@ -1477,7 +1475,7 @@ footer{
         line-height: calc(44 / 35);
     }
     .record__span{
-        font-size: 43px;
+        font-size: 35px;
     }
     .record__text{
         text-align: start;
@@ -1646,7 +1644,7 @@ footer{
     }
 
     .record__span{
-        font-size: 43px;
+        font-size: 35px;
     }
 
     .input{
