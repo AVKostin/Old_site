@@ -3,7 +3,7 @@
             <div class="footer__set">
                 <div class="f-logo">
                     <a href="#" class="f-logo__item">
-                        <img src="assets/img/Logo.svg" alt="" class="f-logo__item_img">
+                        <img src="assets/img/Logo.webp" alt="" class="f-logo__item_img">
                     </a>
                     <div class="f-logo__set">
                         <img src="assets/img/location.png" alt="" class="f-logo__img f-logo__img_mod">

@@ -1,9 +1,11 @@
 body{
-    font-family: 'Gilroy';
-    font-style: normal;
+    /* font-family: 'Gilroy'; */
+    /* font-style: normal; */
     font-size: 18px;
     color: #536779;
     font-weight: 400;
+    font-family: 'Georgia', sans-serif;
+    letter-spacing: 0.03em;
 }
 /*   в форме убирает контур  */
 :active, :hover, :focus {
@@ -15,6 +17,9 @@ body{
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    transition: all .3s;
+    transition: color 300ms linear background-color 300ms linear,
+    box-shadow 300ms linear;
 }
 /* h1,h2,h3,h4,h5,h6{
     font-family: 'Muller Next Trial';
@@ -23,13 +28,6 @@ body{
     line-height: 1.2em;
     color: #0B151E;
 } */
-
-
-body {
-    font-family: 'Georgia', sans-serif;
-    letter-spacing: 0.03em;
-  }
-
 
   .link {
     text-decoration: none;
@@ -40,12 +38,6 @@ body {
     list-style: none;
   }
 
- * {
-    transition: all .3s;
-    transition: color 300ms linear, background-color 300ms linear,
-    box-shadow 300ms linear;
-}
-
 img{
     display: block;
     max-width: 100%;
@@ -55,6 +47,7 @@ ul,li{
     padding: 0;
     margin: 0;
 }
+
 .container {
     margin: 0 auto;
     padding-left: 35px;
@@ -414,7 +407,7 @@ margin-bottom: 30px;
 }
 .num__set{
     display: flex;
-    width: 689px;
+    /* width: 689px; */
     /* margin: 68px; */
     padding: 34px 40px;
     flex-direction: row;
@@ -1353,377 +1346,6 @@ footer{
 }
 
 
-/*992-1250*/
-@media screen and (max-width:1200px) {
-	/* .container{
-		max-width: 960px;
-	} */
-    .header__btn{
-        display: none;
-    }
-    .price__mob{
-        display: flex;
-        color: #264158;
-    }
-    .info__set_mob{
-        display: flex;
-        width: 100%;
-    }
-    .menu__item:before{
-        display: block;
-    }
-    .header__set{
-        justify-content: space-between;
-    }
-    .header-menu{
-        width: 30px;
-        display: block;
-    }
-    .header__btn_mob{
-        width: 278px;
-        display: block;
-        margin: 20px;
-        margin-left: 50px;
-    }
-    .menu{
-        position: fixed;
-        z-index: 10;
-        display: none;
-        justify-content: center;
-        top: 96px;
-        left: 0;
-        margin: 0 ;
-        width: 100%;
-        margin: auto;
-        background: #Fff;
-        height: 100%;
-    }
-    .active-menu{
-        display: block;
-    }
-    .menu__item{
-       display: flex;
-       text-align: center;
-       margin: 0 auto;
-       background: #fff;
-       padding: 15px 0 5px 50px;
-    }
-    .menu__item_a{
-        padding-bottom: 3px;
-    }
-    .logo__item{
-        margin: 0;
-    }
-    .info__set{
-        margin: 0;
-    }
-    .importend__set{
-        flex-direction: column;
-        align-items: center;
-        gap: 60px;
-
-    }
-    .importend__left{
-        width: 100%;
-    }
-    .importend__right{
-        width: 100%;
-    }
-    .team{
-        padding: 100px 0;
-    }
-    .team__set{
-        flex-direction: column-reverse;
-        gap: 40px;
-    }
-    .team__right{
-        width: 100%;
-    }
-    .apply__line{
-        display: none;
-    }
-    .apply__title{
-        margin: 0;
-    }
-    .center {
-        width: 850px;
-        margin: 0 auto;
-    }
-    .slick-prev{
-        display: none !important;
-    }
-    .slick-next{
-        display: none !important;
-    }
-    .psychology__wrapp{
-        margin: 0 auto ;
-    }
-    .psychology__set{
-        margin-top: 80px;
-        flex-wrap: wrap;
-    }
-    .specialists{
-        padding: 100px 0;
-    }
-    .specialists__set{
-        width: 900px !important;
-        margin: 0 auto !important;
-    }
-    .specialists__kit{
-        margin: 0 auto;
-    }
-    .specialists__wrapp{
-        margin: 0 10px;
-    }
-    .specialists_img{
-        margin: 0 auto;
-    }
-    .record_set{
-        flex-direction: column;
-        gap: 40px;
-        align-items: center;
-    }
-    .record__left{
-        width: 100%;
-    }
-    .price__set{
-        flex-wrap: wrap;
-    }
-    .services__set{
-        flex-wrap: wrap;
-        gap: 40px;
-    }
-    .services__wrapp{
-        margin: 0 auto;
-    }
-    .center-wrapp-2{
-        margin: 0 10px;
-    }
-    .question__set{
-        flex-direction: column;
-        gap: 40px;
-        padding: 50px;
-    }
-    .question__left{
-        width: 100%;
-        text-align: center;
-    }
-    .contact__form{
-        width: 100%;
-    }
-    .input{
-        width: 100%;
-    }
-    .contacts__set{
-        flex-direction: column;
-        gap: 40px;
-    }
-    iframe{
-        width: 100%;
-    }
-    .contacts__left{
-        gap: 0;
-        justify-content: space-between;
-    }
-    .contacts__left{
-        padding: 55px 100px;
-    }
-    .details__set{
-        flex-direction: column;
-        gap: 40px;
-    }
-    .teacher__set{
-        flex-direction: column;
-        align-items: center;
-    }
-    .teacher__left{
-        width: 350px;
-        height: auto;
-    }
-    .teacher__set_column{
-        flex-direction: column;
-    }
-    .individual__set{
-        flex-direction: column;
-        gap: 30px;
-    }
-    .individual__column{
-        width: 100%;
-    }
-    .individual__set_mod{
-        flex-direction: column-reverse;
-        gap: 30px;
-    }
-    .experience__set{
-        flex-direction: column;
-        gap: 30px;
-    }
-    .purse__set{
-        flex-direction: column-reverse;
-    }
-    .purse__set_mod{
-        flex-direction: column;
-    }
-    .about__img{
-        display: none;
-    }
-    .center-2{
-        margin: 0;
-    }
-}
-
-/*768-991*/
-@media screen and (max-width:1200px){
-	/* .container{
-		max-width: 720px;
-
-	} */
-    .center{
-        width: 700px;
-    }
-    .specialists__set{
-        width: 700px !important;
-
-    }
-    .specialists__kit{
-        text-align: center;
-    }
-    .education__text{
-        text-align: start;
-    }
-    .center-2{
-        width: 700px;
-    }
-    .services__wrapp_mod{
-        flex-direction: column;
-    }
-    .contacts__left{
-        padding: 60px;
-    }
-    .footer__set{
-        flex-wrap: wrap;
-       gap: 20px;
-    }
-    .psychology__set{
-        gap: 20px;
-    }
-    .importend{
-        padding-top: 20px;
-    }
-    .details{
-        padding-top: 35px;
-    }
-    .individual{
-        padding-top: 35px;
-    }
-    .contacts_mod{
-        padding-top: 35px;
-    }
-    .purse{
-        padding-top: 35px;
-    }
-
-}
-
-/*576-767*/
-@media screen and (max-width:768px){
-	/* .container{
-		width: 540px;
-
-	} */
-    .info__set{
-        display: none;
-    }
-	.num__set{
-        width: 500px;
-    }
-    .center{
-        width: 500px !important;
-    }
-    .center-img{
-        width: 400px;
-        height: 400px;
-    }
-    .specialists__set{
-        width: 500px !important;
-
-    }
-
-    .specialists__kit{
-       width: auto;
-
-    }
-    .education__btn_1{
-        padding: 20px 29px;
-        width: auto;
-    }
-    .education__btn_2{
-        padding: 20px 29px;
-        width: auto;
-    }
-    .center-2{
-        width: 500px !important;
-        margin: 0 auto;
-    }
-    .record_set{
-        padding: 50px;
-    }
-    .contacts__left{
-        padding: 40px;
-    }
-    .details__video{
-        width: 500px;
-        height: 500px;
-    }
-    .reasons__title{
-        width: 100%;
-    }
-    .teacher__column{
-        padding: 85px 26px;
-    }
-    .experience__wrapp{
-        text-align: center;
-    }
-    .experience__text_2{
-        width: 100%;
-    }
-    .importend__right{
-        height: 350px;
-    }
-    .apply__title{
-        text-align: center;
-    }
-    .specialists__title{
-        text-align: center;
-    }
-    .price__title{
-        text-align: center;
-    }
-    .services__title{
-        text-align: center;
-    }
-    .contacts__title_mod{
-        text-align: center;
-    }
-    .details__video{
-        height: 350px;
-    }
-    .reasons__title{
-        text-align: center;
-    }
-    .teacher__title{
-        text-align: center;
-    }
-    .experience__title{
-        text-align: center;
-    }
-    .purse__column{
-        padding: 50px 65px;
-    }
-    .purse__title{
-        text-align: center;
-    }
-}
 
 /*460-576*/
 @media screen and (max-width:480px){
@@ -1974,7 +1596,6 @@ footer{
         gap: 30px;
     }
 
-
     .purse__text-1{
         font-size: 20px;
     }
@@ -1995,7 +1616,9 @@ footer{
         flex-direction: column;
         gap: 25px;
         align-items: center;
+        width: 100%;
     }
+
     .center{
         width: 100% !important;
     }
@@ -2046,9 +1669,6 @@ footer{
         padding: 30px;
     }
 
-    .num__set{
-        width: 100%;
-    }
     iframe{
         height: 300px;
     }
@@ -2117,9 +1737,7 @@ footer{
     .team__text{
         font-size: 13px;
     }
-    .num__text{
-        width: 100%;
-    }
+
     .apply__title{
         font-size: 25px;
     }
@@ -2225,3 +1843,385 @@ footer{
 
 
 
+/*576-767*/
+@media screen and (max-width:768px){
+	/* .container{
+		width: 540px;
+
+	} */
+    .info__set{
+        display: none;
+    }
+	.num__set{
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .num__line {
+        display: none;
+    }
+    .center{
+        width: 500px !important;
+    }
+    .center-img{
+        width: 400px;
+        height: 400px;
+    }
+    .specialists__set{
+        width: 500px !important;
+
+    }
+
+    .specialists__kit{
+       width: auto;
+
+    }
+    .education__btn_1{
+        padding: 20px 29px;
+        width: auto;
+    }
+    .education__btn_2{
+        padding: 20px 29px;
+        width: auto;
+    }
+    .center-2{
+        width: 500px !important;
+        margin: 0 auto;
+    }
+    .record_set{
+        padding: 50px;
+    }
+    .contacts__left{
+        padding: 40px;
+    }
+    .details__video{
+        width: 500px;
+        height: 500px;
+    }
+    .reasons__title{
+        width: 100%;
+    }
+    .teacher__column{
+        padding: 85px 26px;
+    }
+    .experience__wrapp{
+        text-align: center;
+    }
+    .experience__text_2{
+        width: 100%;
+    }
+    .importend__right{
+        height: 350px;
+    }
+    .apply__title{
+        text-align: center;
+    }
+    .specialists__title{
+        text-align: center;
+    }
+    .price__title{
+        text-align: center;
+    }
+    .services__title{
+        text-align: center;
+    }
+    .contacts__title_mod{
+        text-align: center;
+    }
+    .details__video{
+        height: 350px;
+    }
+    .reasons__title{
+        text-align: center;
+    }
+    .teacher__title{
+        text-align: center;
+    }
+    .experience__title{
+        text-align: center;
+    }
+    .purse__column{
+        padding: 50px 65px;
+    }
+    .purse__title{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+/*992-1250*/
+@media screen and (max-width:1280px) {
+	/* .container{
+		max-width: 960px;
+	} */
+    .header__btn{
+        display: none;
+    }
+    .price__mob{
+        display: flex;
+        color: #264158;
+    }
+    .info__set_mob{
+        display: flex;
+        width: 100%;
+    }
+    .menu__item:before{
+        display: block;
+    }
+    .header__set{
+        justify-content: space-between;
+    }
+    .header-menu{
+        width: 30px;
+        display: block;
+    }
+    .header__btn_mob{
+        width: 278px;
+        display: block;
+        margin: 20px;
+        margin-left: 50px;
+    }
+    .menu{
+        position: fixed;
+        z-index: 10;
+        display: none;
+        justify-content: center;
+        top: 96px;
+        left: 0;
+        margin: 0 ;
+        width: 100%;
+        margin: auto;
+        background: #Fff;
+        height: 100%;
+    }
+    .active-menu{
+        display: block;
+    }
+    .menu__item{
+       display: flex;
+       text-align: center;
+       margin: 0 auto;
+       background: #fff;
+       padding: 15px 0 5px 50px;
+    }
+    .menu__item_a{
+        padding-bottom: 3px;
+    }
+    .logo__item{
+        margin: 0;
+    }
+    .info__set{
+        margin: 0;
+    }
+    .importend__set{
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+
+    }
+    .importend__left{
+        width: 100%;
+    }
+    .importend__right{
+        width: 100%;
+    }
+    .team{
+        padding: 100px 0;
+    }
+    .team__set{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .team__right{
+        width: 100%;
+    }
+    .apply__line{
+        display: none;
+    }
+    .apply__title{
+        margin: 0;
+    }
+    .center {
+        width: 850px;
+        margin: 0 auto;
+    }
+    .slick-prev{
+        display: none !important;
+    }
+    .slick-next{
+        display: none !important;
+    }
+    .psychology__wrapp{
+        margin: 0 auto ;
+    }
+    .psychology__set{
+        margin-top: 80px;
+        flex-wrap: wrap;
+    }
+    .specialists{
+        padding: 100px 0;
+    }
+    .specialists__set{
+        width: 900px !important;
+        margin: 0 auto !important;
+    }
+    .specialists__kit{
+        margin: 0 auto;
+    }
+    .specialists__wrapp{
+        margin: 0 10px;
+    }
+    .specialists_img{
+        margin: 0 auto;
+    }
+    .record_set{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .record__left{
+        width: 100%;
+    }
+    .price__set{
+        flex-wrap: wrap;
+    }
+    .services__set{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .services__wrapp{
+        margin: 0 auto;
+    }
+    .center-wrapp-2{
+        margin: 0 10px;
+    }
+    .question__set{
+        flex-direction: column;
+        gap: 40px;
+        padding: 50px;
+    }
+    .question__left{
+        width: 100%;
+        text-align: center;
+    }
+    .contact__form{
+        width: 100%;
+    }
+    .input{
+        width: 100%;
+    }
+    .contacts__set{
+        flex-direction: column;
+        gap: 40px;
+    }
+    iframe{
+        width: 100%;
+    }
+    .contacts__left{
+        gap: 0;
+        justify-content: space-between;
+    }
+    .contacts__left{
+        padding: 55px 100px;
+    }
+    .details__set{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .teacher__set{
+        flex-direction: column;
+        align-items: center;
+    }
+    .teacher__left{
+        width: 350px;
+        height: auto;
+    }
+    .teacher__set_column{
+        flex-direction: column;
+    }
+    .individual__set{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .individual__column{
+        width: 100%;
+    }
+    .individual__set_mod{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .experience__set{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .purse__set{
+        flex-direction: column-reverse;
+    }
+    .purse__set_mod{
+        flex-direction: column;
+    }
+    .about__img{
+        display: none;
+    }
+    .center-2{
+        margin: 0;
+    }
+}
+
+/*768-991*/
+@media screen and (max-width:1280px){
+	/* .container{
+		max-width: 720px;
+
+	} */
+    .center{
+        width: 700px;
+    }
+    .specialists__set{
+        width: 700px !important;
+
+    }
+    .specialists__kit{
+        text-align: center;
+    }
+    .education__text{
+        text-align: start;
+    }
+    .center-2{
+        width: 700px;
+    }
+    .services__wrapp_mod{
+        flex-direction: column;
+    }
+    .contacts__left{
+        padding: 60px;
+    }
+    .footer__set{
+        flex-wrap: wrap;
+       gap: 20px;
+    }
+    .psychology__set{
+        gap: 20px;
+    }
+    .importend{
+        padding-top: 20px;
+    }
+    .details{
+        padding-top: 35px;
+    }
+    .individual{
+        padding-top: 35px;
+    }
+    .contacts_mod{
+        padding-top: 35px;
+    }
+    .purse{
+        padding-top: 35px;
+    }
+
+}

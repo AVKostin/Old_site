@@ -1,7 +1,7 @@
 	    <div class="container">
             <div class="header__set">
                 <a href="/" class="logo__item">
-                    <img src="assets/img/Logo.svg" alt="" class="logo__item_img">
+                    <img src="assets/img/Logo.webp" width="221" height="72" alt="Наш логотип" class="logo__item_img">
                 </a>
                 <a href="index.php#contacts" class="info__set">
                     <span class="social-link__icon ">

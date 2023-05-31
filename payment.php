@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="uk-UA">
-    <head><?php include'includes/head.php' ?></head>
+<head><?php include "includes/head.php" ?>
+    <?php include "includes/css_links.php" ?></head>
 <body>
     <header class="header" id="header">
         <?php include "includes/header.php" ?>
-        <?php include "includes/css_links.php" ?>
     </header>
     <section class="purse" id="purse">
 	    <div class="container">
