@@ -5,9 +5,15 @@
                     <p class="importend__text">
                         Центр практичної психології Меланії Горошенко
                     </p>
-                    <h1 class="importend__title">
-                        Твоє психологічне здоров’я - <span class="importend__span">важливе</span>
+                    <div class="importend__img-block">
+                        <h1 class="importend__title">
+                        Твоє ментальне здоров’я - <span class="importend__span">важливе</span>
+                        <div class="importend__right-hidden">
+                        <!-- место для изображения-->
+                        </div>
                     </h1>
+                    </div>
+
                     <p class="importend__text_mod">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.
                     </p>
@@ -46,10 +52,10 @@
                     </div>
                 </div>
 
-                <div class="importend__right">
-
-
+                <div class="importend__right importend__right-visible">
+                     <!-- место  для изображения-->
                 </div>
+
             </div>
         </div>
     </section>

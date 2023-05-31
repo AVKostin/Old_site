@@ -20,9 +20,10 @@
                     <div class="form__set">
                         <button type="submit" class="form__btn">
                             записатися
-                            <img src="assets/img/Arrow - Right Circle.png" alt="" class="form__img">
+                            <!-- <img src="assets/img/Arrow - Right Circle.png" alt="" class="form__img"> -->
                         </button>
-                        <img src="assets/img/Arrow-down.png" alt="" class="form__img_down">
+                        <!-- <img src="assets/img/Arrow-down.png" alt="" class="form__img_down"> -->
+                        <img src="assets/img/Arrow-down.png" alt="" class="importend__arrow_down">
                     </div>
                     <div class="importend__wrapp">
                         <p class="importend__text_black">
