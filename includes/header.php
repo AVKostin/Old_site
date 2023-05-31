@@ -1,8 +1,15 @@
 	    <div class="container">
             <div class="header__set">
-                <a href="/" class="logo__item">
+                <!-- <a href="/" class="logo__item">
                     <img src="assets/img/Logo.webp" width="221" height="72" alt="Наш логотип" class="logo__item_img">
+                </a> -->
+
+                <a href="/" class="logo__item logo__item_img">
+                <svg class="footer__logo" width="221" height="72" viewBox="0 0 277 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <?php include "includes/logo_svg.php" ?></svg>
                 </a>
+
+
                 <a href="https://goo.gl/maps/Rq5m4xGibS1teh8u9" target="_blank"  class="info__set">
                     <span class="social-link__icon ">
                         <svg class="geo" xmlns="http://www.w3.org/2000/svg" width="35" height="41" viewBox="0 0 35 41" fill="none">

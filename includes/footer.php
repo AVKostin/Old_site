@@ -3,7 +3,8 @@
             <div class="footer__set">
                 <div class="f-logo">
                     <a href="#" class="f-logo__item">
-                        <img src="assets/img/Logo.webp" alt="" class="f-logo__item_img">
+                        <svg class="footer__logo" width="221" height="72" viewBox="0 0 277 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <?php include "includes/logo_svg.php" ?></svg>
                     </a>
                     <div class="f-logo__set">
                         <img src="assets/img/location.png" alt="" class="f-logo__img f-logo__img_mod">
