@@ -5,12 +5,12 @@
                     <div class="center-wrapp">
                         <img src="assets/img/slider-1.png" alt="" class="center-img">
                     </div>
-                    <div class="center-wrapp">
+                    <!-- <div class="center-wrapp">
                         <img src="assets/img/slider-1.png" alt="" class="center-img">
                     </div>
                     <div class="center-wrapp">
                         <img src="assets/img/slider-1.png" alt="" class="center-img">
-                    </div>
+                    </div> -->
                 </div>
                 <div class="team__right" id="about_us">
                     <h2 class="team__title">
