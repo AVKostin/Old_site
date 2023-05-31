@@ -8,7 +8,7 @@
     </header>
     <main>
 <?php include "includes/importend.php" ?>
-<!-- <?php include "includes/team.php" ?> -->
+<?php include "includes/team.php" ?>
 <?php include "includes/apply.php" ?>
 <!-- <?php include "includes/our_spec.php" ?> -->
 <?php include "includes/records.php" ?>
