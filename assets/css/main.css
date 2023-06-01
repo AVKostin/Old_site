@@ -53,20 +53,23 @@ ul,li{
     padding-left: 35px;
     padding-right: 35px;
   }
- @media screen and (min-width: 480px) {
-      .container {width: 480px;
+ @media screen and (min-width: 479px) {
+      .container
+      {width: 480px;
     padding-left: 15px;
     padding-right: 15px;
     }
 }
- @media screen and (min-width: 768px) {
-      .container {width: 768px;
+ @media screen and (min-width: 767px) {
+      .container {
+        width: 768px;
     padding-left: 25px;
     padding-right: 25px;
     }
 }
-  @media screen and (min-width: 1280px) {
-      .container {width: 1280px;
+  @media screen and (min-width: 1279px) {
+      .container {
+        width: 1280px;
     }
 }
 
