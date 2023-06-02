@@ -2285,3 +2285,126 @@ footer{
         display: none;
     }
 }
+
+
+.header__logo {
+    margin-right: 5px;
+}
+
+.svg-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+.header__logo-icon {
+    font-size: 276px;
+    height: 93px;
+    fill: #264158;
+}
+
+.header__actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header__actions-item {
+    margin-right: 26px;
+}
+@media (min-width:768px) {
+    .header__actions-item:last-child {
+        margin-right: 0px;
+    }
+
+}
+
+.social-link:hover .social-link__icon {
+    background: #536779;
+}
+
+.social-link__icon .geo {
+    padding: 10px;
+}
+
+.social-link__icon .geo>path {
+    fill: #fff !important;
+}
+
+.social-link:hover .geo>path {
+    fill: #fff !important;
+}
+
+.social-link__icon-svg {
+    font-size: 20px;
+    fill: #fff;
+}
+
+.social-link__text {
+    margin-left: 16px;
+    font-size: 22px;
+    color: #536779;
+    position: relative;
+}
+
+.social-link__text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -3px;
+    left: 0;
+    background-color: #536779;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    -o-transition: transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+}
+
+
+
+
+@media (min-width: 1025px) {
+    .nav__list-item-link:hover .nav__list-item-link-text:before {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .social-link:hover {
+        cursor: pointer;
+    }
+
+    .social-link:hover .social-link__icon rect,
+    .social-link:hover .social-link__icon svg.geo path,
+    .social-link:hover .social-link__icon svg.inst path:first-child {
+        fill: #536779;
+    }
+
+    .social-link:hover .social-link__text:after {
+        -webkit-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+        transform-origin: bottom left;
+        -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    .link:hover:after {
+        -webkit-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+        transform-origin: bottom left;
+        -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
