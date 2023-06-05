@@ -39,49 +39,57 @@
               </div>
                 <a href="" class="header__btn">Вам передзвонити?</a>
                 </div>
+              <nav class="nav">
+              <ul class="menu">
+                    <li class="nav__list-item menu__item">
+                      <a href="/" class="nav__list-item-link ">
+                        <span class="nav__list-item-link-text">Головна</span>
+                      </a>
+                  </li>
+                  <li class="nav__list-item menu__item">
+                      <a href="about.php" class="nav__list-item-link">
+                        <span class="nav__list-item-link-text">Про нас</span>
 
-                <ul class="menu">
-                    <li class="menu__item">
-                       <a href="/" class="menu__item_a">
-                            Головна
-                       </a>
+                      </a>
                     </li>
-                    <li class="menu__item">
-                        <a href="about.php" class="menu__item_a">
-                            Про нас
-                        </a>
-                     </li>
-                     <li class="menu__item">
-                        <a href="services.php" class="menu__item_a">
-                            Послуги
-                        </a>
-                     </li>
-                     <li class="menu__item">
-                        <a href="index.php#price" class="menu__item_a">
-                            Ціни
-                        </a>
-                     </li>
-                     <li class="menu__item">
-                        <a href="index.php#specialists" class="menu__item_a">
-                            Фахівці
-                        </a>
-                     </li>
-                     <li class="menu__item">
-                        <a href="index.php#about" class="menu__item_a">
-                            Відгуки
-                        </a>
-                     </li>
-                     <li class="menu__item">
-                        <a href="index.php#contacts" class="menu__item_a">
-                            Контакти
-                        </a>
-                     </li>
-                     <li class="menu__item">
-                        <a href="payment.php" class="menu__item_a">
-                            Оплата
-                        </a>
-                     </li>
-                    <!-- <a href="contacts.html" class="info__set_mob">
+                    <li class="nav__list-item menu__item">
+                      <a href="services.php" class="nav__list-item-link">
+                        <span class="nav__list-item-link-text">Послуги</span>
+
+                      </a>
+                    </li>
+                    <li class="nav__list-item menu__item">
+                      <a href="index.php#price" class="nav__list-item-link">
+                        <span class="nav__list-item-link-text">Ціни</span>
+
+                      </a>
+                    </li>
+                    <li class="nav__list-item menu__item">
+                      <a href="index.php#specialists" class="nav__list-item-link">
+                        <span class="nav__list-item-link-text">Фахівці</span>
+
+                      </a>
+                    </li>
+                    <li class="nav__list-item menu__item">
+                      <a href="index.php#about" class="nav__list-item-link">
+                        <span class="nav__list-item-link-text">Відгуки</span>
+
+                      </a>
+                    </li>
+                    <li class="nav__list-item menu__item">
+                      <a href="index.php#contacts" class="nav__list-item-link">
+                        <span class="nav__list-item-link-text">Контакти</span>
+
+                      </a>
+                    </li>
+                    <li class="nav__list-item menu__item">
+                      <a href="payment.php" class="nav__list-item-link">
+                      <span class="nav__list-item-link-text">Оплата</span>
+
+                      </a>
+                    </li>
+
+                    <a href="contacts.html" class="info__set_mob">
                         <img src="assets/img/location.png" alt="" class="info__location info__location_mod">
                         <p class="info__text_mob">м. Львів, просп. Червоної Калини 1</p>
                     </a>
@@ -89,8 +97,11 @@
                         <img src="assets/img/phone.png" alt="" class="info__location">
                         <p class="info__text_mob">+38 (097) 407-01-10</p>
                     </a>
-                     <a href="" class="header__btn_mob">Вам передзвонити?</a> -->
+                     <a href="" class="header__btn_mob">Вам передзвонити?</a>
+
+
                 </ul>
+              </nav>
 
                 <div class="header-menu">
                     <img src="assets/img/menu.png" alt="" class="menu-black">
