@@ -49,13 +49,13 @@
         <div class="footer__col footer__col--flex footer__col--nav">
             <ul class="footer__nav">
                 <li class="footer__nav-item">
-                <a href="for_psyhologist.html" class="social-link__text link">Фахiвцям</a>
+                <a href="index.php#specialists" class="social-link__text link">Фахiвцям</a>
                 </li>
                 <li class="footer__nav-item">
-                <a href="/#reviev" class="social-link__text link">Відгуки</a>
+                <a href="index.php#about" class="social-link__text link">Відгуки</a>
                 </li>
                 <li class="footer__nav-item">
-                <a href="contact.html" class="social-link__text link">Контакти</a>
+                <a href="index.php#contacts" class="social-link__text link">Контакти</a>
                 </li>
             </ul>
             <ul class="footer__nav">
@@ -69,7 +69,7 @@
                 <a href="services.html" class="social-link__text link">Послуги</a>
                 </li>
                 <li class="footer__nav-item">
-                <a href="/#price" class="social-link__text link">Ціни</a>
+                <a href="index.php#price" class="social-link__text link">Ціни</a>
                 </li>
                 <li class="footer__nav-item footer__nav-item--bold">
                 <a href="payment.html">
@@ -81,13 +81,13 @@
 
             <menu class="footer__menu">
                 <li class="footer__menu_item">
-                    <a href="" class="footer__menu_item-b link link--bold">Сімейний психотерапевт</a>
+                    <a href="services.php" class="footer__menu_item-b link link--bold">Сімейний психотерапевт</a>
                 </li>
                 <li class="footer__menu_item">
-                    <a href="" class="footer__menu_item-a footer__menu_item-b link link--bold">Дитячий психотерапевт</a>
+                    <a href="services.php" class="footer__menu_item-a footer__menu_item-b link link--bold">Дитячий психотерапевт</a>
                 </li>
                 <li class="footer__menu_item">
-                    <a href="" class="footer__menu_item-a footer__menu_item-b link link--bold">Індивідуальні заняття</a>
+                    <a href="services.php" class="footer__menu_item-a footer__menu_item-b link link--bold">Індивідуальні заняття</a>
                 </li>
             </menu>
 
@@ -110,4 +110,5 @@
         </a> -->
 
     </div>
+
 </footer>
