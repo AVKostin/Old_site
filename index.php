@@ -14,7 +14,7 @@
         <?php include "includes/records.php" ?>
         <?php include "includes/price.php" ?>
         <?php include "includes/services.php" ?>
-        <!-- <?php include "includes/about.php" ?> -->
+        <?php include "includes/about.php" ?>
         <?php include "includes/question.php" ?>
         <?php include "includes/contacts.php" ?>
     </main>
