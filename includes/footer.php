@@ -1,76 +1,113 @@
 <footer class="footer" id="footer">
-        <div class="container">
-            <div class="footer__set">
-                <div class="f-logo">
-                    <a href="#" class="f-logo__item">
-                        <svg class="footer__logo" width="221" height="72" viewBox="0 0 277 93" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <?php include "includes/logo_svg.php" ?></svg>
-                    </a>
-                    <div class="f-logo__set">
-                        <img src="assets/img/location.png" alt="" class="f-logo__img f-logo__img_mod">
-                        <p class="f-logo__text">Львів, вул. Зелена 44</p>
-                    </div>
-                    <a href="tel:0974070110" class="f-logo__set">
-                        <img src="assets/img/phone.png" alt="" class="f-logo__img">
-                        <p class="f-logo__text">+38 (097) 407-01-10</p>
-                    </a>
-                </div>
-                <menu class="footer__menu">
-                    <li class="footer__menu_item">
-                        <a href="experts.html" class="footer__menu_item-a">Психологам</a>
-                    </li>
-                    <li class="footer__menu_item">
-                        <a href="index.html#about" class="footer__menu_item-a">Відгуки</a>
-                    </li>
-                    <li class="footer__menu_item">
-                        <a href="contacts.html" class="footer__menu_item-a">Контакти</a>
-                    </li>
-                </menu>
-                <menu class="footer__menu">
-                    <li class="footer__menu_item">
-                        <a href="index.html" class="footer__menu_item-a">Головна</a>
-                    </li>
-                    <li class="footer__menu_item">
-                        <a href="about.html" class="footer__menu_item-a">Про нас</a>
-                    </li>
-                    <li class="footer__menu_item">
-                        <a href="services.html" class="footer__menu_item-a">Послуги</a>
-                    </li>
-                    <li class="footer__menu_item">
-                        <a href="index.html#price" class="footer__menu_item-a">Ціни</a>
-                    </li>
-                </menu>
-                <menu class="footer__menu">
-                    <li class="footer__menu_item">
-                        <a href="" class="footer__menu_item-a footer__menu_item-b">Сімейний психотерапевт</a>
-                    </li>
-                    <li class="footer__menu_item">
-                        <a href="" class="footer__menu_item-a footer__menu_item-b">Дитячий психотерапевт</a>
-                    </li>
-                    <li class="footer__menu_item">
-                        <a href="" class="footer__menu_item-a footer__menu_item-b">Індивідуальні заняття</a>
-                    </li>
+    <div class="container">
 
-                </menu>
-
- <a href="#" id="toTop" class="">
-        <span class="arrow_top">
-              <img src="assets/img/arrow-up.png"
-              width="80">
-          </span>
-          </a>
-
-
-          <!-- <a href="#" id="toTop" class=""> <span class="arrow_top"><svg viewBox="0 0 384 512"> <path fill="currentColor" d="M54.63 246.6L192 109.3l137.4 137.4C335.6 252.9 343.8 256 352 256s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25l-160-160c-12.5-12.5-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25S42.13 259.1 54.63 246.6zM214.6 233.4c-12.5-12.5-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0L192 301.3l137.4 137.4C335.6 444.9 343.8 448 352 448s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25L214.6 233.4z"></path></svg></span>
-          </a> -->
-
+    <div class="footer__content ">
+    <div class="footer__col footer__col--contacts">
+            <div class="f-logo">
+                <a href="#" class="f-logo__item">
+                    <svg class="footer__logo" width="221" height="72" viewBox="0 0 277 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <?php include "includes/logo_svg.php" ?></svg>
+                </a>
             </div>
-            <a href="price.html" class="wallet__set">
-                <p class="wallet__text">
-                    Оплата
-                </p>
-                <img src="assets/img/wallet.png" alt="" class="wallet__img">
+                <ul class="footer__contacts-list">
+            <li class="footer__contacts-list-item">
+            <a href="tel:+380960724324" class="social-link gtm_contact">
+                <span class="social-link__icon">
+                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="0.231445" width="40" height="40" rx="5" fill="#D3DDE6"></rect>
+                    <path d="M23.7333 21.4213C22.6667 22.4727 22.6667 23.524 21.6 23.524C20.5333 23.524 19.4667 22.4727 18.4 21.4213C17.3333 20.3699 16.2667 19.3186 16.2667 18.2672C16.2667 17.2158 17.3333 17.2158 18.4 16.1645C19.4667 15.1131 16.2667 11.959 15.2 11.959C14.1333 11.959 12 15.1131 12 15.1131C12 17.2158 14.192 21.4791 16.2667 23.524C18.3413 25.5689 22.6667 27.7295 24.8 27.7295C24.8 27.7295 28 25.6268 28 24.5754C28 23.524 24.8 20.3699 23.7333 21.4213Z" fill="white"></path>
+                </svg>
+                </span>
+                <span class="social-link__text">+38 (096) 072-43-24</span>
             </a>
+            </li>
+            <!-- <li class="footer__contacts-list-item">
+            <a href="mailto:hello@goroshenko.com.ua" class="social-link gtm_contact">
+                <span class="social-link__icon">
+                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="0.231445" width="40" height="40" rx="5" fill="#D3DDE6"></rect>
+                    <path d="M27.7778 13.2393H12.2222C10.9949 13.2393 10 14.2479 10 15.4922V26.7568C10 28.0011 10.9949 29.0098 12.2222 29.0098H27.7778C29.0051 29.0098 30 28.0011 30 26.7568V15.4922C30 14.2479 29.0051 13.2393 27.7778 13.2393Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10 16.1973L20 22.1113L30 16.1973" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                </span>
+                <span class="social-link__text">hello@goroshenko.com.ua</span>
+            </a>
+            </li> -->
+            <li class="footer__contacts-list-item">
+            <a href="https://goo.gl/maps/Rq5m4xGibS1teh8u9" class="social-link">
+                <span class="social-link__icon">
+                <svg class="geo" width="37" height="48" viewBox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M36.8132 18.7475C36.8132 8.81348 28.8132 0.813477 18.8791 0.813477C8.94507 0.813477 0.945068 8.81348 0.945068 18.7475C0.945068 28.6816 18.8791 47.2311 18.8791 47.2311C18.8791 47.2311 36.8132 28.6816 36.8132 18.7475ZM10.5275 18.3959C10.5275 13.8245 14.3077 10.0442 18.8791 10.0442C23.4506 10.0442 27.2308 13.7366 27.2308 18.3959C27.2308 22.9673 23.5385 26.7475 18.8791 26.7475C14.3077 26.7475 10.5275 22.9673 10.5275 18.3959Z" fill="#D3DDE6"></path>
+                </svg>
+                </span>
+                <span class="social-link__text">Львів, вул. К. Левицького 110</span>
+            </a>
+            </li>
+        </ul>
+    </div>
 
+        <div class="footer__col footer__col--flex footer__col--nav">
+            <ul class="footer__nav">
+                <li class="footer__nav-item">
+                <a href="for_psyhologist.html" class="social-link__text link">Фахiвцям</a>
+                </li>
+                <li class="footer__nav-item">
+                <a href="/#reviev" class="social-link__text link">Відгуки</a>
+                </li>
+                <li class="footer__nav-item">
+                <a href="contact.html" class="social-link__text link">Контакти</a>
+                </li>
+            </ul>
+            <ul class="footer__nav">
+                <li class="footer__nav-item">
+                <a href="/" class="social-link__text link">Головна</a>
+                </li>
+                <li class="footer__nav-item">
+                <a href="about_us.html" class="social-link__text link">Про нас</a>
+                </li>
+                <li class="footer__nav-item">
+                <a href="services.html" class="social-link__text link">Послуги</a>
+                </li>
+                <li class="footer__nav-item">
+                <a href="/#price" class="social-link__text link">Ціни</a>
+                </li>
+                <li class="footer__nav-item footer__nav-item--bold">
+                <a href="payment.html">
+                    <span class=" social-link__text link">Оплата</span>
+                </a>
+                </li>
+            </ul>
         </div>
-    </footer>
+
+            <menu class="footer__menu">
+                <li class="footer__menu_item">
+                    <a href="" class="footer__menu_item-b link link--bold">Сімейний психотерапевт</a>
+                </li>
+                <li class="footer__menu_item">
+                    <a href="" class="footer__menu_item-a footer__menu_item-b link link--bold">Дитячий психотерапевт</a>
+                </li>
+                <li class="footer__menu_item">
+                    <a href="" class="footer__menu_item-a footer__menu_item-b link link--bold">Індивідуальні заняття</a>
+                </li>
+            </menu>
+
+                <a href="#" id="toTop" class="">
+                        <span class="arrow_top">
+                            <img src="assets/img/arrow-up.png"
+                            width="80">
+                        </span>
+                        </a>
+                        <!-- <a href="#" id="toTop" class=""> <span class="arrow_top"><svg viewBox="0 0 384 512"> <path fill="currentColor" d="M54.63 246.6L192 109.3l137.4 137.4C335.6 252.9 343.8 256 352 256s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25l-160-160c-12.5-12.5-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25S42.13 259.1 54.63 246.6zM214.6 233.4c-12.5-12.5-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0L192 301.3l137.4 137.4C335.6 444.9 343.8 448 352 448s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25L214.6 233.4z"></path></svg></span>
+                        </a> -->
+    </div>
+
+<!--
+        <a href="price.html" class="wallet__set">
+            <p class="wallet__text">
+                Оплата
+            </p>
+            <img src="assets/img/wallet.png" alt="" class="wallet__img">
+        </a> -->
+
+    </div>
+</footer>
