@@ -134,7 +134,9 @@ ul,li{
     visibility: visible;
     /* right: calc(8%); */
 right: 47px;
-    bottom: calc(11%);
+    /* bottom: calc(11%); */
+
+    bottom: 152px;
     animation: pulse 1s ease-in-out infinite
   }
 
@@ -2245,6 +2247,7 @@ a.social-link {
     }
     #toTop.show {
         right: 12px;
+        bottom: 131px;
       }
 }
 
