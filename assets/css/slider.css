@@ -1,0 +1,115 @@
+
+/* ОТЗЫВЫ */
+
+.section__top {
+  margin-bottom: 50px;
+}
+
+.sliderRev {
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.sec-rev__item {
+  width: 377px;
+  height: 305px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+.sec-rev__item.active {
+  transform: scale(1.3);
+}
+
+.sliderRev .swiper-slide,
+.sliderRev .swiper-slide-duplicate {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  z-index: 5;
+}
+
+.sliderRev .swiper-slide-active,
+.sliderRev .swiper-slide-duplicate-active {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.sliderRev .sec-rev-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 30px;
+  margin-top: 50px;
+}
+
+.sliderRev .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 151, 129, 0.2)), to(rgba(242, 218, 213, 0))), rgba(247, 151, 129, 0.7);
+  background: -o-linear-gradient(top, rgba(247, 151, 129, 0.2) 0%, rgba(242, 218, 213, 0) 100%), rgba(247, 151, 129, 0.7);
+  background: linear-gradient(180deg, rgba(247, 151, 129, 0.2) 0%, rgba(242, 218, 213, 0) 100%), rgba(247, 151, 129, 0.7);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  position: relative;
+  z-index: 7;
+}
+
+.sliderRev .swiper-pagination-bullet-active {
+  width: 30px;
+  height: 30px;
+  background: -o-radial-gradient(50% 50%, 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(242, 218, 213, 0) 100%), #F79781;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(242, 218, 213, 0) 100%), #F79781;
+}
+
+.sec-rev__item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  /*-o-object-fit: cover;
+  object-fit: cover;*/
+}
+
+
+
+@media (min-width:768px) {
+  .sliderPrice .swiper-pagination-bullet,
+  .sliderRev .swiper-pagination-bullet,
+  .sliderSpec .swiper-pagination-bullet {
+      width: 18px;
+      height: 18px;
+  }
+
+  .sliderPrice .swiper-pagination-bullet-active,
+  .sliderRev .swiper-pagination-bullet-active,
+  .sliderSpec .swiper-pagination-bullet-active {
+      width: 25px;
+      height: 25px;
+  }
+  .sliderRev .sec-rev-pagination {
+      margin-top: 30px;
+  }
+
+}
+
+@media screen and (max-width:1280px) {
+.sliderRev .swiper-slide-active {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+}
