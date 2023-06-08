@@ -1,14 +1,16 @@
     <script src="assets/js/jquery-3.6.4.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script async src="assets/js/slick.min.js"></script>
     <script async src="assets/js/jquery.validate.min.js"></script>
     <script async src="assets/js/main.js"></script>
     <script async src="assets/js/to-top.js"></script>
     <script async src="assets/js/nav.js"></script>
+    <script async src="assets/js/slider.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-
-    <script >
+    <script src="https://widget.easyweek.io/widget.js"></script>
+    <script>var ewWidget = new EasyWeekWidget({url: 'https://widget.easyweek.io/goroshenko', button: { text: 'Онлайн-запис', showText: true, color: '#ffffff', background: '#f79781', textColor: '#383868', textBackground: '#ffffff' }})
+    </script>
+<script >
     function updatePage() {
 
       let curWidth = $(window).width();
@@ -36,7 +38,7 @@
       });
     }
     if ($('#home').length === 1) {
-      if ($(window).width() < 991) {
+      if ($(window).width() < 1280) {
         sliderSpec();
       }
     }
@@ -99,36 +101,36 @@
       sliderSpec();
     }
 
-    function sliderRev() {
-      var swiper3 = new Swiper(".sliderRev", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        centeredSlides: true,
-        preloadImages: false,
-        pagination: {
-          el: '.sec-rev-pagination',
-          clickable: true,
-        },
-        breakpoints: {
-          /* when window width is >= 320px */
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 20
-          },
-          /* when window width is >= 480px */
-          700: {
-            slidesPerView: 2,
-            spaceBetween: 20
-          },
-          /* when window width is >= 640px */
-          1279: {
-            slidesPerView: 3,
-            spaceBetween: 100
-          }
-        }
-      });
-    }
+    // function sliderRev() {
+    //   var swiper3 = new Swiper(".sliderRev", {
+    //     slidesPerView: 3,
+    //     spaceBetween: 30,
+    //     loop: true,
+    //     centeredSlides: true,
+    //     preloadImages: false,
+    //     pagination: {
+    //       el: '.sec-rev-pagination',
+    //       clickable: true,
+    //     },
+    //     breakpoints: {
+    //       /* when window width is >= 320px */
+    //       320: {
+    //         slidesPerView: 1,
+    //         spaceBetween: 20
+    //       },
+    //       /* when window width is >= 480px */
+    //       700: {
+    //         slidesPerView: 2,
+    //         spaceBetween: 20
+    //       },
+    //       /* when window width is >= 640px */
+    //       1279: {
+    //         slidesPerView: 3,
+    //         spaceBetween: 100
+    //       }
+    //     }
+    //   });
+    // }
     if ($('#home').length === 1) {
       sliderRev();
     }
