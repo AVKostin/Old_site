@@ -5,7 +5,7 @@
                 </a> -->
 
                 <a href="/" class="logo__item logo__item_img">
-                <svg class="footer__logo svg-icon" width="221" height="72" viewBox="0 0 277 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="header__logo svg-icon" width="221" height="72" viewBox="0 0 277 93" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <?php include "includes/logo_svg.php" ?></svg>
                 </a>
 
