@@ -98,6 +98,13 @@ ul,li{
     margin: 0;
 }
 
+
+
+main {
+    overflow: hidden;
+    margin-top: 153px;
+}
+
 .container {
     margin: 0 auto;
     padding-left: 35px;
@@ -296,7 +303,8 @@ color: #536779;
 .menu{
     display: flex;
     gap: 75px;
-    margin-top: 35px;
+    /* margin-top: 35px; */
+    margin-top:18px;
 }
 .header-menu{
     display: none;
@@ -391,7 +399,7 @@ color: #536779;
 
 
 .importend{
-    padding-top: 100px ;
+    padding-top: 153px ;
 }
 
 .importend__title{
@@ -640,6 +648,7 @@ background: #3492f0;
     margin-bottom: 80px;
 }
 .psychology__set{
+    /* width: 442px; */
     display: flex;
     justify-content: space-between;
 }
@@ -753,15 +762,15 @@ background: #3492f0;
     color: #fff;
     background: #F79781;
 }
-.specialists__set::-webkit-scrollbar {
-    width: 8px; /* ширина полосы прокрутки */
+/* .specialists__set::-webkit-scrollbar {
+    width: 8px;
     height: 8px;
-}
+} */
 
-.specialists__set::-webkit-scrollbar-thumb {
-    background-color: #F79781; /* кастомный цвет */
-    border-radius: 10px; /* скругление углов */
-}
+/* .specialists__set::-webkit-scrollbar-thumb {
+    background-color: #F79781;
+    border-radius: 10px;
+} */
 
 .record_set{
     display: flex;
@@ -1766,6 +1775,11 @@ a.social-link {
 }
 
 
+.arrow_size {
+    width: 80px;
+    height: 80px;
+}
+
 
 @media screen and (min-width:1279px){
 .importend__right-hidden {
@@ -1775,6 +1789,9 @@ a.social-link {
     margin-top: -417px;
 
 }
+/* .psychology__set{
+    width: 442px;
+} */
 }
 
 /* 480px 480px 480px 480px 480px 480px 480px 480px 480px 480px */
@@ -1800,9 +1817,9 @@ a.social-link {
     .center-2{
         width: 100% !important;
     }
-    .specialists__set{
+    /* .specialists__set{
         width: 100% !important;
-    }
+    } */
     .details__video{
         width: 400px;
     }
@@ -2246,9 +2263,16 @@ a.social-link {
         width:100%;
     }
     #toTop.show {
-        right: 12px;
-        bottom: 131px;
-      }
+        /* right: 12px;
+        bottom: 131px; */
+        right: -2px;
+        bottom: 89px;
+    }
+
+    .arrow_size {
+        width: 55px;
+        height: 55px;
+    }
 }
 
 /* 768px 768px 768px 768px 768px 768px 768px 768px 768px */
@@ -2279,9 +2303,9 @@ a.social-link {
         width: 400px;
         height: 400px;
     }
-    .specialists__set{
+    /* .specialists__set{
         width: 500px !important;
-    }
+    } */
     .specialists__kit{
         width: auto;
     }
@@ -2403,7 +2427,7 @@ a.social-link {
         margin-bottom: 25px;
     }
     .importend__right-hidden {
-        width: 582px;
+        /* max-width: 582px; */
         margin: 0 auto;
         margin-top: 36px;
     }
@@ -2430,6 +2454,7 @@ a.social-link {
     }
     .header__set{
         justify-content: space-between;
+        height: 60px;
     }
     .header-menu{
         width: 30px;
@@ -2580,16 +2605,16 @@ a.social-link {
         margin: 0 auto ;
     }
     .psychology__set{
-        width: 442px;
+        width: auto;
     margin: 0 auto;
     }
     .specialists{
         padding: 100px 0;
     }
-    .specialists__set{
+    /* .specialists__set{
         width: 900px !important;
         margin: 0 auto !important;
-    }
+    } */
     .specialists__kit{
         margin: 0 auto;
     }
@@ -2696,9 +2721,9 @@ a.social-link {
     .center{
         width: 700px;
     }
-    .specialists__set{
+    /* .specialists__set{
         width: 700px !important;
-    }
+    } */
     .specialists__kit{
         text-align: center;
     }
