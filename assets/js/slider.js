@@ -20,15 +20,15 @@ const swiper = new Swiper('.swiper-container, .specialists__wrapp', {
   breakpoints: {
     480: {
       slidesPerView: 1,
-      spaceBetween: 2
+      spaceBetween: 15
     },
     768: {
       slidesPerView: 2,
-      spaceBetween: 40
+      spaceBetween: 25
     },
     1279: {
       slidesPerView: 3,
-      spaceBetween: 50
+      spaceBetween: 30
     }
   },
   on: {
