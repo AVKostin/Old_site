@@ -65,7 +65,7 @@
         const screenWidth = window.innerWidth;
 
         // Если ширина экрана меньше или равна 767px (мобильная версия)
-        if (screenWidth <= 1280) {
+        if (screenWidth <= 767) {
             // Удаляем созданные колонки
             const columns = document.querySelectorAll('.psychology__column');
             columns.forEach(column => column.remove());
@@ -106,7 +106,7 @@
             // Добавляем фоновое изображение только в мобильной версии
          // Добавляем фоновое изображение
          psychologySet.style.backgroundImage = "url('assets/img/line_43.png')";
-            psychologySet.style.backgroundSize = 'cover';
+            // psychologySet.style.backgroundSize = 'cover';
             psychologySet.style.backgroundRepeat = 'no-repeat';
             psychologySet.style.backgroundPosition = 'center';
         } else {
