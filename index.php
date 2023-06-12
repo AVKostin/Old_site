@@ -7,7 +7,7 @@
         <?php include "includes/header.php" ?>
     </header>
     <div class="wrapp">
-    <main class="content>
+    <main class="content">
         <?php include "includes/importend.php" ?>
         <?php include "includes/team.php" ?>
         <?php include "includes/apply.php" ?>
