@@ -105,8 +105,8 @@
 
                 <a href="#" id="toTop" class="">
                         <span class="arrow_top">
-                            <img src="assets/img/arrow-up.png"
-                            width="80">
+                            <img src="assets/img/arrow-up.png" class="arrow_size"
+                            width="55" height="55">
                         </span>
                         </a>
             </div>
