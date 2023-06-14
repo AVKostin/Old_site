@@ -34,6 +34,12 @@ footer {
   fill: #264158;
 }
 
+.footer__logo:hover {
+  background-color: #c1c1bf26;
+  border-radius: 50%;
+  }
+
+
 .footer__contacts-list {
   margin-bottom: 30px;
 }

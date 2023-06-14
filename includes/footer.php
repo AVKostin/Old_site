@@ -21,19 +21,7 @@
                 <span class="social-link__text">+38 (096) 072-43-24</span>
             </a>
             </li>
-            <!-- <li class="footer__contacts-list-item">
-            <a href="mailto:hello@goroshenko.com.ua" class="social-link gtm_contact">
-                <span class="social-link__icon">
-                <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect y="0.231445" width="40" height="40" rx="5" fill="#D3DDE6"></rect>
-                    <path d="M27.7778 13.2393H12.2222C10.9949 13.2393 10 14.2479 10 15.4922V26.7568C10 28.0011 10.9949 29.0098 12.2222 29.0098H27.7778C29.0051 29.0098 30 28.0011 30 26.7568V15.4922C30 14.2479 29.0051 13.2393 27.7778 13.2393Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M10 16.1973L20 22.1113L30 16.1973" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-                </span>
-                <span class="social-link__text">hello@goroshenko.com.ua</span>
-            </a>
-            </li> -->
-            <li class="footer__contacts-list-item">
+                   <li class="footer__contacts-list-item">
             <a href="https://goo.gl/maps/Rq5m4xGibS1teh8u9" class="social-link">
                 <span class="social-link__icon">
                 <svg class="geo" width="37" height="48" viewBox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,17 +66,6 @@
                 </li>
             </ul>
         </div>
-            <!-- <menu class="footer__menu">
-                <li class="footer__menu_item">
-                    <a href="services.php" class="footer__menu_item-b link link--bold">Сімейний психотерапевт</a>
-                </li>
-                <li class="footer__menu_item">
-                    <a href="services.php" class="footer__menu_item-a footer__menu_item-b link link--bold">Дитячий психотерапевт</a>
-                </li>
-                <li class="footer__menu_item">
-                    <a href="services.php" class="footer__menu_item-a footer__menu_item-b link link--bold">Індивідуальні заняття</a>
-                </li>
-            </menu> -->
             <div class="footer__col footer__col--type">
             <menu class="footer__menu">
                 <li class="footer__menu_item">
@@ -103,12 +80,17 @@
             </menu>
             </div>
 
-                <a href="#" id="toTop" class="">
-                        <span class="arrow_top">
-                            <img src="assets/img/arrow-up.png" class="arrow_size"
-                            width="55" height="55">
-                        </span>
-                        </a>
+            <a href="#" id="toTop" class=""> <span class="arrow_top">
+                <div class="change-photos">
+                <div class="change-photo">
+                    <img src="assets/img/arrow-up.png" width="80" height="80" alt="">
+                </div>
+                <div class="change-photo">
+                    <img src="assets/img/scroll-top.svg" width="80" height="80" alt="">
+                </div>
             </div>
+            </span>
+            </a>
+        </div>
     </div>
 </footer>
