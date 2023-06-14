@@ -43,7 +43,7 @@
               <ul class="menu">
                     <li class="nav__list-item menu__item">
                       <a href="/" class="nav__list-item-link ">
-                        <span class="nav__list-item-link-text">Головна</span>
+                        <span class="nav__list-item-link-text ">Головна</span>
                       </a>
                   </li>
                   <li class="nav__list-item menu__item">
@@ -61,25 +61,21 @@
                     <li class="nav__list-item menu__item">
                       <a href="index.php#price" class="nav__list-item-link">
                         <span class="nav__list-item-link-text">Ціни</span>
-
                       </a>
                     </li>
                     <li class="nav__list-item menu__item">
                       <a href="index.php#specialists" class="nav__list-item-link">
                         <span class="nav__list-item-link-text">Фахівці</span>
-
                       </a>
                     </li>
                     <li class="nav__list-item menu__item">
                       <a href="index.php#about" class="nav__list-item-link">
                         <span class="nav__list-item-link-text">Відгуки</span>
-
                       </a>
                     </li>
                     <li class="nav__list-item menu__item">
                       <a href="index.php#contacts" class="nav__list-item-link">
                         <span class="nav__list-item-link-text">Контакти</span>
-
                       </a>
                     </li>
                     <li class="nav__list-item menu__item">
@@ -88,7 +84,6 @@
 
                       </a>
                     </li>
-
                     <a href="contacts.html" class="info__set_mob">
                         <img src="assets/img/location.png" alt="" class="info__location info__location_mod">
                         <p class="info__text_mob">м. Львів, просп. Червоної Калини 1</p>
@@ -98,8 +93,6 @@
                         <p class="info__text_mob">+38 (097) 407-01-10</p>
                     </a>
                      <a href="" class="header__btn_mob">Вам передзвонити?</a>
-
-
                 </ul>
               </nav>
 
