@@ -1187,9 +1187,9 @@ p {
     border-top-right-radius: 100px;
 }
 
-.sliderPrice, .sliderSpec {
+/* .sliderPrice, .sliderSpec {
     overflow: hidden;
-}
+} */
 
 .price-pagination,
 .spec-pagination {
@@ -1205,7 +1205,7 @@ p {
     height: 30px;
     margin-top: 70px;
 }
-
+/*
 .sliderPrice .swiper-pagination-bullet,
 .sliderSpec .swiper-pagination-bullet {
     width: 20px;
@@ -1225,7 +1225,7 @@ p {
     height: 30px;
     background: -o-radial-gradient(50% 50%, 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(242, 218, 213, 0) 100%), #F79781;
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(242, 218, 213, 0) 100%), #F79781;
-}
+} */
 
 .sec-price__item {
     position: relative;
@@ -1549,12 +1549,12 @@ footer {
     width: 32%;
 }
 
-.footer__logo {
+/* .footer__logo {
     font-size: 276px;
     height: 93px;
     margin-bottom: 20px;
     fill: #264158;
-}
+} */
 
 .footer__contacts-list {
     margin-bottom: 30px;
@@ -1984,10 +1984,10 @@ footer {
 }
 
 
-.sliderRev {
+/* .sliderRev {
     overflow: hidden;
     padding: 40px 0;
-}
+} */
 
 .sec-rev__item {
     width: 377px;
@@ -1995,7 +1995,7 @@ footer {
     overflow: hidden;
     cursor: pointer;
 }
-
+/*
 .sliderRev .swiper-slide,
 .sliderRev .swiper-slide-duplicate {
     -webkit-transform: scale(1);
@@ -2054,9 +2054,8 @@ footer {
     width: 100%;
     height: auto;
     user-select: none;
-    /*-o-object-fit: cover;
-    object-fit: cover;*/
-}
+
+} */
 
 .popup-rev {
     display: none;
@@ -3564,12 +3563,12 @@ span.pay__num {
     .specialist__item-button {
         line-height: 30px;
     }
-
+/*
     .sliderRev .swiper-slide-active {
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
-    }
+    } */
 }
 
 @media (max-width: 991px) {
@@ -4682,7 +4681,7 @@ span.pay__num {
         display: none;
     }
 
-    .sliderPrice .swiper-pagination-bullet,
+    /* .sliderPrice .swiper-pagination-bullet,
     .sliderRev .swiper-pagination-bullet,
     .sliderSpec .swiper-pagination-bullet {
         width: 18px;
@@ -4694,16 +4693,16 @@ span.pay__num {
     .sliderSpec .swiper-pagination-bullet-active {
         width: 25px;
         height: 25px;
-    }
+    } */
 
     .price-pagination,
     .spec-pagination {
         margin-top: 40px;
     }
 
-    .sliderRev .sec-rev-pagination {
+    /* .sliderRev .sec-rev-pagination {
         margin-top: 30px;
-    }
+    } */
 }
 
 @media (max-width: 576px) {

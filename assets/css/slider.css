@@ -27,7 +27,7 @@
 }
 
 .sec-rev__item.active:hover, .sec-about__item:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .sliderRev .swiper-slide,
@@ -43,9 +43,9 @@
 
 .sliderRev .swiper-slide-active,
 .sliderRev .swiper-slide-duplicate-active {
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .sliderRev .sec-rev-pagination {
