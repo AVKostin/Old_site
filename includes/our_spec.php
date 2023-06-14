@@ -194,7 +194,7 @@
     </div>
   </div>
 </section>
-         
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <style>
   .specialists__set {
@@ -213,7 +213,7 @@
 
   /* Змінюємо стилі для активного спеціаліста */
   .specialists__wrapp.active {
-    transform: scale(1.1);
+    /* transform: scale(1); */
     border: 2px solid #000;
     /* Додаткові стилі для активного спеціаліста */
   }
@@ -232,34 +232,3 @@
   opacity: 1;
 }
 </style>
-
-<!-- <script>
-  const specialists = document.querySelectorAll('.specialists__wrapp');
-
-  // Ініціалізація слайдера
-  const specialistsSlider = new Swiper('.specialists__set', {
-    slidesPerView: 'auto',
-    spaceBetween: 10,
-    scrollbar: {
-    el: '.sec-rev-pagination',
-    draggable: false,
-  },
-    breakpoints: {
-      1280: {
-        slidesPerView: 3,
-      },
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true, // Дозволяє клікати на пагінаційні точки
-    },
-    on: {
-      slideChange: function () {
-        const activeIndex = this.realIndex;
-        specialists.forEach((item, index) => {
-          item.classList.toggle('active', index === activeIndex);
-        });
-      },
-    },
-  });
-</script> -->

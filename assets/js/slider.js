@@ -4,8 +4,11 @@
 // Инициализация слайдера с помощью Swiper.js
 const swiper = new Swiper('.swiper-container, .specialists__wrapp', {
   slidesPerView: 'auto', // Автоматическое количество слайдов в зависимости от ширины контейнера
-  centeredSlides: true, // Слайды центрируются в контейнере
-  spaceBetween: 10, // Расстояние между слайдами
+  // centeredSlides: true, // Слайды центрируются в контейнере
+  // centeredSlidesBounds: true,
+  spaceBetween: 0, // Расстояние между слайдами
+  autoHeight: true,
+  loop: true,
   pagination: {
     el: '.sec-rev-pagination',
     clickable: true,
@@ -20,15 +23,15 @@ const swiper = new Swiper('.swiper-container, .specialists__wrapp', {
   breakpoints: {
     480: {
       slidesPerView: 1,
-      spaceBetween: 15
+      spaceBetween: 20
     },
     768: {
       slidesPerView: 2,
-      spaceBetween: 25
+      spaceBetween: 35
     },
     1279: {
       slidesPerView: 3,
-      spaceBetween: 30
+      spaceBetween: 15
     }
   },
   on: {
@@ -40,3 +43,5 @@ const swiper = new Swiper('.swiper-container, .specialists__wrapp', {
     },
   },
 });
+
+
