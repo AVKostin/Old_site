@@ -1364,6 +1364,8 @@ border-radius: 50%;
     width: 600px;
     text-transform: uppercase;
     line-height: 70px;
+    font-size: 30px;
+    font-weight: 700;
 
 }
 .reasons__span{
@@ -1380,7 +1382,17 @@ border-radius: 50%;
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
+
 .reasons__wrapp{
     display: flex;
     flex-direction: column;
