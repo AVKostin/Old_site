@@ -3,8 +3,10 @@
     <!-- <script async src="assets/js/slick.min.js"></script> -->
     <script async src="assets/js/jquery.validate.min.js"></script>
     <script async src="assets/js/main.js"></script>
+    <script async src="assets/js/main_.js"></script>
+    <script src="assets/js/menu.js"></script>
     <script async src="assets/js/to-top.js"></script>
-    <script async src="assets/js/nav.js"></script>
+    <script src="assets/js/nav.js"></script>
     <script async src="assets/js/slider.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://widget.easyweek.io/widget.js"></script>

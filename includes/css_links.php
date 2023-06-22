@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="assets/css/footer.css">
 <link rel="stylesheet" href="assets/css/spec.css">
 <link rel="stylesheet" href="assets/css/style.css">
-
+<link rel="stylesheet" href="assets/css/mob-menu.css">
 <link rel="stylesheet" href="assets/css/reset.css">
 <link rel="stylesheet" href="assets/css/modern-normolize.css">
 <link rel="stylesheet" href="assets/fonts/shift-style.css">
