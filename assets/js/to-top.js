@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
       btn.classList.remove('show');
     }
   });
-  // При клике прокручиываем на самый верх
+  // При клике прокручиваем на самый верх
   btn.onclick = function (click) {
     click.preventDefault();
     scrollTo(0, 400);
