@@ -39,65 +39,81 @@
               </div>
                 <a href="" class="header__btn">Вам передзвонити?</a>
                 </div>
+
+
+
               <nav class="nav">
-              <ul class="menu">
-                    <li class="nav__list-item menu__item">
+              <ul class="menu nav__list">
+                    <li class="nav__list-item ">
                       <a href="/" class="nav__list-item-link ">
                         <span class="nav__list-item-link-text ">Головна</span>
                       </a>
                   </li>
-                  <li class="nav__list-item menu__item">
+                  <li class="nav__list-item">
                       <a href="about.php" class="nav__list-item-link">
                         <span class="nav__list-item-link-text">Про нас</span>
 
                       </a>
                     </li>
-                    <li class="nav__list-item menu__item">
+                    <li class="nav__list-item">
                       <a href="services.php" class="nav__list-item-link">
                         <span class="nav__list-item-link-text">Послуги</span>
 
                       </a>
                     </li>
-                    <li class="nav__list-item menu__item">
+                    <li class="nav__list-item">
                       <a href="index.php#price" class="nav__list-item-link">
                         <span class="nav__list-item-link-text">Ціни</span>
                       </a>
                     </li>
-                    <li class="nav__list-item menu__item">
+                    <li class="nav__list-item">
                       <a href="index.php#specialists" class="nav__list-item-link">
                         <span class="nav__list-item-link-text">Фахівці</span>
                       </a>
                     </li>
-                    <li class="nav__list-item menu__item">
+                    <li class="nav__list-item">
                       <a href="index.php#about" class="nav__list-item-link">
                         <span class="nav__list-item-link-text">Відгуки</span>
                       </a>
                     </li>
-                    <li class="nav__list-item menu__item">
+                    <li class="nav__list-item">
                       <a href="index.php#contacts" class="nav__list-item-link">
                         <span class="nav__list-item-link-text">Контакти</span>
                       </a>
                     </li>
-                    <li class="nav__list-item menu__item">
+                    <li class="nav__list-item">
                       <a href="payment.php" class="nav__list-item-link">
                       <span class="nav__list-item-link-text">Оплата</span>
 
                       </a>
                     </li>
-                    <a href="contacts.html" class="info__set_mob">
-                        <img src="assets/img/location.png" alt="" class="info__location info__location_mod">
-                        <p class="info__text_mob">м. Львів, просп. Червоної Калини 1</p>
+                    <a href="https://goo.gl/maps/Rq5m4xGibS1teh8u9" target="_blank" class="info__set_mob">
+                        <!-- <img src="assets/img/location.png" alt="" class="info__location info__location_mod"> -->
+                        <span class="social-link__icon">
+                          <svg class="geo" width="37" height="48" viewBox="0 0 37 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.8132 18.7475C36.8132 8.81348 28.8132 0.813477 18.8791 0.813477C8.94507 0.813477 0.945068 8.81348 0.945068 18.7475C0.945068 28.6816 18.8791 47.2311 18.8791 47.2311C18.8791 47.2311 36.8132 28.6816 36.8132 18.7475ZM10.5275 18.3959C10.5275 13.8245 14.3077 10.0442 18.8791 10.0442C23.4506 10.0442 27.2308 13.7366 27.2308 18.3959C27.2308 22.9673 23.5385 26.7475 18.8791 26.7475C14.3077 26.7475 10.5275 22.9673 10.5275 18.3959Z" fill="#D3DDE6"></path>
+                          </svg>
+                        </span>
+                        <p class="info__text_mob">Львів, вул. К. Левицького 110</p>
                     </a>
-                    <a href="tel:0974070110" class="info__set_mob">
-                        <img src="assets/img/phone.png" alt="" class="info__location">
-                        <p class="info__text_mob">+38 (097) 407-01-10</p>
+                    <a href="tel:+380960724324" class="info__set_mob">
+                        <!-- <img src="assets/img/phone.png" alt="" class="info__location"> -->
+                        <span class="social-link__icon">
+                            <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <rect y="0.231445" width="40" height="40" rx="5" fill="#D3DDE6"></rect>
+                              <path d="M23.7333 21.4213C22.6667 22.4727 22.6667 23.524 21.6 23.524C20.5333 23.524 19.4667 22.4727 18.4 21.4213C17.3333 20.3699 16.2667 19.3186 16.2667 18.2672C16.2667 17.2158 17.3333 17.2158 18.4 16.1645C19.4667 15.1131 16.2667 11.959 15.2 11.959C14.1333 11.959 12 15.1131 12 15.1131C12 17.2158 14.192 21.4791 16.2667 23.524C18.3413 25.5689 22.6667 27.7295 24.8 27.7295C24.8 27.7295 28 25.6268 28 24.5754C28 23.524 24.8 20.3699 23.7333 21.4213Z" fill="white"></path>
+                            </svg>
+                        </span>
+                        <p class="info__text_mob">+38(096) 072-43-24</p>
+
                     </a>
                      <a href="" class="header__btn_mob">Вам передзвонити?</a>
                 </ul>
               </nav>
 
-                <div class="header-menu">
-                    <img src="assets/img/menu.png" alt="" class="menu-black">
-                </div>
+
+              <div class="header-menu">
+                <img src="assets/img/menu.png" alt="" class="menu-black">
+              </div>
             </div>
         </div>
