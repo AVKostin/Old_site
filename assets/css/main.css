@@ -2158,12 +2158,12 @@ a.social-link {
     .num__line {
         display: none;
     }
-    .center{
+    /* .center{
         width: 500px !important;
-    }
+    } */
     .center-img{
         width: 400px;
-        height: 400px;
+        /* height: 400px; */
     }
 
     .center-2{
@@ -2345,7 +2345,7 @@ a.social-link {
         display: none;
     }
     .center {
-        width: 850px;
+        width: 85%;
         margin: 0 auto;
     }
     .slick-prev{
@@ -2461,9 +2461,9 @@ a.social-link {
         margin: 0;
         width: 700px;
     }
-    .center{
+    /* .center{
         width: 700px;
-    }
+    } */
     .specialists__kit{
         text-align: center;
     }
