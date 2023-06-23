@@ -1914,12 +1914,12 @@ footer {
     margin-bottom: 0;
 }
 
-.sec-rev__item {
+/* .sec-rev__item {
     width: 377px;
     height: 305px;
     overflow: hidden;
     cursor: pointer;
-}
+} */
 
 .popup-rev {
     display: none;

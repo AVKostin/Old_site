@@ -54,58 +54,58 @@ $(function () {
 });
 
 
-$(document).ready(function(){
-    $('.center').slick({
-      centerMode: true,
-      autoplay: true,
-      autoplaySpeed: 2500,
-      speed: 1500,
-      centerPadding: '10px',
-      slidesToShow: 1,
-      responsive: [
-        {
-          breakpoint: 993,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '10px',
-            slidesToShow: 1
-          }
-        },
+// $(document).ready(function(){
+//     $('.center').slick({
+//       centerMode: true,
+//       autoplay: true,
+//       autoplaySpeed: 2500,
+//       speed: 1500,
+//       centerPadding: '10px',
+//       slidesToShow: 1,
+//       responsive: [
+//         {
+//           breakpoint: 993,
+//           settings: {
+//             arrows: false,
+//             centerMode: true,
+//             centerPadding: '10px',
+//             slidesToShow: 1
+//           }
+//         },
 
-        {
-          breakpoint: 769,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '10px',
-            slidesToShow: 1
-          }
-        },
-        {
-          breakpoint: 577,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '10px',
-            slidesToShow: 1
-          }
+//         {
+//           breakpoint: 769,
+//           settings: {
+//             arrows: false,
+//             centerMode: true,
+//             centerPadding: '10px',
+//             slidesToShow: 1
+//           }
+//         },
+//         {
+//           breakpoint: 577,
+//           settings: {
+//             arrows: false,
+//             centerMode: true,
+//             centerPadding: '10px',
+//             slidesToShow: 1
+//           }
 
-        },
-        {
-          breakpoint: 450,
-          settings: {
-            arrows: false,
-            centerMode: true,
-            centerPadding: '0',
-            slidesToShow: 1
-          }
+//         },
+//         {
+//           breakpoint: 450,
+//           settings: {
+//             arrows: false,
+//             centerMode: true,
+//             centerPadding: '0',
+//             slidesToShow: 1
+//           }
 
-        }
+//         }
 
-      ]
-    });
-});
+//       ]
+//     });
+// });
 
 
 $(document).ready(function(){

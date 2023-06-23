@@ -3,7 +3,7 @@
     <!-- <script async src="assets/js/slick.min.js"></script> -->
     <script async src="assets/js/jquery.validate.min.js"></script>
     <script async src="assets/js/main.js"></script>
-    <script async src="assets/js/main_.js"></script>
+    <!-- <script async src="assets/js/main_.js"></script> -->
     <script src="assets/js/menu.js"></script>
     <script async src="assets/js/to-top.js"></script>
     <script src="assets/js/nav.js"></script>

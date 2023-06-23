@@ -21,7 +21,7 @@ const swiper = new Swiper('.swiper-container, .specialists__wrapp', {
     disableOnInteraction: false, // Позволяет автоматической смене слайда при взаимодействии пользователя с слайдером
   },
   breakpoints: {
-    480: {
+    320: {
       slidesPerView: 1,
       spaceBetween: 20
     },
