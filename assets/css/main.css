@@ -2177,7 +2177,7 @@ a.social-link {
         padding: 40px;
     }
     .details__video{
-        width: 500px;
+        /* width: 500px; */
         height: 500px;
     }
     .reasons__title{
