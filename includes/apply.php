@@ -65,7 +65,7 @@
         const screenWidth = window.innerWidth;
 
         // Если ширина экрана меньше или равна 767px (мобильная версия)
-        if (screenWidth <= 767) {
+        if (screenWidth <= 1279) {
             // Удаляем созданные колонки
             const columns = document.querySelectorAll('.psychology__column');
             columns.forEach(column => column.remove());
@@ -136,13 +136,13 @@
     }
 
     .psychology__wrapp {
-        margin: 10px;
+        /* margin: 10px; */
         padding: 10px;
         /* border: 1px solid black; */
         text-align: center;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 1279px) {
         .psychology__set {
             display: flex;
         }
