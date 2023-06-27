@@ -486,9 +486,9 @@ span.top__text {
     margin-bottom: 50px;
 }
 
-.section__top {
+/* .section__top {
     margin-bottom: 50px;
-}
+} */
 
 h1,
 h2,
@@ -2553,9 +2553,9 @@ span.pay__num {
         margin-bottom: 55px;
     }
 
-    .section__top {
+    /* .section__top {
         margin-bottom: 40px;
-    }
+    } */
 
     .main-title {
         font-size: 30px;
@@ -3612,10 +3612,10 @@ span.pay__num {
         min-height: 310px;
         height: auto;
     }
-
+/*
     .section__top {
         margin-bottom: 20px;
-    }
+    } */
 
     .contacts__main {
         margin-bottom: 50px;

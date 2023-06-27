@@ -554,7 +554,7 @@ line-height: calc(24 / 20);
 .psychology__set{
     /* width: 442px; */
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .psychology__wrapp{
     display: flex;
@@ -603,14 +603,14 @@ line-height: calc(24 / 20);
 .specialists__set{
     display: flex;
     justify-content: space-between;
-    padding: 80px 0 20px;
+    padding: 0px 0 20px;
     gap: 17px;
 }
 .specialists__kit{
     /* width: 390px ; */
     display: flex;
     flex-direction: column;
-    padding: 34px 24px;
+    padding: 27px 18px 5px 18px;
     background: #F9FAFB;
     border-radius: 15px;
     /* gap: 25px; */
@@ -761,7 +761,7 @@ input::placeholder{
 }
 .price__set{
     display: flex;
-    padding: 80px 0 20px;
+    padding: 66px 0 20px;
     gap: 15px;
 }
 .price__wrapp{
@@ -863,13 +863,13 @@ input::placeholder{
 .services__set{
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 44px;
     margin-bottom: 127px;
 }
 .services__title, .price__title, .specialists__title, .apply__title, .contacts__title_mod, .main-title{
     font-weight: 750;
     font-size: 37px;
-    line-height: calc( 59 / 37);
+    /* line-height: calc( 59 / 37); */
     text-transform: uppercase;
     color: #0B151E;
 }
@@ -1711,9 +1711,6 @@ a.social-link {
         font-size: 14px;
     }
 
-    .team__title{
-        font-size: 40px;
-    }
     .num__line{
         display: none;
     }
@@ -1789,10 +1786,6 @@ a.social-link {
 
         justify-content: center;
     }
-
-    .team__title{
-        text-align: center;
-    }
     .team__text{
         text-align: center;
     }
@@ -1842,10 +1835,7 @@ a.social-link {
     .importend__btn{
         align-items: center;
     }
-    .team__title{
-        font-size: 30px;
-    }
-    .importend__wrapp{
+     .importend__wrapp{
         text-align: center;
     }
     .money__left{
@@ -1873,9 +1863,7 @@ a.social-link {
     .purse__text-1{
         font-size: 20px;
     }
-    .team__title{
-        font-size: 30px;
-    }
+
     .num__line{
         display: none;
     }
@@ -1927,9 +1915,7 @@ a.social-link {
     .footer__set{
         justify-content: center;
     }
-    .team__title{
-        text-align: center;
-    }
+
     .team__text{
         text-align: center;
     }
@@ -1982,12 +1968,11 @@ a.social-link {
     .team__text{
         font-size: 13px;
     }
-    .apply__title{
-        font-size: 25px;
+
+    .team__title{
+        font-size: 30px;
     }
-    .specialists__title{
-        font-size: 25px;
-    }
+
     .specialists__text{
         font-size: 15px;
     }
@@ -2025,9 +2010,6 @@ a.social-link {
         font-size: 25px;
         text-align: center;
     }
-    .services__title{
-        font-size: 35px;
-    }
     .services__text_1{
         font-size: 25px;
     }
@@ -2037,24 +2019,23 @@ a.social-link {
     .label{
         font-size: 15px;
     }
-    .question__title{
-        font-size: 25px;
-    }
     .question__text{
         font-size: 20px;
     }
     .contacts__title_mod{
         font-size: 35px;
     }
-    .reasons__title{
-        font-size: 30px;
-    }
     .reasons__text{
         font-size: 23px;
     }
-    .teacher__title{
+
+    .apply__title, .specialists__title, .question__title, .reasons__title, .teacher__title, .purse__title{
         font-size: 30px;
     }
+    .price__title, .services__title{
+        font-size: 35px;
+    }
+
     .teacher__btn_1{
         padding: 15px 25px;
     }
@@ -2071,9 +2052,7 @@ a.social-link {
     .individual__btn{
         padding: 15px 25px;
     }
-    .purse__title{
-        font-size: 30px;
-    }
+
     .purse__span{
         font-size: 50px;
     }
@@ -2204,10 +2183,10 @@ a.social-link {
     .importend__right{
         height: 350px;
     }
-    .apply__title{
+    /* .apply__title{
         text-align: center;
-    }
-    .specialists__title{
+    } */
+    /* .specialists__title{
         text-align: center;
     }
     .price__title{
@@ -2218,7 +2197,7 @@ a.social-link {
     }
     .contacts__title_mod{
         text-align: center;
-    }
+    } */
     .details__video{
         height: 350px;
     }
@@ -2277,6 +2256,14 @@ a.social-link {
 
     main {
        margin-top: 36px;
+    }
+    .section__top {
+        margin-bottom: 39px;
+    }
+
+    .importend__text_black{
+        width: 124px;
+        font-size: 14px;
     }
 
     .social-link__text {
@@ -2367,7 +2354,7 @@ a.social-link {
         margin: 0 auto ;
     }
     .psychology__set{
-        width: 379px;
+        width: 351px;
     margin: 0 auto;
     }
     .psychology__circle{
