@@ -2557,9 +2557,9 @@ span.pay__num {
         margin-bottom: 40px;
     } */
 
-    .main-title {
+    /* .main-title {
         font-size: 30px;
-    }
+    } */
 
     .title__color {
         font-size: 65px;
@@ -3835,12 +3835,12 @@ span.pay__num {
     .card-content {
         max-width: calc(100% - 40px);
     }
-
+/*
     .main-title {
         display: block;
         font-size: 25px;
         line-height: 30px;
-    }
+    } */
 
     .title__color {
         font-size: 30px;

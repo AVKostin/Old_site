@@ -1,8 +1,8 @@
 
- const slideItems = document.querySelectorAll('.sec-rev__item, specialists__kit');
+ const slideItems = document.querySelectorAll('.sec-rev__item, specialists__kit, price__wrapp');
 
 // Инициализация слайдера с помощью Swiper.js
-const swiper = new Swiper('.swiper-container, .specialists__wrapp', {
+const swiper = new Swiper('.swiper-container, .specialists__wrapp, .price-swiper', {
   slidesPerView: 'auto', // Автоматическое количество слайдов в зависимости от ширины контейнера
   // centeredSlides: true, // Слайды центрируются в контейнере
   // centeredSlidesBounds: true,

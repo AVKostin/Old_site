@@ -4,7 +4,7 @@
       <h2 class="main-title main-title--upper" data-aos="fade-left">Відгуки</h2>
     </div>
     <div class="sliderRev" data-aos="fade-down">
-      <div class="swiper-container">
+      <div class="price-swiper">
         <div class="swiper-wrapper">
 
           <div class="swiper-slide">
@@ -32,7 +32,7 @@
               <img src="assets/img/review5.jpg" width="370" alt="#" loading="lazy">
             </div>
           </div>
-          
+
         </div>
         <div class="sec-rev-pagination"></div>
       </div>

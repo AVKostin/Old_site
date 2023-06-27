@@ -554,7 +554,7 @@ line-height: calc(24 / 20);
 .psychology__set{
     /* width: 442px; */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .psychology__wrapp{
     display: flex;
@@ -756,7 +756,7 @@ input::placeholder{
     align-items: center;
     margin-bottom: 40px;
 }
-.price{
+.price, .services, .about, .question{
     padding: 125px 0;
 }
 .price__set{
@@ -765,7 +765,8 @@ input::placeholder{
     gap: 15px;
 }
 .price__wrapp{
-    width: 425px;
+    /* width: 425px; */
+    width: 390px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -872,6 +873,9 @@ input::placeholder{
     /* line-height: calc( 59 / 37); */
     text-transform: uppercase;
     color: #0B151E;
+}
+.price__title, .specialists__title, .main-title  {
+    margin-bottom: 35px;
 }
 .services__wrapp{
     display: flex;
@@ -2448,6 +2452,10 @@ a.social-link {
         flex-direction: column-reverse;
         gap: 30px;
     }
+    .psychology__set{
+        justify-content: center;
+    }
+
     .experience__set{
         flex-direction: column;
         gap: 30px;
