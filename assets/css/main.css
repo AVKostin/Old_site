@@ -70,8 +70,8 @@ main {
 
 .container {
     margin: 0 auto;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 19px;
+    padding-right: 19px;
   }
  @media screen and (min-width: 479px) {
       .container
@@ -334,7 +334,7 @@ color: #536779;
     font-weight: 700;
     font-size: 25px;
     color: #98C5EB;
-    gap: 11px;
+    gap: 4px;
     margin-bottom: 35px;
 }
 .importend__text::before{
@@ -364,8 +364,8 @@ margin-bottom: 30px;
 .importend__arrow__set{
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-top: 15px;
+    gap: 11px;
+    margin-top: 16px;
     font-weight: 400;
 font-size: 20px;
 line-height: calc(24 / 20);
@@ -407,8 +407,10 @@ line-height: calc(24 / 20);
     height: 20px;
 }
 .importend__arrow_down{
-  width: 65px;
-  height: 40px;
+  /* width: 65px;
+  height: 40px; */
+  width: 33px;
+  height: 33px;
 }
 
 .importend__arrow_span {
@@ -766,7 +768,7 @@ input::placeholder{
 }
 .price__wrapp{
     /* width: 425px; */
-    width: 390px;
+    /* width: 390px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -880,7 +882,7 @@ input::placeholder{
 .services__wrapp{
     display: flex;
     flex-direction: column;
-    width: 370px;
+    /* width: 370px; */
     gap: 20px;
 }
 .services__wrapp_mod{
@@ -1652,8 +1654,8 @@ a.social-link {
 @media screen and (max-width:480px){
     .importend__title{
         font-size: 30px;
-        margin: 20px 0;
-        margin-bottom: 31px;
+        margin: -8px 0;
+        margin-bottom: 22px;
     }
     .num__line{
         display: none;
@@ -1685,13 +1687,14 @@ a.social-link {
     }
     .importend__wrapp{
         text-align: center;
+        margin-top: -20px;
     }
-    .money__left{
+    /* .money__left{
         font-size: 40px;
     }
     .money__right{
         font-size: 40px;
-    }
+    } */
     .price__wrapp{
         padding: 20px;
     }
@@ -1713,6 +1716,7 @@ a.social-link {
     }
     .importend__text{
         font-size: 14px;
+        width: 250px;
     }
 
     .num__line{
@@ -1833,15 +1837,10 @@ a.social-link {
     .purse__column{
         padding: 30px;
     }
-    .importend__text_mod{
-        margin-bottom: 0;
-    }
-    .importend__btn{
+       .importend__btn{
         align-items: center;
     }
-     .importend__wrapp{
-        text-align: center;
-    }
+
     .money__left{
         font-size: 40px;
     }
@@ -1961,10 +1960,11 @@ a.social-link {
         padding: 30px;
     }
     .importend__text_mod{
-        font-size: 13px;
+        font-size: 16px;
+        margin-bottom: 0;
     }
     .importend__arrow_text{
-        font-size: 13px;
+        font-size: 16px;
     }
     .importend__btn{
         padding: 16px 15px;
@@ -2033,7 +2033,7 @@ a.social-link {
         font-size: 23px;
     }
 
-    .apply__title, .specialists__title, .question__title, .reasons__title, .teacher__title, .purse__title{
+    .apply__title, .specialists__title, .question__title, .reasons__title, .teacher__title, .purse__title, .main-title{
         font-size: 30px;
     }
     .price__title, .services__title{
@@ -2114,6 +2114,9 @@ a.social-link {
 
 
 @media screen and (max-width:768px){
+
+
+
     .specialists_img {
         max-width: 290px;
         height: 292px;
@@ -2134,8 +2137,8 @@ a.social-link {
         height: 55px;
     }
 	.importend__right-hidden {
-        max-width: 290px;
-        height: 276px;
+        max-width: 335px;
+        height: 286px;
         margin: 0 auto;
     }
     .info__set{
@@ -2227,7 +2230,7 @@ a.social-link {
         display: flex;
         align-items: center;
         gap: 5px;
-        margin: 35px 0;
+        margin: 26px 0;
         flex-direction: column;
     }
     .importend__arrow__set{
@@ -2261,6 +2264,16 @@ a.social-link {
     main {
        margin-top: 36px;
     }
+    .done__text {
+
+        font-size: 16px;
+    }
+    .money__left{
+        font-size: 40px;
+    }
+    .money__right{
+        font-size: 40px;
+    }
     .section__top {
         margin-bottom: 39px;
     }
@@ -2281,7 +2294,7 @@ a.social-link {
     }
     .importend__right-hidden {
         margin: 0 auto;
-        margin-top: 36px;
+        margin-top: 41px;
     }
     .header__btn{
         display: none;
@@ -2332,7 +2345,8 @@ a.social-link {
         width: 100%;
     }
     .team{
-        padding: 100px 0;
+        padding: 44px 0 0 0;
+        /* max-width: 357px; */
     }
     .team__set{
         flex-direction: column-reverse;
@@ -2494,7 +2508,7 @@ a.social-link {
         gap: 20px;
     }
     .importend{
-        padding-top: 20px;
+        padding-top: 10px;
     }
     .importend__set{
         display: flex;

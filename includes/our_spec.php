@@ -1,5 +1,4 @@
 <section class="specialists" id="specialists">
-
 <div class="container">
     <div class="section__top">
       <h2 class="specialists__title" data-aos="fade-left">наші спеціалісти</h2>
@@ -9,7 +8,7 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-                    <div class="sec-about__item">
+                <div class="sec-about__item">
                 <div class="specialists__set">
                     <div class="specialists__wrapp"  id="goroshenko">
                         <img src="assets/img/expert1-1.webp" alt="Меланія Горошено" class="specialists_img">

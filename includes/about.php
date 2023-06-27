@@ -1,7 +1,7 @@
 <section id="reviev" class="section sec-adapt__width mb150">
         <div class="container">
           <div class="section__top">
-            <h2 class="main-title main-title--upper" data-aos="fade-left">Відгуки</h2>
+            <h2 class="main-title main-title--upper" data-aos="fade-left">Що про нас кажуть клієнти</h2>
           </div>
           <div class="section__content sliderRev" data-aos="fade-down">
 

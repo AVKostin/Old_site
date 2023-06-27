@@ -1,7 +1,7 @@
 <section id="about" title="About Us Section">
   <div class="container">
     <div class="section__top">
-      <h2 class="main-title main-title--upper" data-aos="fade-left">Відгуки</h2>
+      <h2 class="main-title main-title--upper" data-aos="fade-left">Що про нас кажуть клієнти</h2>
     </div>
     <div class="sliderRev" data-aos="fade-down">
       <div class="price-swiper">

@@ -1,5 +1,5 @@
 
- const slideItems = document.querySelectorAll('.sec-rev__item, specialists__kit, price__wrapp');
+ const slideItems = document.querySelectorAll('.sec-rev__item, specialists__kit, price__wrapp, services__wrapp');
 
 // Инициализация слайдера с помощью Swiper.js
 const swiper = new Swiper('.swiper-container, .specialists__wrapp, .price-swiper', {

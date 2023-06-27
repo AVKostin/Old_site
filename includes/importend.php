@@ -18,19 +18,19 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.
                     </p>
                     <div class="importend__arrow__set">
-                        <img src="assets/img/arrow-right.svg" width="30" height="31" alt="" class="importend__arrow_right">
+                        <img src="assets/img/arrow-right.svg" width="15" height="15" alt="" class="importend__arrow_right">
                         <p class="importend__arrow_text">
                             Знижка <span class="importend__arrow_span">400грн</span> на консультацію до хх березня
                         </p>
                     </div>
                     <div class="importend__arrow__set">
-                        <img src="assets/img/arrow-right.svg" width="30" height="31" alt="" class="importend__arrow_right">
+                        <img src="assets/img/arrow-right.svg" width="15" height="15" alt="" class="importend__arrow_right">
                         <p class="importend__arrow_text">
                         З тобою на зв’язку <span class="importend__arrow_span">24/7</span>
                         </p>
                     </div>
                     <div class="importend__arrow__set">
-                        <img src="assets/img/arrow-right.svg" width="30" height="31" alt="" class="importend__arrow_right">
+                        <img src="assets/img/arrow-right.svg" width="15" height="15" alt="" class="importend__arrow_right">
                         <p class="importend__arrow_text">
                         Під час військових дій <span class="importend__arrow_span">не підвищуємо ціну </span>
                         </p>
