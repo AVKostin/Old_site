@@ -2049,7 +2049,7 @@ margin-top: 17px;
         font-size: 20px;
     }
     .contacts__title_mod{
-        font-size: 35px;
+        font-size: 30px;
     }
     .reasons__text{
         font-size: 23px;
@@ -2166,6 +2166,9 @@ margin-top: 17px;
         box-shadow: 3px 3px 5px 0px rgba(106, 55, 44, 0.16);
         padding: 26px 25px 10px 5px;
     }
+    /* .main-title  {
+        margin: 0px 0 44px 0;
+    } */
 
     .services {
         padding: 125px 0 125px 0;
@@ -2177,6 +2180,10 @@ margin-top: 17px;
     }
     .specialists__kit {
         width: 290px;
+    }
+
+    .form__btn-2 {
+        border-radius: 5px;
     }
 
     #toTop.show {
