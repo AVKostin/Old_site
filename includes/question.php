@@ -4,7 +4,7 @@
                 <div class="question__left">
                     <h2 class="question__title">
                         Залишились питання?
-                    </h1>
+                    </h2>
                     <p class="question__text">
                         Разом з тобою ми дійдемо до результату та змінимо твоє життя на краще!
                     </p>

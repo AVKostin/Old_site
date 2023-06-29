@@ -1,7 +1,12 @@
 <section class="team" id="team">
 	    <div class="container">
             <div class="team__set">
-                <div class="center">
+
+                <div class="team__right" id="about_us">
+                    <h2 class="team__title">
+                        Lorem ipsum dolor si atema, <span class="team__span">consectetur</span>
+                    </h2>
+                    <div class="center">
                     <div class="center-wrapp">
                         <img src="assets/img/slider-1.png" alt="" class="center-img">
                     </div>
@@ -12,13 +17,9 @@
                         <img src="assets/img/slider-1.png" alt="" class="center-img">
                     </div> -->
                 </div>
-                <div class="team__right" id="about_us">
-                    <h2 class="team__title">
-                        Lorem ipsum dolor si atema, <span class="team__span">consectetur</span>
-                    </h1>
                     <p class="team__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.
-                    <p class="team__text">
+                    <p class="team__text_2">
                         Вignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas d
                     </p>

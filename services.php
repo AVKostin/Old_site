@@ -12,7 +12,7 @@
                 <div class="individual__column">
                     <h2 class="individual__title">
                         індивідуальні консультації
-                    </h1>
+                    </h2>
                     <p class="individual__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.
                     </p>
@@ -36,7 +36,7 @@
                 <div class="individual__column">
                     <h2 class="individual__title">
                         індивідуальні консультації
-                    </h1>
+                    </h2>
                     <p class="individual__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.
                     </p>
@@ -58,7 +58,7 @@
                 <div class="individual__column">
                     <h2 class="individual__title">
                         індивідуальні консультації
-                    </h1>
+                    </h2>
                     <p class="individual__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.
                     </p>
@@ -82,7 +82,7 @@
                 <div class="individual__column">
                     <h2 class="individual__title">
                         індивідуальні консультації
-                    </h1>
+                    </h2>
                     <p class="individual__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.
                     </p>

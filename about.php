@@ -12,7 +12,7 @@
                 <div class="team__right">
                     <h2 class="team__title">
                         Трішки про нас
-                    </h1>
+                    </h2>
                     <p class="team__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.
                     <p class="team__text">
@@ -44,7 +44,7 @@
 	    <div class="container">
             <h2 class="reasons__title">
                 <span class="reasons__span"><span class="reasons__span_mod">5 </span>причин</span> звернутися до нас
-            </h1>
+            </h2>
 
             <!-- <div class="reasons__set">
                 <div class="reasons__wrapp">
@@ -120,7 +120,7 @@
 	    <div class="container">
             <h2 class="teacher__title">
                 Наші спеціалісти
-            </h1>
+            </h2>
             <div class="teacher__set">
                 <img src="assets/img/photo-1.jpg" alt="" class="teacher__left">
                 <div class="teacher__column">

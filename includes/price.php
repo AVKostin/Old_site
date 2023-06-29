@@ -2,7 +2,7 @@
 	    <div class="container">
             <h2 class="price__title">
                 Наші ціни
-            </h1>
+            </h2>
             <div class="sliderRev" data-aos="fade-down">
             <div class="swiper-container">
         <div class="swiper-wrapper">

@@ -2,7 +2,7 @@
 	    <div class="container">
             <h2 class="contacts__title_mod">
                 Наші контакти
-            </h1>
+            </h2>
             <div class="contacts__set contacts__main">
                 <!-- <div class="contacts__left">
                     <div class="contacts__column">

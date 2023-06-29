@@ -4,12 +4,12 @@
                 <div class="record__left">
                     <h2 class="record__title">
                         Запишись на <span class="record__span">перший</span> візит
-                    </h1>
+                    </h2>
                     <p class="record__text">
                         Після першого ж візиту складемо план запиту, структуруємо вашу проблему та проведемо психодіагностику
 
                     </p>
-                    <p class="record__text">
+                    <p class="record__text_2">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dignissim quis orci quis elementum. Sed neque augue, ultrices vel molestie et, mollis et felis.  В
                     </p>
                 </div>

@@ -2,7 +2,7 @@
 	    <div class="container">
             <h2 class="services__title">
                 Послуги
-            </h1>
+            </h2>
     <div class="sliderRev" data-aos="fade-down">
       <div class="swiper-container">
             <div class="swiper-wrapper">
