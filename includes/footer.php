@@ -66,7 +66,7 @@
                 </li>
             </ul>
         </div>
-            <div class="footer__col footer__col--type">
+            <div class="footer__col-2 footer__col--type">
             <menu class="footer__menu">
                 <li class="footer__menu_item">
                     <a href="services.php" class="footer__menu_item-b link link--bold">Сімейний психотерапевт</a>

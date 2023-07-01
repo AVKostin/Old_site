@@ -1,4 +1,4 @@
-<section id="about" title="About Us Section">
+<section class="about" id="about" title="About Us Section">
   <div class="container">
     <div class="section__top">
       <h2 class="main-title main-title--upper" data-aos="fade-left">Що про нас кажуть клієнти</h2>

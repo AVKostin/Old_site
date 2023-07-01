@@ -1352,14 +1352,14 @@ p {
     box-shadow: 3px 3px 15px #f5775b;
 }
 
-.contacts__main {
+/* .contacts__main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 46px;
-}
+} */
 
-.contacts__links {
+/* .contacts__links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1369,22 +1369,22 @@ p {
     width: 60%;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-}
+} */
 
-.contacts__links-list {
+/* .contacts__links-list {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     width: 50%;
     margin-right: 40px;
-}
+} */
 
 .contacts__links-list-item {
     margin-bottom: 50px;
 }
 
-.contacts__links-list-item-title {
+/* .contacts__links-list-item-title {
     margin-bottom: 20px;
-}
+} */
 
 .contacts__links-list-item:last-child {
     margin-bottom: 0;
@@ -2900,17 +2900,17 @@ span.pay__num {
         margin-top: 50px;
     }
 
-    .contacts__links {
+    /* .contacts__links {
         padding: 30px;
-    }
+    } */
 
     .contacts__links-list-item {
         margin-bottom: 25px;
     }
 
-    .contacts__links-list-item-title {
+    /* .contacts__links-list-item-title {
         margin-bottom: 10px;
-    }
+    } */
 
     .contacts__desc {
         font-size: 16px;
@@ -3617,7 +3617,7 @@ span.pay__num {
         margin-bottom: 20px;
     } */
 
-    .contacts__main {
+    /* .contacts__main {
         margin-bottom: 50px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -3626,13 +3626,13 @@ span.pay__num {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-    }
-
+    } */
+/*
     .contacts__links {
         width: 100%;
         margin-right: 0;
         margin-bottom: 40px;
-    }
+    } */
 
     .contacts__map iframe {
         min-height: 230px;
@@ -3924,7 +3924,7 @@ span.pay__num {
     }
 
     .footer {
-        padding: 30px 0 30px;
+        padding: 27px 0 30px;
     }
 
     .footer__content {
@@ -3943,7 +3943,10 @@ span.pay__num {
     }
 
     .footer__col {
-        margin: 0 0 30px;
+        margin-bottom: 124px;
+    }
+    .footer__col-2 {
+        margin-bottom: 40px;
     }
 
     .footer__col:nth-child(1) {
@@ -3957,7 +3960,7 @@ span.pay__num {
 
     .footer__nav-item {
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.7;
         margin-bottom: 15px;
     }
 
@@ -3997,11 +4000,11 @@ span.pay__num {
     }
 
     .footer__logo {
-        font-size: 185px;
-        height: 65px;
-        margin: 0;
-        position: absolute;
-        top: 0;
+          /* font-size: 185px; */
+    height: 62px;
+    margin: 0;
+    position: absolute;
+    top: 3px;
     }
 
     .button--secondary {
@@ -4603,23 +4606,23 @@ span.pay__num {
         margin: 0;
     }
 
-    .contacts__links {
+    /* .contacts__links {
         -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
+        -webkix;t-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-    }
+    } */
 
-    .contacts__links-list {
+    /* .contacts__links-list {
         width: 100%;
         margin-right: 0;
-    }
+    } */
 
-    .contacts__links-list-item-title {
+    /* .contacts__links-list-item-title {
         font-size: 18px;
         line-height: 35px;
         margin-bottom: 0;
-    }
+    } */
 
     .contacts__links-list:last-child {
         -ms-flex-wrap: wrap;
