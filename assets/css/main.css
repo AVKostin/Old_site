@@ -1868,7 +1868,7 @@ margin-top: 17px;
         font-size: 40px;
     }
     .price__wrapp{
-        padding: 6px 120px 0px 21px;
+        padding: 6px 16px 0px 21px;
         /* width: 304px; */
     }
 
@@ -2034,7 +2034,7 @@ margin-top: 17px;
 
     .price__text_mod{
         font-size: 18px;
-        text-align: center;
+        /* text-align: center; */
     }
     .services__text_1{
         font-size: 17px;
@@ -2147,7 +2147,8 @@ margin-top: 17px;
     }
 .about {
     padding:0 0 0 0;
-    margin-top:-41px;
+    margin-top: -41px;
+    height: 471px;
 }
     .money__span{
         font-size: 18px;
@@ -2162,7 +2163,9 @@ margin-top: 17px;
     }
 
     .price__wrapp {
-        width: 390px;
+        width: 278px;
+        height: 509px;
+
       }
 
       .price__btn {
@@ -2173,13 +2176,17 @@ margin-top: 17px;
         font-size: 16px;
         box-shadow: 3px 3px 5px 0px rgba(106, 55, 44, 0.16);
         padding: 26px 25px 10px 5px;
+        margin-bottom: 33px;
     }
     .main-title  {
         margin: 0px 0 44px 0;
     }
 
     .services {
-        padding: 125px 0 0px 0;
+        padding: 84px 0 0px 0;
+    }
+    .services__img {
+        background-color: #2F3F4A;
     }
 
     .specialists_img {
@@ -2350,6 +2357,11 @@ margin-top: 17px;
     .social-link__icon {
         width: 23px;
         height: 23px;
+    }
+
+    .social-link__icon--big {
+        width: 40px;
+        height: 40px;
     }
     .contacts_map {
         height:234px;

@@ -12,7 +12,7 @@
 
 .sec-rev__item {
   max-width: 377px;
-  height: 305px;
+  /* height: 305px; */
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
@@ -59,7 +59,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   height: 30px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .sliderRev .swiper-pagination-bullet {
