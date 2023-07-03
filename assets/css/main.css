@@ -1694,9 +1694,9 @@ a.social-link {
 /* 480px 480px 480px 480px 480px 480px 480px 480px 480px 480px */
 
 @media screen and (max-width:480px){
-    .price{
+    /* .price{
      padding: 98px 0 0px 0;
-    }
+    } */
     .num__span{
         font-size: 35px;
         margin-bottom: 9px;
@@ -2217,9 +2217,9 @@ margin-top: 17px;
         margin: 0px 0 44px 0;
     }
 
-    .services {
+    /* .services {
         padding: 84px 0 0px 0;
-    }
+    } */
     .services__img {
         background-color: #2F3F4A;
     }
@@ -2238,9 +2238,9 @@ margin-top: 17px;
     height:658px;
 }
 
-.contacts{
+/* .contacts{
     padding: 170px 0 30px 0;
-}
+} */
 .contacts__links {
     padding: 38px 0 8px 31px;
 }
@@ -2415,7 +2415,45 @@ margin-top: 17px;
 .footer__menu_item-b{
     font-size: 18px;
 }
+.importend__text_black{
+width: 158px;
+font-size: 16px;
+margin-left: 43px;
 }
+
+.importend__text_orange {
+     margin-left: 8px;
+}
+.importend {
+    margin-bottom: -3px;
+}
+
+
+.num__text{
+       width: 293px;
+    letter-spacing: -0.6px;
+}
+
+.num__span {
+    margin-bottom: 16px;
+}
+.apply {
+    margin-bottom: 98px;
+}
+.specialists__title {
+    margin-bottom: 43px;
+}
+
+.record {
+    margin-bottom: 95px;
+}
+
+/* .price {
+    padding: 98px 0 0px 0;
+} */
+}
+
+
 
 /* 1280px 1280px 1280px 1280px 1280px 1280px 1280px 1280px 1280px 1280px*/
 
@@ -2445,7 +2483,7 @@ margin-top: 17px;
 
     .importend__text_black{
         width: 124px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .social-link__text {
