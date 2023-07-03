@@ -1459,81 +1459,9 @@ textarea {
     color: #D3DDE6;
 }
 
-footer {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-}
-
-.footer {
-    border-top: 2px solid #d3dde6;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.footer__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
-.footer__col {
-    -webkit-box-flex: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    margin-right: 30px;
-}
-
-.footer__col--contacts {
-    width: 32%;
-}
-
-.footer__contacts-list {
-    margin-bottom: 30px;
-}
-
-.footer__contacts-list-item {
-    margin-bottom: 15px;
-}
-
-.footer__col--flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
-.footer__col--nav,
-.footer__col--type {
-    padding-top: 40px;
-}
-
-.footer__col--nav {
-    width: 26%;
-}
-
-.footer__nav {
-    width: 38%;
-    margin-right: 40px;
-    color: #264158;
-}
-
-.footer__nav-item {
-    margin-bottom: 25px;
-    font-size: 18px;
-}
-
 .link {
     display: inline-block;
     position: relative;
-}
-
-.footer__nav-item a {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
 
 .link:after {
@@ -1557,50 +1485,9 @@ footer {
     transition: transform .3s, -webkit-transform .3s;
 }
 
-.footer__nav-item:last-child {
-    margin-bottom: 0;
-}
-
-.footer__nav-item svg {
-    font-size: 40px;
-    margin-left: 15px;
-    fill: #264158;
-}
-
-.footer__type-list {
-    margin-bottom: 25px;
-}
-
-.footer__type-list-item {
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-
 .link--bold:after {
     height: 2px;
     bottom: -4px;
-}
-
-.footer__type-list-item:last-child {
-    margin-bottom: 0;
-}
-
-.footer__social-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.footer__social-list-item {
-    margin-right: 25px;
-    margin-bottom: 25px;
-}
-
-
-.footer__social-list-item:last-child {
-    margin-right: 0;
 }
 
 .button--secondary:hover {

@@ -112,6 +112,7 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin-top: 25px;
 }
 
 .footer__social-list-item {

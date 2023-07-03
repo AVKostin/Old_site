@@ -1,7 +1,17 @@
 <section class="team" id="team">
 	    <div class="container">
             <div class="team__set">
-
+            <div class="center-hidden">
+                    <div class="center-wrapp">
+                        <img src="assets/img/slider-1.png" alt="" class="center-img">
+                    </div>
+                    <!-- <div class="center-wrapp">
+                        <img src="assets/img/slider-1.png" alt="" class="center-img">
+                    </div>
+                    <div class="center-wrapp">
+                        <img src="assets/img/slider-1.png" alt="" class="center-img">
+                    </div> -->
+                </div>
                 <div class="team__right" id="about_us">
                     <h2 class="team__title">
                         Lorem ipsum dolor si atema, <span class="team__span">consectetur</span>
