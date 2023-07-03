@@ -460,6 +460,7 @@ line-height: calc(24 / 20);
     line-height: 1.25;
     text-transform: uppercase;
     color: #0B151E;
+    margin-bottom: 35px;
 }
 
 .team__set{
