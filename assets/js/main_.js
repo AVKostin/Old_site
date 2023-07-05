@@ -79,24 +79,24 @@ $(function () {
 
 
     // ---- button up ---- //
-    function buttonUp() {
-        $('.up').click(function () {
-            var up = $('main').offset().top;
-            $('html, body').animate({ scrollTop: up }, 350);
-        });
+    // function buttonUp() {
+    //     $('.up').click(function () {
+    //         var up = $('main').offset().top;
+    //         $('html, body').animate({ scrollTop: up }, 350);
+    //     });
 
-        $(window).scroll(function () {
-            let scrollDock = $(document).scrollTop();
-            if (scrollDock + 80 >= 400) {
-                $('.up').fadeIn();
-                $('.EWBookingWidgetTrigger').css('opacity','1');
-            } else {
-                $('.up').fadeOut();
-                $('.EWBookingWidgetTrigger').css('opacity','0');
-            }
-        });
-    }
-    buttonUp();
+    //     $(window).scroll(function () {
+    //         let scrollDock = $(document).scrollTop();
+    //         if (scrollDock + 80 >= 400) {
+    //             $('.up').fadeIn();
+    //             $('.EWBookingWidgetTrigger').css('opacity','1');
+    //         } else {
+    //             $('.up').fadeOut();
+    //             $('.EWBookingWidgetTrigger').css('opacity','0');
+    //         }
+    //     });
+    // }
+    // buttonUp();
 });
 
 $(document).ready(function () {
