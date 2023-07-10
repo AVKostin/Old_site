@@ -404,11 +404,9 @@ line-height: calc(24 / 20);
     width: 20px;
     height: 20px;
 }
-.importend__arrow_down{
-  /* width: 65px;
-  height: 40px; */
-  width: 33px;
-  height: 33px;
+.importend__arrow_down {
+    width: 77px;
+    height: 40px;
 }
 
 .importend__arrow_span {
@@ -771,6 +769,7 @@ input::placeholder{
 }
 .importend {
     margin-bottom: 151px;
+    margin-top: 262px;
 }
 
 .team{
@@ -900,8 +899,15 @@ input::placeholder{
 .services__set{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     margin-top: 44px;
-    margin-bottom: 127px;
+    /* margin-bottom: 127px; */
+}
+
+
+.services__img {
+    height: 237px;
+    width: 396px;
 }
 .services__title, .price__title, .specialists__title, .apply__title, .contacts__title_mod, .main-title{
     font-weight: 750;
@@ -925,7 +931,8 @@ input::placeholder{
 .services__text_1{
     font-weight: 700;
     font-size: 28px;
-    color: #264158;
+    /* color: #264158; */
+    letter-spacing: -0.9px;
 }
 .services__text_2{
     font-size: 18px;
@@ -1448,6 +1455,10 @@ border-radius: 50%;
 
     color: #536779;
 }
+
+.services__wrapp_text{
+    padding: 20px 4px 20px 0;
+}
 .question_mod{
     padding-bottom: 100px;
 }
@@ -1695,6 +1706,13 @@ a.social-link {
 /* 480px 480px 480px 480px 480px 480px 480px 480px 480px 480px */
 
 @media screen and (max-width:480px){
+    .importend__arrow_down {
+        width: 41px;
+        height: 16px;
+        transform: rotate(29deg);
+        margin-top: 6px;
+        margin-bottom: 9px;
+    }
     /* .price{
      padding: 98px 0 0px 0;
     } */
@@ -1706,9 +1724,9 @@ a.social-link {
     .main-title  {
         margin-bottom: 34px;
     }
-.about {
-    margin-top:50px;
-}
+    .about {
+        margin-top:50px;
+    }
     .importend__title{
         font-size: 30px;
         margin: -8px 0;
@@ -2057,7 +2075,7 @@ margin-top: 17px;
         flex-direction: column;
         margin-bottom: 12px;
         align-items: center;
-        gap:36px;
+        gap:6px;
     }
     .input{
         height: 73px;
@@ -2100,8 +2118,16 @@ margin-top: 17px;
     }
     .price__title, .services__title{
         font-size: 35px;
+
+    }
+ .price__title{
+        margin-bottom: 37px;
+
     }
 
+    .price {
+        margin-bottom: 108px;
+    }
     .teacher__btn_1{
         padding: 15px 25px;
     }
@@ -2184,7 +2210,7 @@ margin-top: 17px;
 .about {
     padding:0 0 0 0;
     margin-top: -41px;
-    height: 471px;
+    height: 346px;
 }
     .money__span{
         font-size: 18px;
@@ -2218,11 +2244,12 @@ margin-top: 17px;
         margin: 0px 0 44px 0;
     }
 
-    /* .services {
-        padding: 84px 0 0px 0;
-    } */
+    .services {
+        margin-bottom: 122px;
+    }
     .services__img {
-        background-color: #2F3F4A;
+        height: 237px;
+        width: 330px;
     }
 
     .specialists_img {
@@ -2237,6 +2264,10 @@ margin-top: 17px;
     padding: 58px 0 0 16px;
     /* gap: 27px; */
     height:658px;
+}
+
+.question {
+    margin-bottom: 96px;
 }
 
 /* .contacts{
@@ -2292,7 +2323,7 @@ margin-top: 17px;
         margin: 0 auto;
     }
     .record_set{
-        padding: 55px 12px 24px 26px;
+        padding: 55px 12px 49px 26px;
     }
     .contacts__left{
         padding: 40px;
@@ -2426,8 +2457,9 @@ margin-left: 43px;
 .importend__text_orange {
      margin-left: 8px;
 }
-.importend {
-    margin-bottom: -3px;
+.services__set {
+    gap: 14px;
+    margin-top: 54px;
 }
 
 
@@ -2447,7 +2479,10 @@ margin-left: 43px;
 }
 
 .record {
-    margin-bottom: 95px;
+    margin-bottom: 102px;
+}
+.contacts {
+    margin-bottom: 77px;
 }
 
 /* .price {
@@ -2464,6 +2499,10 @@ margin-left: 43px;
 
 
 @media screen and (max-width:1279px) {
+    .importend {
+        margin-bottom: -3px;
+        margin-top: 80px;
+    }
 
     .header {
         margin-bottom: 0px;
@@ -2600,7 +2639,7 @@ margin-left: 43px;
         width: 160px;
     }
     .specialists{
-        margin: 100px 0 75px 0;
+        margin: 100px 0 93px 0;
     }
     .specialists__wrapp{
         margin: 0 10px;
@@ -2618,7 +2657,7 @@ margin-left: 43px;
     }
     .services__set{
         flex-wrap: wrap;
-        gap: 61px;
+        /* gap: 61px; */
     }
     .services__wrapp{
         margin: 0 auto;
@@ -2632,6 +2671,7 @@ margin-left: 43px;
         gap: 26px;
         /* padding: 50px; */
         justify-content: flex-start;
+        margin-bottom: 95px;
     }
     .question__left{
         width: 100%;

@@ -2713,11 +2713,11 @@ span.pay__num {
         padding-top: 20px;
     }
 
-    .footer__content {
+    /* .footer__content {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-    }
+    } */
 
 
     .sec-serv-serv .container {
@@ -3830,7 +3830,7 @@ span.pay__num {
     }
 
     .footer__col {
-        margin-bottom: 42px;
+        margin-bottom: 16px;
     }
     .footer__col-2 {
         margin-bottom: 40px;

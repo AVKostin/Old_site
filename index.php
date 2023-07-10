@@ -3,9 +3,7 @@
     <head><?php include "includes/head.php" ?>
     <?php include "includes/css_links.php" ?></head>
 <body>
-    <header class="header" id="header">
         <?php include "includes/header.php" ?>
-    </header>
     <div class="wrapp">
     <main class="content">
         <?php include "includes/importend.php" ?>

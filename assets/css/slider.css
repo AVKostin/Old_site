@@ -90,6 +90,9 @@
   user-select: none;
   -o-object-fit: cover;
   object-fit: cover;
+  height: 296px;
+  width:370px;
+  object-fit: contain;
 }
 
 
@@ -109,7 +112,7 @@
       height: 18px;
   }
   .sliderRev .sec-rev-pagination {
-      margin-top: 30px;
+      margin-top: 11px;
   }
 
 }

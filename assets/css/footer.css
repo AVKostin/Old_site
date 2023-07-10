@@ -233,7 +233,7 @@ footer {
     padding-bottom: 25px;
   }.footer__logo {
     font-size: 150px;
-    height: 50px;
+    height: 72px;
     width: auto;
   }
 
@@ -271,15 +271,7 @@ footer {
       padding-top: 20px;
   }
 
-  .footer__content {
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-  }
-    .footer__col--contacts,
-    .footer__col--nav {
-        width: auto;
-    }
+   
 
     .footer__social-list-item {
         margin-bottom: 0;

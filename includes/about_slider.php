@@ -9,27 +9,27 @@
 
           <div class="swiper-slide">
             <div class="sec-rev__item" data-fancybox="gallery" data-src="assets/img/review1.jpg">
-              <img src="assets/img/review1.jpg" width="370" alt="#" loading="lazy">
+              <img src="assets/img/review1.jpg" alt="text about us" loading="lazy">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="sec-rev__item" data-fancybox="gallery" data-src="assets/img/review2.jpg">
-              <img src="assets/img/review2.jpg" width="370" alt="#" loading="lazy">
+              <img src="assets/img/review2.jpg" alt="text about us" loading="lazy">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="sec-rev__item" data-fancybox="gallery" data-src="assets/img/review3.jpg">
-              <img src="assets/img/review3.jpg" width="370" alt="#" loading="lazy">
+              <img src="assets/img/review3.jpg" alt="text about us" loading="lazy">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="sec-rev__item" data-fancybox="gallery" data-src="assets/img/review4.jpg">
-              <img src="assets/img/review4.jpg" width="370" alt="#" loading="lazy">
+              <img src="assets/img/review4.jpg" alt="text about us" loading="lazy">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="sec-rev__item" data-fancybox="gallery" data-src="assets/img/review5.jpg">
-              <img src="assets/img/review5.jpg" width="370" alt="#" loading="lazy">
+              <img src="assets/img/review5.jpg" alt="text about us" loading="lazy">
             </div>
           </div>
 

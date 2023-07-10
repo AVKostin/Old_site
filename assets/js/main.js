@@ -108,121 +108,121 @@ $(function () {
 // });
 
 
-$(document).ready(function(){
-  $('.center-2').slick({
-    centerMode: true,
-    /* autoplay: true, */
-    autoplaySpeed: 2500,
-    speed: 1500,
-    centerPadding: '20px',
-    slidesToShow: 3,
-    responsive: [
-      {
-        breakpoint: 993,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '20px',
-          slidesToShow: 2
-        }
-      },
+// $(document).ready(function(){
+//   $('.center-2').slick({
+//     centerMode: true,
+//     /* autoplay: true, */
+//     autoplaySpeed: 2500,
+//     speed: 1500,
+//     centerPadding: '20px',
+//     slidesToShow: 3,
+//     responsive: [
+//       {
+//         breakpoint: 993,
+//         settings: {
+//           arrows: false,
+//           centerMode: true,
+//           centerPadding: '20px',
+//           slidesToShow: 2
+//         }
+//       },
 
-      {
-        breakpoint: 769,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '20px',
-          slidesToShow: 2
-        }
-      },
-      {
-        breakpoint: 577,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '20px',
-          slidesToShow: 1
-        }
+//       {
+//         breakpoint: 769,
+//         settings: {
+//           arrows: false,
+//           centerMode: true,
+//           centerPadding: '20px',
+//           slidesToShow: 2
+//         }
+//       },
+//       {
+//         breakpoint: 577,
+//         settings: {
+//           arrows: false,
+//           centerMode: true,
+//           centerPadding: '20px',
+//           slidesToShow: 1
+//         }
 
-      },
-      {
-        breakpoint: 450,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '5px',
-          slidesToShow: 1
-        }
+//       },
+//       {
+//         breakpoint: 450,
+//         settings: {
+//           arrows: false,
+//           centerMode: true,
+//           centerPadding: '5px',
+//           slidesToShow: 1
+//         }
 
-      }
+//       }
 
-    ]
-  });
-});
+//     ]
+//   });
+// });
 
-$(document).ready(function(){
-  $('.specialists__set').slick({
-    centerMode: true,
-    /* autoplay: true, */
-    autoplaySpeed: 2500,
-    speed: 1500,
-    centerPadding: '80px',
-    slidesToShow: 2,
-    responsive: [
-      {
-        breakpoint: 993,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '10px',
-          slidesToShow: 2
-        }
-      },
+// $(document).ready(function(){
+//   $('.specialists__set').slick({
+//     centerMode: true,
+//     /* autoplay: true, */
+//     autoplaySpeed: 2500,
+//     speed: 1500,
+//     centerPadding: '80px',
+//     slidesToShow: 2,
+//     responsive: [
+//       {
+//         breakpoint: 993,
+//         settings: {
+//           arrows: false,
+//           centerMode: true,
+//           centerPadding: '10px',
+//           slidesToShow: 2
+//         }
+//       },
 
-      {
-        breakpoint: 769,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '120px',
-          slidesToShow: 1
-        }
-      },
-      {
-        breakpoint: 577,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '30px',
-          slidesToShow: 1
-        }
+//       {
+//         breakpoint: 769,
+//         settings: {
+//           arrows: false,
+//           centerMode: true,
+//           centerPadding: '120px',
+//           slidesToShow: 1
+//         }
+//       },
+//       {
+//         breakpoint: 577,
+//         settings: {
+//           arrows: false,
+//           centerMode: true,
+//           centerPadding: '30px',
+//           slidesToShow: 1
+//         }
 
-      },
-      {
-        breakpoint: 450,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '30px',
-          slidesToShow: 1
-        }
+//       },
+//       {
+//         breakpoint: 450,
+//         settings: {
+//           arrows: false,
+//           centerMode: true,
+//           centerPadding: '30px',
+//           slidesToShow: 1
+//         }
 
-      },
-      {
-      breakpoint: 380,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '0',
-        slidesToShow: 1
-      }
+//       },
+//       {
+//       breakpoint: 380,
+//       settings: {
+//         arrows: false,
+//         centerMode: true,
+//         centerPadding: '0',
+//         slidesToShow: 1
+//       }
 
-    }
+//     }
 
-    ]
-  });
-});
+//     ]
+//   });
+// });
 
 /* document.addEventListener('DOMContentLoaded', function() {
   const btn = document.querySelector('.footer__circle');
@@ -245,23 +245,192 @@ $(document).ready(function(){
 
 //burger
 
-$(document).ready(function(){
-  $('.header-menu').click(function(event){
-    $('.menu').toggleClass('active-menu');
 
-  });
-  var headerMenu = $('.header-menu');
-  var menuImage = headerMenu.find('.menu-black');
-  var menuImageSrc = menuImage.attr('src'); // Сохраняем исходный src изображения
+//========================= original =========================
 
-  headerMenu.on('click', function() {
-      if (menuImage.attr('src') === menuImageSrc) {
-          menuImage.attr('src', 'assets/img/x.png');
+// $(document).ready(function(){
+//   $('.header-menu').click(function(event){
+//     $('.menu').toggleClass('active-menu');
+
+//   });
+//   var headerMenu = $('.header-menu');
+//   var menuImage = headerMenu.find('.menu-black');
+//   var menuImageSrc = menuImage.attr('src'); // Сохраняем исходный src изображения
+
+//   headerMenu.on('click', function() {
+//       if (menuImage.attr('src') === menuImageSrc) {
+//           menuImage.attr('src', 'assets/img/x.png');
+//       } else {
+//           menuImage.attr('src', menuImageSrc);
+//       }
+//   });
+// });
+
+
+//==================================================
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   // Обработчик клика на пункты меню
+//   var menuLinks = document.querySelectorAll('.menu .nav__list-item-link');
+//   menuLinks.forEach(function(link) {
+//     link.addEventListener('click', function(event) {
+//       // Проверяем, является ли ссылка якорной ссылкой
+//       if (this.getAttribute('href').startsWith('#')) {
+//         // Отменяем стандартное действие перехода по ссылке
+//         event.preventDefault();
+
+//         // Получаем целевой элемент по идентификатору из хэша ссылки
+//         var targetId = this.getAttribute('href').substring(1);
+//         var target = document.getElementById(targetId);
+
+//         // Проверяем, существует ли целевой элемент
+//         if (target) {
+//           // Вычисляем позицию элемента с учетом высоты фиксированного меню
+//           var offset = target.offsetTop - document.querySelector('.nav').offsetHeight;
+
+//           // Плавно прокручиваем до целевого элемента с использованием smooth-scrolling
+//           window.scrollTo({
+//             top: offset,
+//             behavior: 'smooth'
+//           });
+
+//           // Закрываем мобильное меню
+//           document.querySelector('.menu').classList.remove('active-menu');
+//           document.querySelector('.menu-black').src = 'assets/img/x.png';
+//         }
+//       }
+//     });
+//   });
+
+//   // Обработчик клика на кнопку мобильного меню
+//   var menuToggle = document.querySelector('.header-menu');
+//   menuToggle.addEventListener('click', function() {
+//     document.querySelector('.menu').classList.toggle('active-menu');
+
+//     // Изменяем иконку меню
+//     var menuImage = document.querySelector('.menu-black');
+//     var menuImageSrc = menuImage.src;
+
+//     if (menuImage.src.includes('menu.png')) {
+//       menuImage.src = 'assets/img/x.png';
+//     } else {
+//       menuImage.src = 'assets/img/menu.png';
+//     }
+//   });
+// });
+
+
+
+//======================================================
+
+document.addEventListener('DOMContentLoaded', function() {
+  var menuLinks = document.querySelectorAll('.menu .nav__list-item-link');
+  var nav = document.querySelector('.header');
+
+  function updateActiveLink() {
+    var currentUrl = window.location.href;
+    var currentAnchor = window.location.hash;
+
+    menuLinks.forEach(function(link) {
+      var linkUrl = link.href;
+
+      if (currentUrl === linkUrl || (currentUrl + '#') === linkUrl) {
+        link.parentNode.classList.add('is-active');
+
+        if (currentAnchor && link.hash === currentAnchor) {
+          nav.classList.add('is-active-anchor');
+        } else {
+          nav.classList.remove('is-active-anchor');
+        }
       } else {
-          menuImage.attr('src', menuImageSrc);
+        link.parentNode.classList.remove('is-active');
       }
+    });
+  }
+
+  // Обработчик клика на пункты меню
+  menuLinks.forEach(function(link) {
+    link.addEventListener('click', function(event) {
+      // Проверяем, является ли ссылка якорной ссылкой
+      if (this.getAttribute('href').startsWith('#')) {
+        // Отменяем стандартное действие перехода по ссылке
+        event.preventDefault();
+
+        // Получаем целевой элемент по идентификатору из хэша ссылки
+        var targetId = this.getAttribute('href').substring(1);
+        var target = document.getElementById(targetId);
+
+        // Проверяем, существует ли целевой элемент
+        if (target) {
+          // Вычисляем позицию элемента с учетом высоты фиксированного меню
+          var offset = target.offsetTop - document.querySelector('.nav').offsetHeight;
+
+          // Плавно прокручиваем до целевого элемента с использованием smooth-scrolling
+          window.scrollTo({
+            top: offset,
+            behavior: 'smooth'
+          });
+
+          // Закрываем мобильное меню
+          var menu = document.querySelector('.menu');
+          menu.classList.remove('active-menu');
+          document.querySelector('.menu-black').src = 'assets/img/x.png';
+
+          // Удаляем класс is-active с пункта меню
+          var activeMenuItem = document.querySelector('.menu .is-active');
+          if (activeMenuItem) {
+            activeMenuItem.classList.remove('is-active');
+          }
+
+          // Добавляем класс is-active к текущему пункту меню
+          this.parentElement.classList.add('is-active');
+        }
+      }
+    });
   });
+
+  // Обработчик клика на кнопку мобильного меню
+  var menuToggle = document.querySelector('.header-menu');
+  menuToggle.addEventListener('click', function() {
+    var menu = document.querySelector('.menu');
+    menu.classList.toggle('active-menu');
+
+    // Изменяем иконку меню
+    var menuImage = document.querySelector('.menu-black');
+    var menuImageSrc = menuImage.src;
+
+    if (menu.classList.contains('active-menu')) {
+      menuImage.src = 'assets/img/x.png';
+    } else {
+      menuImage.src = 'assets/img/menu.png';
+    }
+  });
+
+  // Проверяем активную ссылку при загрузке страницы
+  updateActiveLink();
+
+  // Проверяем активную ссылку при событии hashchange
+  window.addEventListener('hashchange', updateActiveLink);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//======================================================
+
 
 
 
@@ -271,24 +440,24 @@ $(document).ready(function(){
 
 //header
 
-$(function() {
-  let header = $('.header');
-  let headerHeight = header.outerHeight(); // Use outerHeight() to include padding, border, and margin
+// $(function() {
+//   let header = $('.header');
+//   let headerHeight = header.outerHeight(); // Use outerHeight() to include padding, border, and margin
 
-  $(window).scroll(function() {
-    if($(this).scrollTop() > 1) {
-     header.addClass('scrolled');
-     $('body').css({
-        'paddingTop': headerHeight + 'px'
-     });
-    } else {
-     header.removeClass('scrolled');
-     $('body').css({
-      'paddingTop': 0
-     })
-    }
-  });
-});
+//   $(window).scroll(function() {
+//     if($(this).scrollTop() > 1) {
+//      header.addClass('scrolled');
+//      $('body').css({
+//         'paddingTop': headerHeight + 'px'
+//      });
+//     } else {
+//      header.removeClass('scrolled');
+//      $('body').css({
+//       'paddingTop': 0
+//      })
+//     }
+//   });
+// });
 
 
 

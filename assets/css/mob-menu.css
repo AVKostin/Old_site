@@ -12,9 +12,9 @@
   color: #264158;
   padding-bottom: 11px;
 }
-.menu__item_a:hover{
+/* .menu__item_a:hover{
   border-bottom: 2px solid #F79781;
-}
+} */
 
 .menu__item:before{
   content: '—';
@@ -50,6 +50,7 @@
   position: relative;
 }
 
+
 .nav__list-item-link {
   display: inline-block;
   padding-top: 5px;
@@ -64,7 +65,7 @@
   margin-right: 0;
 }
 
-.nav__list-item-link-link::before{
+.nav__list-item-link::before{
   content: "";
   position: absolute;
   bottom: -14px;
@@ -100,7 +101,7 @@
 /* .nav__list {
   display: none;
 } */
-.nav__list-item-link:hover .nav__list-item-link-text::before{
+.nav__list-item-link:hover .nav__list-item-link::before{
   visibility: visible;
   opacity: 1;
 }
@@ -109,7 +110,27 @@
   opacity: 1;
 }
 
-@media screen and (max-width:1280px) {
+.nav__list-item-link:hover::before, .is-active:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.header.is-active-anchor {
+  margin-bottom: 130px; /* Добавьте нужное значение отступа вниз */
+}
+
+@media screen and (max-width:1279.98px) {
+  .nav__list-item-link::before{
+    left: 42px;
+    height: 3px;
+    width: 31px;
+    bottom: 25px;
+}
+.nav__list-item:hover {
+  padding-left: 41px;
+}
+
   .is-active:before{
     left: 42px    ;
         height: 3px;
@@ -120,6 +141,9 @@
   display: block;
 }
 
+.nav__list {
+  display: none;
+}
 .nav__list-item-link-text{
      display: block;
      padding-left: 41px;
@@ -133,7 +157,12 @@
   width: 30px;
   height: 1px;
   display: none;
-}
+  }
+
+  .nav__list-item-link-text:hover::before{
+    visibility: visible;
+    opacity: 1;
+  }
 
 .menu{
   position: fixed;
