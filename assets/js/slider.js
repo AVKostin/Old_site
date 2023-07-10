@@ -17,7 +17,7 @@ const swiper = new Swiper('.swiper-container, .specialists__wrapp, .price-swiper
     },
   },
   autoplay: {
-    delay: 5000, // Интервал смены слайда в миллисекундах (5 секунд)
+    delay: 5000000, // Интервал смены слайда в миллисекундах (5 секунд)
     disableOnInteraction: false, // Позволяет автоматической смене слайда при взаимодействии пользователя с слайдером
   },
   breakpoints: {

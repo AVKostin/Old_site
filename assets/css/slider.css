@@ -41,12 +41,12 @@
   z-index: 5;
 }
 
-.sliderRev .swiper-slide-active,
+/* .sliderRev .swiper-slide-active,
 .sliderRev .swiper-slide-duplicate-active {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
-}
+} */
 
 .sliderRev .sec-rev-pagination {
   display: -webkit-box;
