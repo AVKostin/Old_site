@@ -8,7 +8,7 @@ $phone = $_POST['tel'];
 $mess = $_POST['mess'];
 $token = "5364775377:AAHRHPsGPlxmf6qbt74a84r_Rj-4O-4uulA";
 
-$chat_id = "5350400304";//goroshenko
+$chat_id = "5350400304";//G-o-r-o-s-henko
 
 $arr = array(
   'Форма: ' => $fname,
@@ -43,7 +43,7 @@ sendMessage($chat_id, $txt, $token);
 $chat_id = "1367297643";
 sendMessage($chat_id, $txt, $token);
 
-//mgoroshenko
+//mG-o-r-o-s-henko
 $chat_id = "5787739653";
 sendMessage($chat_id, $txt, $token);
 

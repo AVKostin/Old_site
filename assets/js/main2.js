@@ -109,7 +109,7 @@ $(document).ready(function () {
             $(this).find("input,textarea").val("");
             //alert("Форма успішно відправлена!");
             $('form').trigger("reset");
-            window.location.href = 'https://goroshenko.com.ua/thanks';
+            window.location.href = 'https://G-o-r-o-s-henko.com.ua/thanks';
         });
         return false;
     });
