@@ -32,10 +32,10 @@
                             <p class="contacts__title">
                                 Email
                             </p>
-                            <a href="mailto:hello@mgoroshenko.com.ua" class="contacts__kit">
+                            <a href="mailto:hello@mG-o-r-o-s-henko.com.ua" class="contacts__kit">
                                 <img src="assets/img/c-mail.svg" alt="" class="contacts__img">
                                 <p class="contacts__text">
-                                    hello@mgoroshenko.com.ua
+                                    hello@mG-o-r-o-s-henko.com.ua
                                 </p>
                             </a>
                         </div>
@@ -106,7 +106,7 @@
                     </li>
                     <li class="contacts__links-list-item">
                       <h3 class="contacts__links-list-item-title">Email</h3>
-                      <a href="mailto:hello@goroshenko.com.ua" class="social-link">
+                      <a href="mailto:hello@G-o-r-o-s-henko.com.ua" class="social-link">
                         <span class="social-link__icon">
                           <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect y="0.231445" width="40" height="40" rx="5" fill="#D3DDE6"></rect>
@@ -114,14 +114,14 @@
                             <path d="M10 16.1973L20 22.1113L30 16.1973" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                           </svg>
                         </span>
-                        <span class="social-link__text">hello@goroshenko.com.ua</span>
+                        <span class="social-link__text">hello@G-o-r-o-s-henko.com.ua</span>
                       </a>
                     </li>
                   </ul>
                   <ul class="contacts__links-list">
                     <li class="contacts__links-list-item">
                       <h3 class="contacts__links-list-item-title">Instagram</h3>
-                      <a href="https://www.instagram.com/goroshenko_center/" class="social-link">
+                      <a href="https://www.instagram.com/G-o-r-o-s-henko_center/" class="social-link">
                         <span class="social-link__icon">
                           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="40" height="40" rx="5" fill="#D3DDE6"></rect>
@@ -135,7 +135,7 @@
                     </li>
                     <li class="contacts__links-list-item">
                       <h3 class="contacts__links-list-item-title">Telegram</h3>
-                      <a href="https://t.me/mgoroshenko" class="social-link gtm_contact">
+                      <a href="https://t.me/mG-o-r-o-s-henko" class="social-link gtm_contact">
                         <span class="social-link__icon">
                           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="40" height="40" rx="5" fill="#D3DDE6"></rect>

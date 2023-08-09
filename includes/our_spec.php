@@ -10,7 +10,7 @@
             <div class="swiper-slide">
                 <div class="sec-about__item">
                 <div class="specialists__set">
-                    <div class="specialists__wrapp"  id="goroshenko">
+                    <div class="specialists__wrapp"  id="G-o-r-o-s-henko">
                         <img src="assets/img/expert1-1.webp" alt="Меланія Горошено" class="specialists_img">
                         <div class="specialists__kit">
                             <p class="specialists__text">

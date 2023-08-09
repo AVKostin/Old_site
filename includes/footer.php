@@ -80,7 +80,7 @@
             </menu>
             <ul class="footer__social-list">
               <li class="footer__social-list-item">
-                <a href="https://www.instagram.com/goroshenko_center/" class="social-link">
+                <a href="https://www.instagram.com/G-o-r-o-s-henko_center/" class="social-link">
                   <span class="social-link__icon social-link__icon--big">
                     <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <rect width="60" height="60" rx="5" fill="#D3DDE6"></rect>
@@ -92,7 +92,7 @@
                 </a>
               </li>
               <li class="footer__social-list-item">
-                <a href="https://t.me/mgoroshenko" class="social-link">
+                <a href="https://t.me/mG-o-r-o-s-henko" class="social-link">
                   <span class="social-link__icon social-link__icon--big">
                     <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <rect width="60" height="60" rx="5" fill="#D3DDE6"></rect>

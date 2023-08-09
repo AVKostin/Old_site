@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/goroshenkocomua/public_html/dev.goroshenko.com.ua/
+    - export DEPLOYPATH=/home/G-o-r-o-s-henkocomua/public_html/dev.G-o-r-o-s-henko.com.ua/
     - /bin/cp * $DEPLOYPATH

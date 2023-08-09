@@ -471,20 +471,20 @@ $('.nav__list-item-link').on('click', function(e) {
       $('.header__burger').click();
   }, 300);
 });
-$('#goroshenko').on('click', function(e) {
-  window.location.href = 'https://widget.easyweek.io/goroshenko/team/22373/19252';
+$('#G-o-r-o-s-henko').on('click', function(e) {
+  window.location.href = 'https://widget.easyweek.io/G-o-r-o-s-henko/team/22373/19252';
 });
 $('#peters').on('click', function(e) {
-  window.location.href = 'https://widget.easyweek.io/goroshenko/team/22373/23049';
+  window.location.href = 'https://widget.easyweek.io/G-o-r-o-s-henko/team/22373/23049';
 });
 $('#moroz').on('click', function(e) {
-  window.location.href = 'https://widget.easyweek.io/goroshenko/team/22373/24641';
+  window.location.href = 'https://widget.easyweek.io/G-o-r-o-s-henko/team/22373/24641';
 });
 $('#shayahmetova').on('click', function(e) {
-  window.location.href = 'https://widget.easyweek.io/goroshenko/team/22373/28116';
+  window.location.href = 'https://widget.easyweek.io/G-o-r-o-s-henko/team/22373/28116';
 });
 $('#sherbiy').on('click', function(e) {
-  window.location.href = 'https://widget.easyweek.io/goroshenko/team/22373/30291';
+  window.location.href = 'https://widget.easyweek.io/G-o-r-o-s-henko/team/22373/30291';
 });
 // calculate min-height on init
 $('.header__mob-bottom').css('min-height', `${window.innerHeight}px`);
@@ -506,7 +506,7 @@ $(document).ready(function () {
           $(this).find("input,textarea").val("");
           //alert("Форма успішно відправлена!");
           $('form').trigger("reset");
-          window.location.href = 'https://goroshenko.com.ua/thanks';
+          window.location.href = 'https://G-o-r-o-s-henko.com.ua/thanks';
       });
       return false;
 

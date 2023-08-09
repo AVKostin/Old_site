@@ -7,7 +7,7 @@
           <div class="section__content sliderSpec" data-aos="fade-down">
 
             <ul class="specialist__list swiper-wrapper">
-              <li class="specialist__item swiper-slide" id="goroshenko">
+              <li class="specialist__item swiper-slide" id="G-o-r-o-s-henko">
 
                 <div class="specialist__item-img">
                   <img src="assets/img/expert1-1.webp" alt="Меланія Горошенко" loading="lazy">

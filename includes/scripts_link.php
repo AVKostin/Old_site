@@ -10,7 +10,7 @@
     <script async src="assets/js/slider.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://widget.easyweek.io/widget.js"></script>
-    <script>var ewWidget = new EasyWeekWidget({url: 'https://widget.easyweek.io/goroshenko', button: { text: 'Онлайн-запис', showText: true, color: '#ffffff', background: '#f79781', textColor: '#383868', textBackground: '#ffffff' }})
+    <script>var ewWidget = new EasyWeekWidget({url: 'https://widget.easyweek.io/G-o-r-o-s-henko', button: { text: 'Онлайн-запис', showText: true, color: '#ffffff', background: '#f79781', textColor: '#383868', textBackground: '#ffffff' }})
     </script>
 
 <script >
