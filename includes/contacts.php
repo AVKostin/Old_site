@@ -32,10 +32,10 @@
                             <p class="contacts__title">
                                 Email
                             </p>
-                            <a href="mailto:hello@mgoroshenko.com.ua" class="contacts__kit">
+                            <a href="mailto:hello@mG-o-r-o-s-henko.com.ua" class="contacts__kit">
                                 <img src="assets/img/c-mail.svg" alt="" class="contacts__img">
                                 <p class="contacts__text">
-                                    hello@mgoroshenko.com.ua
+                                    hello@mG-o-r-o-s-henko.com.ua
                                 </p>
                             </a>
                         </div>
